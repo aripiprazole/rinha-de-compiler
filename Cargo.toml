@@ -1,0 +1,47 @@
+[package]
+name = "rinha"
+version = "0.0.1"
+edition = "2021"
+authors = ["Community"]
+documentation = "https://github.com/meowers/rinha-de-compiler"
+license = "MIT"
+keywords = ["parsing", "programming-language"]
+categories = ["parsing", "compilers", "text-editors"]
+
+# Dependencies to the mono-repo of Zu programming language
+[dependencies]
+# Parser
+lalrpop-util = { version = "0.20.0", default-features = false, features = [
+  "lexer",
+  "unicode",
+] }
+
+# Cli library dependencies
+clap = { version = "4.2.4", features = ["derive"] }
+
+# Error reporting
+miette = { version = "5.10.0", features = ["fancy"] }
+thiserror = "1.0.46"
+bupropion = { version = "0.0.12" }
+
+# Data structures
+intmap = "2.0.0"
+im-rc = "15.1.0"
+fxhash = "0.2.1"
+
+# Concurrency depedencies
+lazy_static = "1.4.0"
+crossbeam-channel = "0.5.8"
+
+# Logging dependencies
+log = "0.4.20"
+fern = "0.6.2"
+humantime = "2.1.0"
+logos = "0.13.0"
+owo-colors = "3.5.0"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.105"
+
+# Add a build-time dependency on the lalrpop library:
+[build-dependencies]
+lalrpop = "0.20.0"

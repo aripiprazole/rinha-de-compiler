@@ -1,0 +1,248 @@
+use crate::passes::parser::Parsed;
+use crate::ast::Element;
+use std::str::FromStr;
+use lalrpop_util::ErrorRecovery;
+
+grammar<'err>(errors: &'err mut Vec<ErrorRecovery<usize, Token<'input>, crate::passes::parser::InnerError>>, filename: &str);
+
+extern {
+  type Location = usize;
+  type Error = crate::passes::parser::InnerError;
+}
+
+match {
+    r"\s*" => { }, // The default whitespace skipping is disabled if an `ignore pattern` is specified
+    r"//[^\n\r]*[\n\r]*" => { }, // Skip `// comments`
+    r"/\*[^*]*\*+(?:[^/*][^*]*\*+)*/" => { },  // Skip `/* comments */`
+} else {
+  _
+}
+
+pub File: crate::ast::File<Parsed> = {
+  <s: @L> <name:ModuleName?> <declarations:TopLevel*> <e: @R> => crate::ast::File {
+    name: name.unwrap_or_else(|| filename.to_string().replace(".rinha", "")),
+    declarations,
+    definitions: Default::default(),
+    location: crate::ast::Location::new(s, e, filename),
+  },
+};
+
+ModuleName: String = {
+  "module" <name:Reference> <semi:Semi?> => name.text,
+}
+
+IsExternal: bool = {
+  "external" => true
+};
+
+Semi: std::string::String = {
+  ";" => ";".to_string(),
+};
+
+Block: crate::ast::Block<Parsed> = {
+  <s: @L> "{" <statements:Stmt*> "}" <e: @R> => crate::ast::Block {
+    statements,
+    location: crate::ast::Location::new(s, e, filename),
+  },
+}
+
+TopLevel: crate::ast::Decl<Parsed> = {
+  <function: Function> => crate::ast::Decl::Function(function),
+};
+
+Function: crate::ast::Function<Parsed> = {
+  <s: @L>
+  <doc_strings:DocString*>
+  <is_external:IsExternal?> "function"
+  <name:Reference> "(" <parameters:Sep<",", Reference>> ")"
+  <block:Block?>
+  <e: @R> => crate::ast::Function {
+    doc_strings,
+    is_external: is_external.unwrap_or(false),
+    name,
+    parameters,
+    block,
+    location: crate::ast::Location::new(s, e, filename),
+  },
+};
+
+Otherwise: crate::ast::Block<Parsed> = {
+  "else" <block:Block> => block,
+};
+
+Stmt: crate::ast::Stmt<Parsed> = {
+  <s: @L> "return" <value:Term?> <semi:Semi> <e: @R> => crate::ast::Stmt::Return(crate::ast::Return {
+    value,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+  <s: @L> "if" <condition:Term> <then:Block> <otherwise:Otherwise?> <e: @R> => crate::ast::Stmt::If(crate::ast::If {
+    condition,
+    then,
+    otherwise,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+  <term:Term> <semi:Semi> => crate::ast::Stmt::Term(term),
+  <function: Function> <semi:Semi> => crate::ast::Stmt::Function(function),
+};
+
+Primary: crate::ast::Term<Parsed> = {
+  "(" <Term> ")" => crate::ast::Term::Group(<>.into()),
+  <Reference> => crate::ast::Term::Reference(<>),
+  <s: @L> <value:String> <e: @R> => crate::ast::Term::Str(crate::ast::Str {
+    value,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+  <s: @L> <value:Int> <e: @R> => crate::ast::Term::Int(crate::ast::Int {
+    value,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+};
+
+Call: crate::ast::Term<Parsed> = {
+  <s: @L> <callee:Apply> "(" <arguments:Sep<",", Term>> ")" <e: @R> =>crate::ast::Term::Call(crate::ast::Call {
+    callee: Box::new(callee),
+    arguments,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+};
+
+FactorOp: std::string::String = {
+  "*" => "*".to_string(),
+  "/" => "/".to_string(),
+};
+
+Factor: crate::ast::Term<Parsed> = {
+  Apply,
+  <s: @L> <value:Apply> "." <name:Reference> <e: @R> => {
+    // Report the error
+    errors.push(lalrpop_util::ErrorRecovery {
+        dropped_tokens: vec![],
+        error: lalrpop_util::ParseError::User {
+            error: crate::passes::parser::InnerError::UnsupportedRecordIndex {
+                err_span: name.location.into(),
+            }
+        },
+    });
+
+    crate::ast::Term::Error(crate::ast::Error {
+      message: format!("unsupported record indexing `{}`", name.text),
+      full_text: (&input[s..e]).to_string(),
+      location: crate::ast::Location::new(s, e, filename),
+    })
+  },
+  <s: @L> <a:Apply> <op:FactorOp> <b:Factor> <e: @R> => crate::ast::Term::Binary(crate::ast::Binary {
+    location: crate::ast::Location::new(s, e, filename),
+    op,
+    lhs: a.into(),
+    rhs: b.into(),
+  }),
+};
+
+ArithmeticOp: std::string::String = {
+  "+" => "+".to_string(),
+  "-" => "-".to_string(),
+}
+
+Arithmetic: crate::ast::Term<Parsed> = {
+  Factor,
+  <s: @L> <a:Factor> <op:ArithmeticOp> <b:Arithmetic> <e: @R> => crate::ast::Term::Binary(crate::ast::Binary {
+    location: crate::ast::Location::new(s, e, filename),
+    op,
+    lhs: a.into(),
+    rhs: b.into(),
+  }),
+};
+
+LogicalOp: std::string::String = {
+  "&&" => "&&".to_string(),
+  "||" => "||".to_string(),
+  "==" => "==".to_string(),
+  "!=" => "!=".to_string(),
+  ":=" => ":=".to_string(),
+  "<=" => "<=".to_string(),
+  ">=" => ">=".to_string(),
+  "++" => "++".to_string(),
+  "**" => "**".to_string(),
+  "$" => "$".to_string(),
+  "<" => "<".to_string(),
+  ">" => ">".to_string(),
+};
+
+Logical: crate::ast::Term<Parsed> = {
+  Arithmetic,
+
+  <s: @L> <a:Arithmetic> <op:LogicalOp> <b:Logical> <e: @R> => crate::ast::Term::Binary(crate::ast::Binary {
+    location: crate::ast::Location::new(s, e, filename),
+    op,
+    lhs: a.into(),
+    rhs: b.into(),
+  }),
+};
+
+Apply: crate::ast::Term<Parsed> = {
+  Primary,
+  Call,
+};
+
+pub Term: crate::ast::Term<Parsed> = {
+  Logical,
+
+  <s: @L> "fun" <arguments:Sep<",", Reference>> "->" <value:Term> <e: @R> => crate::ast::Term::Fun(crate::ast::Fun {
+    arguments,
+    value: crate::ast::Block {
+      location: value.location().clone(),
+      statements: vec![crate::ast::Stmt::Return(crate::ast::Return {
+        location: value.location().clone(),
+        value: Some(value),
+      })]
+    },
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+
+  <s: @L> <error:!> <e: @R> => {
+    let message = error.error.to_string();
+
+    errors.push(error);
+
+    crate::ast::Term::Error(crate::ast::Error {
+      message,
+      full_text: (&input[s..e]).to_string(),
+      location: crate::ast::Location::new(s, e, filename),
+    })
+  },
+}
+
+DocString: crate::ast::DocString = <s: @L> <text:r"///.*\n"> <e: @R> => crate::ast::DocString {
+  text: (&text[2..]).to_string(),
+  full_text: text.to_string(),
+  location: crate::ast::Location::new(s, e, filename),
+};
+
+Int: isize = <s:r"[0123456789]+"> => isize::from_str(s).unwrap();
+String: std::string::String = <text:r#""(\\\\|\\"|[^"\\])*""#> => (&text[1..text.len() - 1]).to_string();
+
+Text: std::string::String = {
+  "`" <text:LogicalOp> => text.to_string(),
+  "`" <text:ArithmeticOp> => text.to_string(),
+  "`" <text:FactorOp> => text.to_string(),
+  <text:"_"> => text.to_string(),
+  <text:r"[a-zA-Z][a-zA-Z0-9/_]*"> => text.to_string(),
+}
+
+Reference: crate::passes::parser::Reference = {
+  <s: @L> <text:Text> <e: @R> => crate::passes::parser::Reference {
+    text: text.to_string(),
+    location: crate::ast::Location::new(s, e, filename),
+  }
+};
+
+#[inline]
+Sep<U, T>: Vec<T> = {
+  <mut v:(<T> U)*> <e:T?> => match e {
+    Some(e) => {
+        v.push(e);
+        v
+    }
+    None => v
+  }
+}
