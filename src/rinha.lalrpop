@@ -75,6 +75,11 @@ Stmt: crate::ast::Stmt<Parsed> = {
     value,
     location: crate::ast::Location::new(s, e, filename),
   }),
+  <s: @L> "let" <name:Reference> "=" <value:Term> <semi:Semi> <e: @R> => crate::ast::Stmt::Let(crate::ast::Let {
+    name,
+    value,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
   <s: @L> "if" <condition:Term> <then:Block> <otherwise:Otherwise?> <e: @R> => crate::ast::Stmt::If(crate::ast::If {
     condition,
     then,

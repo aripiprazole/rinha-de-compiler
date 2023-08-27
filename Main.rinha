@@ -11,6 +11,12 @@ function fib(n) {
 }
 
 function main() {
-  println("fib " ++ fib(1000));
+  let f = fun -> println("hello world from lambda");
+  let f2 = fun arg -> println("hello world: " ++ arg);
+
+  println("fib " ++ fib(100000));
+  println(f());
+  println(f2("pao"));
+  println((10 * (14 + 3)));
   println("hello, world");
 }
