@@ -34,7 +34,7 @@ Semi: std::string::String = {
 };
 
 Primary: crate::ast::Term = {
-  "(" <Term> ")" => crate::ast::Term::Group(<>.into()),
+  "(" <Term> ")" => <>,
   <Reference> => crate::ast::Term::Reference(<>),
   <s: @L> <value:String> <e: @R> => crate::ast::Term::Str(crate::ast::Str {
     value,

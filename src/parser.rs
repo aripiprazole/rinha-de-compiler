@@ -4,17 +4,6 @@ use miette::{NamedSource, SourceSpan};
 
 pub use crate::rinha::*;
 
-impl crate::ast::Term {
-    /// Removes the group from the term. It's useful to pattern
-    /// match agains't group.
-    pub fn unwrap(self) -> Self {
-        match self {
-            Self::Group(arg0) => *arg0.clone(),
-            _ => self,
-        }
-    }
-}
-
 /// A name reference or definition in the source code.
 ///
 /// It's useful to know the location of the name in the source code

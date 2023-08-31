@@ -202,6 +202,7 @@ impl Element for Fun {
 }
 
 #[derive(Debug, Clone, serde::Serialize)]
+#[serde(tag = "kind")]
 pub enum Term {
     Error(Error),
     Int(Int),
@@ -211,7 +212,6 @@ pub enum Term {
     Fun(Fun),
     Let(Let),
     If(If),
-    Group(Box<Term>),
     Reference(crate::parser::Reference),
 }
 
@@ -221,7 +221,6 @@ impl Element for Term {
             Term::Error(arg0) => &arg0.location,
             Term::Int(arg0) => &arg0.location,
             Term::Str(arg0) => &arg0.location,
-            Term::Group(arg0) => arg0.location(),
             Term::Fun(arg0) => &arg0.location,
             Term::Call(arg0) => arg0.location(),
             Term::Reference(arg0) => arg0.location(),
