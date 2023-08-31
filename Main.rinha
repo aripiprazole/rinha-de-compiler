@@ -1,22 +1,18 @@
-module Main
-
-external function println(message)
-
+external function println(message);
 function fib(n) {
-  if n < 2 {
-    return n;
+  if (n < 2) {
+    n
   } else {
-    return fib(n - 1) + fib(n - 2);
+    fib(n - 1) + fib(n - 2)
   }
-}
+};
 
-function main() {
-  let f = fun -> println("hello world from lambda");
-  let f2 = fun arg -> println("hello world: " ++ arg);
-
-  println("fib " ++ fib(100000));
-  println(f());
-  println(f2("pao"));
-  println((10 * (14 + 3)));
-  println("hello, world");
-}
+let x = 10;
+let n = f ++ f2;
+let _ = println(x);
+let _ = println(n);
+let _ = println("fib " ++ fib(100000));
+let _ = println(f());
+let _ = println(f2("pao"));
+let _ = println((10 * (14 + 3)));
+println("hello, world")

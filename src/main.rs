@@ -6,7 +6,6 @@ use clap::Parser;
 use lalrpop_util::lalrpop_mod;
 use miette::IntoDiagnostic;
 use owo_colors::OwoColorize;
-use passes::resolver::Resolver;
 
 // The lalrpop module, it does generate the parser and lexer
 // for the language.
@@ -21,17 +20,9 @@ lalrpop_mod! {
 /// in a tree form.
 pub mod ast;
 
-/// The compiler passes.
-pub mod passes {
-    /// Resolver module. It does handles the imports and the references.
-    ///
-    /// It's the second phase of the compiler.
-    pub mod resolver;
-
-    /// Parser LALRPOP module. It does uses a parse generator to
-    /// generate a parser and lexer for the language.
-    pub mod parser;
-}
+/// Parser LALRPOP module. It does uses a parse generator to
+/// generate a parser and lexer for the language.
+pub mod parser;
 
 /// Simple program to run `rinha` language.
 #[derive(clap::Parser, Debug)]
@@ -81,12 +72,11 @@ fn program() -> miette::Result<()> {
         .apply()
         .into_diagnostic()?;
 
+    // Parse the command line arguments
     let command = Command::parse();
-    let resolver = Resolver::new(command.main)?;
+    let file = std::fs::read_to_string(&command.main).into_diagnostic()?;
+    let file = crate::parser::parse_or_report(&command.main, &file)?;
 
-    // Resolve the file and import the declarations
-    // from the file.
-    let file = resolver.resolve_and_import()?;
     let json = if command.pretty {
         serde_json::to_string_pretty(&file).into_diagnostic()?
     } else {

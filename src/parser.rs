@@ -1,19 +1,10 @@
-use crate::ast::{State, Element, Location};
+use crate::ast::{Element, Location};
 
 use miette::{NamedSource, SourceSpan};
 
 pub use crate::rinha::*;
 
-/// Represents the parsed state, it's the state of the syntax tree when it's just parsed.
-#[derive(Default, Debug, Clone, serde::Serialize)]
-pub struct Parsed;
-
-impl State for Parsed {
-    type Definition = Reference;
-    type Reference = Reference;
-}
-
-impl crate::ast::Term<Parsed> {
+impl crate::ast::Term {
     /// Removes the group from the term. It's useful to pattern
     /// match agains't group.
     pub fn unwrap(self) -> Self {
@@ -39,10 +30,6 @@ impl Element for Reference {
         &self.location
     }
 }
-
-/// The parsed file type. It's the state where the AST
-/// comes to the world.
-type FileQt = crate::ast::File<Parsed>;
 
 /// The error type for the parser. It's useful to debug the parser
 /// or report errors to the final end-to-end user.
@@ -72,6 +59,20 @@ pub struct ParseError {
 #[error("can't parse the file")]
 #[diagnostic()]
 pub enum InnerError {
+    #[error("expected function body")]
+    #[diagnostic(
+        code(zu::expected_function_body),
+        url(docsrs),
+        help("maybe add a body")
+    )]
+    FunctionBodyMissing {
+        /// The span of the statement that doesn't have a  value.
+        /// It's the span of the
+        /// statement that will be pointed in the error message.
+        #[label = "here"]
+        err_span: SourceSpan,
+    },
+
     #[error("expected or binding or signature statement")]
     #[diagnostic(
         code(zu::expected_statement),
@@ -180,7 +181,7 @@ fn fmt_expected(expected: &[String]) -> String {
 ///
 /// It does return a result of a parsed file or a parse error, that can contain a
 /// lot of sub-errors.
-pub fn parse_or_report(filename: &str, text: &str) -> Result<FileQt, ParseError> {
+pub fn parse_or_report(filename: &str, text: &str) -> Result<crate::ast::File, ParseError> {
     let mut errors = vec![];
     let ast = match crate::rinha::FileParser::new().parse(&mut errors, filename, text) {
         Ok(ast) => ast,
@@ -190,7 +191,11 @@ pub fn parse_or_report(filename: &str, text: &str) -> Result<FileQt, ParseError>
                 dropped_tokens: vec![],
                 error,
             });
-            Default::default()
+
+            return Err(ParseError {
+                related: vec![],
+                source_code: NamedSource::new(filename, text.to_string()),
+            });
         }
     };
 
