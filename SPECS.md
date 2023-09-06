@@ -225,6 +225,16 @@ Ela tem os seguintes elementos:
 | second      | Term     |
 | location    | Location |
 
+### Var (Nome de uma variável)
+
+`Var` representa o nome de uma variável. É definida por:
+
+| Nome        | Tipo     |
+| --------    | -------- |
+| kind        | String   |
+| text        | String   |
+| location    | Location |
+
 ### Term
 
 Um termo pode ser qualquer uma das seguintes estruturas:
