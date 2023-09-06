@@ -27,7 +27,7 @@ na mão.
 A linguagem é uma linguagem de programação dinâmica, como JavaScript, Ruby, etc.
 
 O projeto da rinha de compilador, tem um "interpretador" do json, que retorna
-um json, e o código terá que ser testado de diferentes formas, como outros
+um AST, e o código terá que ser testado de diferentes formas, como outros
 algorítimos além de Fibonacci.
 
 ## Exemplo
