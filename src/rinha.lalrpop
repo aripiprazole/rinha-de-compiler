@@ -61,6 +61,7 @@ Call: crate::ast::Term = {
 FactorOp: crate::ast::BinaryOp = {
   "*" => crate::ast::BinaryOp::Mul,
   "/" => crate::ast::BinaryOp::Div,
+  "%" => crate::ast::BinaryOp::Rem,
 };
 
 Factor: crate::ast::Term = {
@@ -106,7 +107,6 @@ Arithmetic: crate::ast::Term = {
 };
 
 LogicalOp: crate::ast::BinaryOp = {
-  "++" => crate::ast::BinaryOp::Concat,
   "&&" => crate::ast::BinaryOp::And,
   "||" => crate::ast::BinaryOp::Or,
   "==" => crate::ast::BinaryOp::Eq,
@@ -133,12 +133,10 @@ Apply: crate::ast::Term = {
   Call,
 };
 
-pub Body: crate::ast::Term = {
-  "{" <value:Term> "}" => value,
-}
-
 pub Term: crate::ast::Term = {
   Logical,
+
+  <s: @L> "{" <term: Term> "}" => term,
 
   <s: @L> "let" <name:Reference> "=" <value:Term> ";" <next:Term> <e: @R> => crate::ast::Term::Let(crate::ast::Let {
     name,
@@ -153,13 +151,8 @@ pub Term: crate::ast::Term = {
     location: crate::ast::Location::new(s, e, filename),
   }),
 
-  <s: @L> "function"
-  <name:Reference> "(" <parameters:Sep<",", Reference>> ")" <body:Body?> ";"
-  <next:Term>
-  <e: @R> => crate::ast::Term::Fun(crate::ast::Fun {
-    name: name.clone(),
+  <s: @L> "fn" "(" <parameters:Sep<",", Reference>> ")" "=>" <body:Term?> <e: @R> => crate::ast::Term::Function(crate::ast::Function {
     parameters,
-    next: next.into(),
     value: match body {
       Some(value) => Box::new(value),
       None => {
@@ -168,12 +161,12 @@ pub Term: crate::ast::Term = {
             dropped_tokens: vec![],
             error: lalrpop_util::ParseError::User {
                 error: crate::parser::InnerError::FunctionBodyMissing {
-                    err_span: name.location.clone().into(),
+                    err_span: crate::ast::Location::new(s, e, filename).into(),
                 }
             },
         });
 
-        crate::ast::Term::Int(crate::ast::Int { value: 0, location: name.location.clone() }).into()
+        crate::ast::Term::Int(crate::ast::Int { value: 0, location: crate::ast::Location::new(s, e, filename).into() }).into()
       },
     },
     location: crate::ast::Location::new(s, e, filename),

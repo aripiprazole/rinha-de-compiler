@@ -1,11 +1,16 @@
 # Rinha de Compilador
 
-O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x86, com 
+O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x86, com
 2 núcleos e 2G de RAM usando uma arvore sintática abstrata em formato JSON gerada pelo nosso front-end.
 
 ## Para executar
 
 Depois será adicionado como executar
+
+## Testar
+
+Para testar você pode usar o arquivo `Main.rinha` e gerar com o programa que disponibilizamos
+aqui para um JSON ou você pode usar diretamente o JSON que está em `ast.json`.
 
 ## Requisitos
 

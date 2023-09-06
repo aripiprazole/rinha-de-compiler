@@ -115,18 +115,6 @@ pub struct Let {
     pub location: Location,
 }
 
-#[derive(Debug, Clone, serde::Serialize)]
-pub struct Identifier {
-    pub text: String,
-    pub location: Location,
-}
-
-impl Element for Identifier {
-    fn location(&self) -> &Location {
-        &self.location
-    }
-}
-
 /// Int is a integer value like `0`, `1`, `2`, etc.
 #[derive(Default, Debug, Clone, serde::Serialize)]
 pub struct Str {
@@ -165,7 +153,7 @@ pub enum BinaryOp {
     Sub,    // Subtract
     Mul,    // Multiply
     Div,    // Divide
-    Mod,    // Mod
+    Rem,    // Rem
     Eq,     // Equal
     Neq,    // Not equal
     Lt,     // Less than
@@ -204,15 +192,13 @@ impl Element for Call {
 }
 
 #[derive(Debug, Clone, serde::Serialize)]
-pub struct Fun {
-    pub name: crate::parser::Var,
+pub struct Function {
     pub parameters: Vec<crate::parser::Var>,
     pub value: Box<Term>,
-    pub next: Box<Term>,
     pub location: Location,
 }
 
-impl Element for Fun {
+impl Element for Function {
     fn location(&self) -> &Location {
         &self.location
     }
@@ -238,7 +224,7 @@ pub enum Term {
     Str(Str),
     Call(Call),
     Binary(Binary),
-    Fun(Fun),
+    Function(Function),
     Let(Let),
     If(If),
     Print(Print),
@@ -251,7 +237,7 @@ impl Element for Term {
             Term::Error(arg0) => &arg0.location,
             Term::Int(arg0) => &arg0.location,
             Term::Str(arg0) => &arg0.location,
-            Term::Fun(arg0) => &arg0.location,
+            Term::Function(arg0) => &arg0.location,
             Term::Call(arg0) => arg0.location(),
             Term::Var(arg0) => arg0.location(),
             Term::Binary(arg0) => &arg0.location,
