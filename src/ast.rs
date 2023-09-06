@@ -22,29 +22,6 @@ impl<T: Element> Element for Box<T> {
     }
 }
 
-/// A definition. It has a text, and a location.
-#[derive(Default, Debug, Clone, Hash, serde::Serialize)]
-pub struct Definition {
-    pub text: String,
-    pub location: Location,
-}
-
-impl Definition {
-    /// Creates a new instance of [`Definition`].
-    pub fn new(text: String) -> Self {
-        Self {
-            text,
-            location: Location::default(),
-        }
-    }
-}
-
-impl Element for Definition {
-    fn location(&self) -> &Location {
-        &self.location
-    }
-}
-
 #[derive(Default, Hash, PartialEq, Eq, Clone, serde::Serialize, serde::Deserialize)]
 pub struct Location {
     pub start: usize,
@@ -160,20 +137,19 @@ impl Element for Int {
 
 #[derive(Debug, Clone, serde::Serialize)]
 pub enum BinaryOp {
-    Concat, // Concatenate
-    Add,    // Add
-    Sub,    // Subtract
-    Mul,    // Multiply
-    Div,    // Divide
-    Rem,    // Rem
-    Eq,     // Equal
-    Neq,    // Not equal
-    Lt,     // Less than
-    Gt,     // Greater than
-    Lte,    // Less than or equal to
-    Gte,    // Greater than or equal to
-    And,    // And
-    Or,     // Or
+    Add, // Add
+    Sub, // Subtract
+    Mul, // Multiply
+    Div, // Divide
+    Rem, // Rem
+    Eq,  // Equal
+    Neq, // Not equal
+    Lt,  // Less than
+    Gt,  // Greater than
+    Lte, // Less than or equal to
+    Gte, // Greater than or equal to
+    And, // And
+    Or,  // Or
 }
 
 #[derive(Debug, Clone, serde::Serialize)]

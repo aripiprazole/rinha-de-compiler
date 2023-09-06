@@ -92,7 +92,7 @@ if true { a } else { b }
 | next       | Term     |
 | location   | Location |
 
-## Str (Texto)
+### Str (Texto)
 
 `Str` é uma estrutura que representa um literal de texto. Ela é representada por:
 
@@ -102,7 +102,7 @@ if true { a } else { b }
 | value      | String   |
 | location   | Location |
 
-## Bool (Booleano)
+### Bool (Booleano)
 
 `Bool` é uma estrutura que representa um literal de boolean. Ela é representada por:
 
@@ -112,7 +112,7 @@ if true { a } else { b }
 | value      | Bool     |
 | location   | Location |
 
-## Int (Inteiro)
+### Int (Inteiro)
 
 `Int` é uma estrutura que representa um literal de número inteiro signed. Ela é representada por:
 
@@ -122,7 +122,7 @@ if true { a } else { b }
 | value      | Number   |
 | location   | Location |
 
-## BinaryOp (Operador Binário)
+### BinaryOp (Operador Binário)
 
 Um `BinaryOp` é um enumerador que representa uma operação binária. Essas são as variantes disponiveis
 
@@ -143,7 +143,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | Or         | Disjunção        |
 | Not        | Negação          |
 
-## Binary (Operação Binária)
+### Binary (Operação Binária)
 
 `Binary` é uma operação binária entre dois termos sendo representada por:
 
@@ -155,7 +155,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | rhs         | Term     |
 | location    | Location |
 
-## Call (Aplicação de função)
+### Call (Aplicação de função)
 
 `Call` é uma aplicação de funçao entre um termo e varios outros termos chamados de argumentos. Essa estrutura é representada por:
 
@@ -166,7 +166,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | arguments   | [Term]   |
 | location    | Location |
 
-## Function (Função anônima)
+### Function (Função anônima)
 
 `Function` é a criação de uma função anônima, ela é representada por:
 
@@ -177,7 +177,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | value       | Term     |
 | location    | Location |
 
-## Print (Função de printar para o standard output)
+### Print (Função de printar para o standard output)
 
 `Print` é a chamada da função de printar para o standard output. Ela é definida por:
 
@@ -187,7 +187,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | value       | Term     |
 | location    | Location |
 
-## First (Função de pegar o primeiro elemento de uma tupla)
+### First (Função de pegar o primeiro elemento de uma tupla)
 
 `First` é uma chamada de função que pega o primeiro elemento de uma tupla. Ela é definida por:
 
@@ -198,7 +198,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | location    | Location |
 
 
-## Second (Função de pegar o segundo elemento de uma tupla)
+### Second (Função de pegar o segundo elemento de uma tupla)
 
 `Second` é uma chamada de função que pega o segundo elemento de uma tupla. Ela é definida por:
 
@@ -208,7 +208,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | value       | Term     |
 | location    | Location |
 
-## Tuple (Criação de uma 2-Tuple)
+### Tuple (Criação de uma 2-Tuple)
 
 `Tuple` é um elemento que descreve a criação de uma tupla com a sintaxe:
 
@@ -225,3 +225,20 @@ Ela tem os seguintes elementos:
 | second      | Term     |
 | location    | Location |
 
+### Term
+
+Um termo pode ser qualquer uma das seguintes estruturas:
+
+- Int
+- Str
+- Call
+- Binary
+- Function
+- Let
+- If
+- Print
+- First
+- Second
+- Bool
+- Tuple
+- Var
