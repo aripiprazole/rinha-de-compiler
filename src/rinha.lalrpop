@@ -35,7 +35,7 @@ Semi: std::string::String = {
 
 Primary: crate::ast::Term = {
   "(" <Term> ")" => <>,
-  <Reference> => crate::ast::Term::Reference(<>),
+  <Reference> => crate::ast::Term::Var(<>),
   <s: @L> <value:String> <e: @R> => crate::ast::Term::Str(crate::ast::Str {
     value,
     location: crate::ast::Location::new(s, e, filename),
@@ -213,8 +213,8 @@ Text: std::string::String = {
   <text:r"[a-zA-Z][a-zA-Z0-9/_]*"> => text.to_string(),
 }
 
-Reference: crate::parser::Reference = {
-  <s: @L> <text:Text> <e: @R> => crate::parser::Reference {
+Reference: crate::parser::Var = {
+  <s: @L> <text:Text> <e: @R> => crate::parser::Var {
     text: text.to_string(),
     location: crate::ast::Location::new(s, e, filename),
   }

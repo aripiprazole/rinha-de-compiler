@@ -22,7 +22,7 @@ clap = { version = "4.2.4", features = ["derive"] }
 # Error reporting
 miette = { version = "5.10.0", features = ["fancy"] }
 thiserror = "1.0.46"
-bupropion = { version = "0.0.12" }
+bupropion = { version = "0.0.14" }
 
 # Data structures
 intmap = "2.0.0"

@@ -3,279 +3,248 @@
   "expression": {
     "kind": "Fun",
     "name": {
-      "text": "println",
-      "location": {"start": 18, "end": 25, "filename": "Main.rinha"}
+      "text": "fib",
+      "location": {"start": 9, "end": 12, "filename": "Main.rinha"}
     },
     "parameters": [
       {
-        "text": "message",
-        "location": {"start": 26, "end": 33, "filename": "Main.rinha"}
+        "text": "n",
+        "location": {"start": 13, "end": 14, "filename": "Main.rinha"}
       }
     ],
-    "is_external": true,
-    "value": null,
-    "next": {
-      "kind": "Fun",
-      "name": {
-        "text": "fib",
-        "location": {"start": 45, "end": 48, "filename": "Main.rinha"}
+    "is_external": false,
+    "value": {
+      "kind": "If",
+      "condition": {
+        "kind": "Binary",
+        "lhs": {
+          "kind": "Var",
+          "text": "n",
+          "location": {"start": 24, "end": 25, "filename": "Main.rinha"}
+        },
+        "op": "<",
+        "rhs": {
+          "kind": "Int",
+          "value": 2,
+          "location": {"start": 28, "end": 29, "filename": "Main.rinha"}
+        },
+        "location": {"start": 24, "end": 29, "filename": "Main.rinha"}
       },
-      "parameters": [
-        {
-          "text": "n",
-          "location": {"start": 49, "end": 50, "filename": "Main.rinha"}
-        }
-      ],
-      "is_external": false,
+      "then": {
+        "kind": "Var",
+        "text": "n",
+        "location": {"start": 37, "end": 38, "filename": "Main.rinha"}
+      },
+      "otherwise": {
+        "kind": "Binary",
+        "lhs": {
+          "kind": "Call",
+          "callee": {
+            "kind": "Var",
+            "text": "fib",
+            "location": {"start": 54, "end": 57, "filename": "Main.rinha"}
+          },
+          "arguments": [
+            {
+              "kind": "Binary",
+              "lhs": {
+                "kind": "Var",
+                "text": "n",
+                "location": {"start": 58, "end": 59, "filename": "Main.rinha"}
+              },
+              "op": "-",
+              "rhs": {
+                "kind": "Int",
+                "value": 1,
+                "location": {"start": 62, "end": 63, "filename": "Main.rinha"}
+              },
+              "location": {"start": 58, "end": 63, "filename": "Main.rinha"}
+            }
+          ],
+          "location": {"start": 54, "end": 64, "filename": "Main.rinha"}
+        },
+        "op": "+",
+        "rhs": {
+          "kind": "Call",
+          "callee": {
+            "kind": "Var",
+            "text": "fib",
+            "location": {"start": 67, "end": 70, "filename": "Main.rinha"}
+          },
+          "arguments": [
+            {
+              "kind": "Binary",
+              "lhs": {
+                "kind": "Var",
+                "text": "n",
+                "location": {"start": 71, "end": 72, "filename": "Main.rinha"}
+              },
+              "op": "-",
+              "rhs": {
+                "kind": "Int",
+                "value": 2,
+                "location": {"start": 75, "end": 76, "filename": "Main.rinha"}
+              },
+              "location": {"start": 71, "end": 76, "filename": "Main.rinha"}
+            }
+          ],
+          "location": {"start": 67, "end": 77, "filename": "Main.rinha"}
+        },
+        "location": {"start": 54, "end": 77, "filename": "Main.rinha"}
+      },
+      "location": {"start": 20, "end": 81, "filename": "Main.rinha"}
+    },
+    "next": {
+      "kind": "Let",
+      "name": {
+        "text": "x",
+        "location": {"start": 90, "end": 91, "filename": "Main.rinha"}
+      },
       "value": {
-        "kind": "If",
-        "condition": {
-          "kind": "Binary",
-          "lhs": {
-            "kind": "Reference",
-            "text": "n",
-            "location": {"start": 60, "end": 61, "filename": "Main.rinha"}
-          },
-          "op": "<",
-          "rhs": {
-            "kind": "Int",
-            "value": 2,
-            "location": {"start": 64, "end": 65, "filename": "Main.rinha"}
-          },
-          "location": {"start": 60, "end": 65, "filename": "Main.rinha"}
-        },
-        "then": {
-          "kind": "Reference",
-          "text": "n",
-          "location": {"start": 73, "end": 74, "filename": "Main.rinha"}
-        },
-        "otherwise": {
-          "kind": "Binary",
-          "lhs": {
-            "kind": "Call",
-            "callee": {
-              "kind": "Reference",
-              "text": "fib",
-              "location": {"start": 90, "end": 93, "filename": "Main.rinha"}
-            },
-            "arguments": [
-              {
-                "kind": "Binary",
-                "lhs": {
-                  "kind": "Reference",
-                  "text": "n",
-                  "location": {"start": 94, "end": 95, "filename": "Main.rinha"}
-                },
-                "op": "-",
-                "rhs": {
-                  "kind": "Int",
-                  "value": 1,
-                  "location": {"start": 98, "end": 99, "filename": "Main.rinha"}
-                },
-                "location": {"start": 94, "end": 99, "filename": "Main.rinha"}
-              }
-            ],
-            "location": {"start": 90, "end": 100, "filename": "Main.rinha"}
-          },
-          "op": "+",
-          "rhs": {
-            "kind": "Call",
-            "callee": {
-              "kind": "Reference",
-              "text": "fib",
-              "location": {"start": 103, "end": 106, "filename": "Main.rinha"}
-            },
-            "arguments": [
-              {
-                "kind": "Binary",
-                "lhs": {
-                  "kind": "Reference",
-                  "text": "n",
-                  "location": {
-                    "start": 107,
-                    "end": 108,
-                    "filename": "Main.rinha"
-                  }
-                },
-                "op": "-",
-                "rhs": {
-                  "kind": "Int",
-                  "value": 2,
-                  "location": {
-                    "start": 111,
-                    "end": 112,
-                    "filename": "Main.rinha"
-                  }
-                },
-                "location": {"start": 107, "end": 112, "filename": "Main.rinha"}
-              }
-            ],
-            "location": {"start": 103, "end": 113, "filename": "Main.rinha"}
-          },
-          "location": {"start": 90, "end": 113, "filename": "Main.rinha"}
-        },
-        "location": {"start": 56, "end": 117, "filename": "Main.rinha"}
+        "kind": "Int",
+        "value": 10,
+        "location": {"start": 94, "end": 96, "filename": "Main.rinha"}
       },
       "next": {
         "kind": "Let",
         "name": {
-          "text": "x",
-          "location": {"start": 126, "end": 127, "filename": "Main.rinha"}
+          "text": "n",
+          "location": {"start": 102, "end": 103, "filename": "Main.rinha"}
         },
         "value": {
-          "kind": "Int",
-          "value": 10,
-          "location": {"start": 130, "end": 132, "filename": "Main.rinha"}
+          "kind": "Binary",
+          "lhs": {
+            "kind": "Var",
+            "text": "f",
+            "location": {"start": 106, "end": 107, "filename": "Main.rinha"}
+          },
+          "op": "++",
+          "rhs": {
+            "kind": "Var",
+            "text": "f2",
+            "location": {"start": 111, "end": 113, "filename": "Main.rinha"}
+          },
+          "location": {"start": 106, "end": 113, "filename": "Main.rinha"}
         },
         "next": {
           "kind": "Let",
           "name": {
-            "text": "n",
-            "location": {"start": 138, "end": 139, "filename": "Main.rinha"}
+            "text": "_",
+            "location": {"start": 119, "end": 120, "filename": "Main.rinha"}
           },
           "value": {
-            "kind": "Binary",
-            "lhs": {
-              "kind": "Reference",
-              "text": "f",
-              "location": {"start": 142, "end": 143, "filename": "Main.rinha"}
+            "kind": "Print",
+            "value": {
+              "kind": "Var",
+              "text": "x",
+              "location": {"start": 130, "end": 131, "filename": "Main.rinha"}
             },
-            "op": "++",
-            "rhs": {
-              "kind": "Reference",
-              "text": "f2",
-              "location": {"start": 147, "end": 149, "filename": "Main.rinha"}
-            },
-            "location": {"start": 142, "end": 149, "filename": "Main.rinha"}
+            "location": {"start": 123, "end": 132, "filename": "Main.rinha"}
           },
           "next": {
             "kind": "Let",
             "name": {
               "text": "_",
-              "location": {"start": 155, "end": 156, "filename": "Main.rinha"}
+              "location": {"start": 138, "end": 139, "filename": "Main.rinha"}
             },
             "value": {
-              "kind": "Call",
-              "callee": {
-                "kind": "Reference",
-                "text": "println",
-                "location": {"start": 159, "end": 166, "filename": "Main.rinha"}
+              "kind": "Print",
+              "value": {
+                "kind": "Var",
+                "text": "n",
+                "location": {"start": 149, "end": 150, "filename": "Main.rinha"}
               },
-              "arguments": [
-                {
-                  "kind": "Reference",
-                  "text": "x",
-                  "location": {
-                    "start": 167,
-                    "end": 168,
-                    "filename": "Main.rinha"
-                  }
-                }
-              ],
-              "location": {"start": 159, "end": 169, "filename": "Main.rinha"}
+              "location": {"start": 142, "end": 151, "filename": "Main.rinha"}
             },
             "next": {
               "kind": "Let",
               "name": {
                 "text": "_",
-                "location": {"start": 175, "end": 176, "filename": "Main.rinha"}
+                "location": {"start": 157, "end": 158, "filename": "Main.rinha"}
               },
               "value": {
-                "kind": "Call",
-                "callee": {
-                  "kind": "Reference",
-                  "text": "println",
+                "kind": "Print",
+                "value": {
+                  "kind": "Binary",
+                  "lhs": {
+                    "kind": "Str",
+                    "value": "fib ",
+                    "location": {
+                      "start": 168,
+                      "end": 174,
+                      "filename": "Main.rinha"
+                    }
+                  },
+                  "op": "++",
+                  "rhs": {
+                    "kind": "Call",
+                    "callee": {
+                      "kind": "Var",
+                      "text": "fib",
+                      "location": {
+                        "start": 178,
+                        "end": 181,
+                        "filename": "Main.rinha"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "kind": "Int",
+                        "value": 100000,
+                        "location": {
+                          "start": 182,
+                          "end": 188,
+                          "filename": "Main.rinha"
+                        }
+                      }
+                    ],
+                    "location": {
+                      "start": 178,
+                      "end": 189,
+                      "filename": "Main.rinha"
+                    }
+                  },
                   "location": {
-                    "start": 179,
-                    "end": 186,
+                    "start": 168,
+                    "end": 189,
                     "filename": "Main.rinha"
                   }
                 },
-                "arguments": [
-                  {
-                    "kind": "Reference",
-                    "text": "n",
-                    "location": {
-                      "start": 187,
-                      "end": 188,
-                      "filename": "Main.rinha"
-                    }
-                  }
-                ],
-                "location": {"start": 179, "end": 189, "filename": "Main.rinha"}
+                "location": {"start": 161, "end": 190, "filename": "Main.rinha"}
               },
               "next": {
                 "kind": "Let",
                 "name": {
                   "text": "_",
                   "location": {
-                    "start": 195,
-                    "end": 196,
+                    "start": 196,
+                    "end": 197,
                     "filename": "Main.rinha"
                   }
                 },
                 "value": {
-                  "kind": "Call",
-                  "callee": {
-                    "kind": "Reference",
-                    "text": "println",
+                  "kind": "Print",
+                  "value": {
+                    "kind": "Call",
+                    "callee": {
+                      "kind": "Var",
+                      "text": "f",
+                      "location": {
+                        "start": 207,
+                        "end": 208,
+                        "filename": "Main.rinha"
+                      }
+                    },
+                    "arguments": [],
                     "location": {
-                      "start": 199,
-                      "end": 206,
+                      "start": 207,
+                      "end": 210,
                       "filename": "Main.rinha"
                     }
                   },
-                  "arguments": [
-                    {
-                      "kind": "Binary",
-                      "lhs": {
-                        "kind": "Str",
-                        "value": "fib ",
-                        "location": {
-                          "start": 207,
-                          "end": 213,
-                          "filename": "Main.rinha"
-                        }
-                      },
-                      "op": "++",
-                      "rhs": {
-                        "kind": "Call",
-                        "callee": {
-                          "kind": "Reference",
-                          "text": "fib",
-                          "location": {
-                            "start": 217,
-                            "end": 220,
-                            "filename": "Main.rinha"
-                          }
-                        },
-                        "arguments": [
-                          {
-                            "kind": "Int",
-                            "value": 100000,
-                            "location": {
-                              "start": 221,
-                              "end": 227,
-                              "filename": "Main.rinha"
-                            }
-                          }
-                        ],
-                        "location": {
-                          "start": 217,
-                          "end": 228,
-                          "filename": "Main.rinha"
-                        }
-                      },
-                      "location": {
-                        "start": 207,
-                        "end": 228,
-                        "filename": "Main.rinha"
-                      }
-                    }
-                  ],
                   "location": {
-                    "start": 199,
-                    "end": 229,
+                    "start": 200,
+                    "end": 211,
                     "filename": "Main.rinha"
                   }
                 },
@@ -284,45 +253,44 @@
                   "name": {
                     "text": "_",
                     "location": {
-                      "start": 235,
-                      "end": 236,
+                      "start": 217,
+                      "end": 218,
                       "filename": "Main.rinha"
                     }
                   },
                   "value": {
-                    "kind": "Call",
-                    "callee": {
-                      "kind": "Reference",
-                      "text": "println",
+                    "kind": "Print",
+                    "value": {
+                      "kind": "Call",
+                      "callee": {
+                        "kind": "Var",
+                        "text": "f2",
+                        "location": {
+                          "start": 228,
+                          "end": 230,
+                          "filename": "Main.rinha"
+                        }
+                      },
+                      "arguments": [
+                        {
+                          "kind": "Str",
+                          "value": "pao",
+                          "location": {
+                            "start": 231,
+                            "end": 236,
+                            "filename": "Main.rinha"
+                          }
+                        }
+                      ],
                       "location": {
-                        "start": 239,
-                        "end": 246,
+                        "start": 228,
+                        "end": 237,
                         "filename": "Main.rinha"
                       }
                     },
-                    "arguments": [
-                      {
-                        "kind": "Call",
-                        "callee": {
-                          "kind": "Reference",
-                          "text": "f",
-                          "location": {
-                            "start": 247,
-                            "end": 248,
-                            "filename": "Main.rinha"
-                          }
-                        },
-                        "arguments": [],
-                        "location": {
-                          "start": 247,
-                          "end": 250,
-                          "filename": "Main.rinha"
-                        }
-                      }
-                    ],
                     "location": {
-                      "start": 239,
-                      "end": 251,
+                      "start": 221,
+                      "end": 238,
                       "filename": "Main.rinha"
                     }
                   },
@@ -331,191 +299,106 @@
                     "name": {
                       "text": "_",
                       "location": {
-                        "start": 257,
-                        "end": 258,
+                        "start": 244,
+                        "end": 245,
                         "filename": "Main.rinha"
                       }
                     },
                     "value": {
-                      "kind": "Call",
-                      "callee": {
-                        "kind": "Reference",
-                        "text": "println",
-                        "location": {
-                          "start": 261,
-                          "end": 268,
-                          "filename": "Main.rinha"
-                        }
-                      },
-                      "arguments": [
-                        {
-                          "kind": "Call",
-                          "callee": {
-                            "kind": "Reference",
-                            "text": "f2",
+                      "kind": "Print",
+                      "value": {
+                        "kind": "Binary",
+                        "lhs": {
+                          "kind": "Int",
+                          "value": 10,
+                          "location": {
+                            "start": 256,
+                            "end": 258,
+                            "filename": "Main.rinha"
+                          }
+                        },
+                        "op": "*",
+                        "rhs": {
+                          "kind": "Binary",
+                          "lhs": {
+                            "kind": "Int",
+                            "value": 14,
                             "location": {
-                              "start": 269,
-                              "end": 271,
+                              "start": 262,
+                              "end": 264,
                               "filename": "Main.rinha"
                             }
                           },
-                          "arguments": [
-                            {
-                              "kind": "Str",
-                              "value": "pao",
-                              "location": {
-                                "start": 272,
-                                "end": 277,
-                                "filename": "Main.rinha"
-                              }
+                          "op": "+",
+                          "rhs": {
+                            "kind": "Int",
+                            "value": 3,
+                            "location": {
+                              "start": 267,
+                              "end": 268,
+                              "filename": "Main.rinha"
                             }
-                          ],
+                          },
                           "location": {
-                            "start": 269,
-                            "end": 278,
+                            "start": 262,
+                            "end": 268,
                             "filename": "Main.rinha"
                           }
+                        },
+                        "location": {
+                          "start": 256,
+                          "end": 269,
+                          "filename": "Main.rinha"
                         }
-                      ],
+                      },
                       "location": {
-                        "start": 261,
-                        "end": 279,
+                        "start": 248,
+                        "end": 271,
                         "filename": "Main.rinha"
                       }
                     },
                     "next": {
-                      "kind": "Let",
-                      "name": {
-                        "text": "_",
-                        "location": {
-                          "start": 285,
-                          "end": 286,
-                          "filename": "Main.rinha"
-                        }
-                      },
+                      "kind": "Print",
                       "value": {
-                        "kind": "Call",
-                        "callee": {
-                          "kind": "Reference",
-                          "text": "println",
-                          "location": {
-                            "start": 289,
-                            "end": 296,
-                            "filename": "Main.rinha"
-                          }
-                        },
-                        "arguments": [
-                          {
-                            "kind": "Binary",
-                            "lhs": {
-                              "kind": "Int",
-                              "value": 10,
-                              "location": {
-                                "start": 298,
-                                "end": 300,
-                                "filename": "Main.rinha"
-                              }
-                            },
-                            "op": "*",
-                            "rhs": {
-                              "kind": "Binary",
-                              "lhs": {
-                                "kind": "Int",
-                                "value": 14,
-                                "location": {
-                                  "start": 304,
-                                  "end": 306,
-                                  "filename": "Main.rinha"
-                                }
-                              },
-                              "op": "+",
-                              "rhs": {
-                                "kind": "Int",
-                                "value": 3,
-                                "location": {
-                                  "start": 309,
-                                  "end": 310,
-                                  "filename": "Main.rinha"
-                                }
-                              },
-                              "location": {
-                                "start": 304,
-                                "end": 310,
-                                "filename": "Main.rinha"
-                              }
-                            },
-                            "location": {
-                              "start": 298,
-                              "end": 311,
-                              "filename": "Main.rinha"
-                            }
-                          }
-                        ],
+                        "kind": "Str",
+                        "value": "hello, world",
                         "location": {
-                          "start": 289,
-                          "end": 313,
-                          "filename": "Main.rinha"
-                        }
-                      },
-                      "next": {
-                        "kind": "Call",
-                        "callee": {
-                          "kind": "Reference",
-                          "text": "println",
-                          "location": {
-                            "start": 315,
-                            "end": 322,
-                            "filename": "Main.rinha"
-                          }
-                        },
-                        "arguments": [
-                          {
-                            "kind": "Str",
-                            "value": "hello, world",
-                            "location": {
-                              "start": 323,
-                              "end": 337,
-                              "filename": "Main.rinha"
-                            }
-                          }
-                        ],
-                        "location": {
-                          "start": 315,
-                          "end": 338,
+                          "start": 280,
+                          "end": 294,
                           "filename": "Main.rinha"
                         }
                       },
                       "location": {
-                        "start": 281,
-                        "end": 338,
+                        "start": 273,
+                        "end": 295,
                         "filename": "Main.rinha"
                       }
                     },
                     "location": {
-                      "start": 253,
-                      "end": 338,
+                      "start": 240,
+                      "end": 295,
                       "filename": "Main.rinha"
                     }
                   },
                   "location": {
-                    "start": 231,
-                    "end": 338,
+                    "start": 213,
+                    "end": 295,
                     "filename": "Main.rinha"
                   }
                 },
-                "location": {"start": 191, "end": 338, "filename": "Main.rinha"}
+                "location": {"start": 192, "end": 295, "filename": "Main.rinha"}
               },
-              "location": {"start": 171, "end": 338, "filename": "Main.rinha"}
+              "location": {"start": 153, "end": 295, "filename": "Main.rinha"}
             },
-            "location": {"start": 151, "end": 338, "filename": "Main.rinha"}
+            "location": {"start": 134, "end": 295, "filename": "Main.rinha"}
           },
-          "location": {"start": 134, "end": 338, "filename": "Main.rinha"}
+          "location": {"start": 115, "end": 295, "filename": "Main.rinha"}
         },
-        "location": {"start": 122, "end": 338, "filename": "Main.rinha"}
+        "location": {"start": 98, "end": 295, "filename": "Main.rinha"}
       },
-      "location": {"start": 36, "end": 338, "filename": "Main.rinha"}
+      "location": {"start": 86, "end": 295, "filename": "Main.rinha"}
     },
-    "location": {"start": 0, "end": 338, "filename": "Main.rinha"}
+    "location": {"start": 0, "end": 295, "filename": "Main.rinha"}
   },
-  "location": {"start": 0, "end": 338, "filename": "Main.rinha"}
+  "location": {"start": 0, "end": 295, "filename": "Main.rinha"}
 }

@@ -109,7 +109,7 @@ pub struct If {
 
 #[derive(Debug, Clone, serde::Serialize)]
 pub struct Let {
-    pub name: crate::parser::Reference,
+    pub name: crate::parser::Var,
     pub value: Box<Term>,
     pub next: Box<Term>,
     pub location: Location,
@@ -187,8 +187,8 @@ impl Element for Call {
 
 #[derive(Debug, Clone, serde::Serialize)]
 pub struct Fun {
-    pub name: crate::parser::Reference,
-    pub parameters: Vec<crate::parser::Reference>,
+    pub name: crate::parser::Var,
+    pub parameters: Vec<crate::parser::Var>,
     pub is_external: bool,
     pub value: Option<Box<Term>>,
     pub next: Box<Term>,
@@ -225,7 +225,7 @@ pub enum Term {
     Let(Let),
     If(If),
     Print(Print),
-    Reference(crate::parser::Reference),
+    Var(crate::parser::Var),
 }
 
 impl Element for Term {
@@ -236,7 +236,7 @@ impl Element for Term {
             Term::Str(arg0) => &arg0.location,
             Term::Fun(arg0) => &arg0.location,
             Term::Call(arg0) => arg0.location(),
-            Term::Reference(arg0) => arg0.location(),
+            Term::Var(arg0) => arg0.location(),
             Term::Binary(arg0) => &arg0.location,
             Term::Print(arg0) => &arg0.location,
             Term::Let(arg0) => &arg0.location,
