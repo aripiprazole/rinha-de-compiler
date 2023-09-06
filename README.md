@@ -3,10 +3,17 @@
 Ou melhor rinha de interpretadores. O ideal da rinha de compiladores é fazer um
 interpretador que rode em condições de um Ubuntu x86, com 2 núcleos e 2G de RAM.
 
+## Para executar
+
+Depois será adicionado como executar
+
 ## Requisitos
 
 Você tem que fazer um PR, alterando o arquivo [participantes.txt](participantes.txt),
 com uma nova linha e seu repositório. Talvez isso seja mudado depois (fique atento).
+
+Seu repositório terá que ter uma imagem no root do repositório, e buildaremos a imagem
+no rankeamento.
 
 ## Specs
 
@@ -41,5 +48,8 @@ print("fib: " ++ fib(100000))
 
 # Competição
 
-O prazo para mandar os PRs, é até o dia 24/07, depois disso serão negados o
-projeto
+O prazo para mandar os PRs, é até o dia 23/09, depois disso serão negados o
+projeto.
+
+Será liberado para ajustes até o dia 25/09, você poderá arrumar sua implementação,
+depois da publicação dos testes.
