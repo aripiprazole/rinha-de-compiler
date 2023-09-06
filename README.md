@@ -7,10 +7,12 @@ O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x
 
 Depois será adicionado como executar
 
-## Testar
+## Como testar
 
-Para testar você pode usar o arquivo `Main.rinha` e gerar com o programa que disponibilizamos
-aqui para um JSON ou você pode usar diretamente o JSON que está em `ast.json`.
+Para testar você pode usar o arquivo `files/fib.rinha` e gerar com o programa que disponibilizamos
+aqui para um JSON ou você pode usar diretamente o JSON que está em `files/fib.json`.
+
+Durante a rinha nós iremos adicionar outros testes :)
 
 ## Requisitos
 
