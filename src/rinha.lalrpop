@@ -51,6 +51,14 @@ Call: crate::ast::Term = {
     value: Box::new(value),
     location: crate::ast::Location::new(s, e, filename),
   }),
+  <s: @L> "first" "(" <value:Term> ")" <e: @R> => crate::ast::Term::First(crate::ast::First {
+    value: Box::new(value),
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+  <s: @L> "second" "(" <value:Term> ")" <e: @R> => crate::ast::Term::Second(crate::ast::Second {
+    value: Box::new(value),
+    location: crate::ast::Location::new(s, e, filename),
+  }),
   <s: @L> <callee:Apply> "(" <arguments:Sep<",", Term>> ")" <e: @R> =>crate::ast::Term::Call(crate::ast::Call {
     callee: Box::new(callee),
     arguments,
@@ -136,7 +144,13 @@ Apply: crate::ast::Term = {
 pub Term: crate::ast::Term = {
   Logical,
 
-  <s: @L> "{" <term: Term> "}" => term,
+  <s: @L> "(" <first: Term> "," <second: Term> ")" <e: @R> => crate::ast::Term::Tuple(crate::ast::Tuple {
+    first: Box::new(first),
+    second: Box::new(second),
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+
+  "{" <term: Term> "}" => term,
 
   <s: @L> "let" <name:Reference> "=" <value:Term> ";" <next:Term> <e: @R> => crate::ast::Term::Let(crate::ast::Let {
     name,

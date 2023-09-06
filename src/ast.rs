@@ -217,6 +217,43 @@ impl Element for Print {
 }
 
 #[derive(Debug, Clone, serde::Serialize)]
+pub struct First {
+    pub value: Box<Term>,
+    pub location: Location,
+}
+
+impl Element for First {
+    fn location(&self) -> &Location {
+        &self.location
+    }
+}
+
+#[derive(Debug, Clone, serde::Serialize)]
+pub struct Second {
+    pub value: Box<Term>,
+    pub location: Location,
+}
+
+impl Element for Second {
+    fn location(&self) -> &Location {
+        &self.location
+    }
+}
+
+#[derive(Debug, Clone, serde::Serialize)]
+pub struct Tuple {
+    pub first: Box<Term>,
+    pub second: Box<Term>,
+    pub location: Location,
+}
+
+impl Element for Tuple {
+    fn location(&self) -> &Location {
+        &self.location
+    }
+}
+
+#[derive(Debug, Clone, serde::Serialize)]
 #[serde(tag = "kind")]
 pub enum Term {
     Error(Error),
@@ -228,6 +265,9 @@ pub enum Term {
     Let(Let),
     If(If),
     Print(Print),
+    First(First),
+    Second(Second),
+    Tuple(Tuple),
     Var(crate::parser::Var),
 }
 
@@ -242,8 +282,11 @@ impl Element for Term {
             Term::Var(arg0) => arg0.location(),
             Term::Binary(arg0) => &arg0.location,
             Term::Print(arg0) => &arg0.location,
+            Term::First(arg0) => &arg0.location,
+            Term::Second(arg0) => &arg0.location,
             Term::Let(arg0) => &arg0.location,
             Term::If(arg0) => &arg0.location,
+            Term::Tuple(arg0) => arg0.location(),
         }
     }
 }
