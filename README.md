@@ -3,13 +3,19 @@
 Ou melhor rinha de interpretadores. O ideal da rinha de compiladores é fazer um
 interpretador que rode em condições de um Ubuntu x86, com 2 núcleos e 2G de RAM.
 
+## Requisitos
+
+Você tem que fazer um PR, alterando o arquivo [participantes.txt](participantes.txt),
+com uma nova linha e seu repositório. Talvez isso seja mudado depois (fique atento).
+
 ## Specs
 
-A linguagem terá que rodar com base em algum arquivo, que poderá ser um arquivo
-JSON, ou a linguagem diretamente, seu programa deve ler o arquivo, e específicar
-se a linguagem usa o arquivo JSON ou a linguagem diretamente. Ambos os exemplos
-podem ser encontrados no root desse projeto: [Main.rinha](Main.rinha), e
-[e.json](e.json).
+A linguagem terá que rodar com base em algum arquivo, que é o JSON da AST da
+rinha, ou a própria linguagem.
+
+1. O arquivo terá que ser lido de `/var/rinha/source.rinha.json`
+2. Poderá também ser lido de `/var/rinha/source.rinha`, se você quiser ler a AST
+na mão.
 
 A linguagem é uma linguagem de programação dinâmica, como JavaScript, Ruby, etc.
 
