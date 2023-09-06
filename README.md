@@ -1,7 +1,7 @@
 # Rinha de Compilador
 
-Ou melhor rinha de interpretadores. O ideal da rinha de compiladores é fazer um
-interpretador que rode em condições de um Ubuntu x86, com 2 núcleos e 2G de RAM.
+O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x86, com 
+2 núcleos e 2G de RAM usando uma arvore sintática abstrata em formato JSON gerada pelo nosso front-end.
 
 ## Para executar
 
@@ -53,3 +53,13 @@ projeto.
 
 Será liberado para ajustes até o dia 25/09, você poderá arrumar sua implementação,
 depois da publicação dos testes.
+
+## Recursos
+
+Alguns recursos úteis para aprender como fazer seu próprio interpretador ou compilador são:
+
+- https://www.youtube.com/watch?v=t77ThZNCJGY
+- https://www.youtube.com/watch?v=LCslqgM48D4
+- https://ruslanspivak.com/lsbasi-part1/
+
+Fique ligado que alguns vídeos e posts úteis chegarão em breve.
