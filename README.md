@@ -84,6 +84,8 @@ Alguns recursos úteis para aprender como fazer seu próprio interpretador ou co
 - https://www.youtube.com/watch?v=t77ThZNCJGY
 - https://www.youtube.com/watch?v=LCslqgM48D4
 - https://ruslanspivak.com/lsbasi-part1/
+- https://www.youtube.com/playlist?list=PLjcmNukBom6--0we1zrpoUE2GuRD-Me6W
+- https://www.plai.org/
 
 Fique ligado que alguns vídeos e posts úteis chegarão em breve.
 
