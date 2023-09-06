@@ -2,8 +2,9 @@
 name = "rinha"
 version = "0.0.1"
 edition = "2021"
+description = "Competição saudável de compiladores"
 authors = ["Community"]
-documentation = "https://github.com/meowers/rinha-de-compiler"
+documentation = "https://github.com/aripiprazole/rinha-de-compiler"
 license = "MIT"
 keywords = ["parsing", "programming-language"]
 categories = ["parsing", "compilers", "text-editors"]
