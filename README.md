@@ -42,7 +42,7 @@ algorítimos além de Fibonacci.
 Exemplo com fibonacci
 
 ```javascript
-function fib(n) {
+let fib = fn (n) => {
   if (n < 2) {
     n
   } else {
