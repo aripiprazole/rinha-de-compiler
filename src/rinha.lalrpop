@@ -35,6 +35,17 @@ Semi: std::string::String = {
 
 Primary: crate::ast::Term = {
   "(" <Term> ")" => <>,
+
+  <s: @L> "true" <e: @R> => crate::ast::Term::Bool(crate::ast::Bool {
+    value: true,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+
+  <s: @L> "false" <e: @R> => crate::ast::Term::Bool(crate::ast::Bool {
+    value: false,
+    location: crate::ast::Location::new(s, e, filename),
+  }),
+
   <Reference> => crate::ast::Term::Var(<>),
   <s: @L> <value:String> <e: @R> => crate::ast::Term::Str(crate::ast::Str {
     value,

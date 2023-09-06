@@ -130,6 +130,18 @@ impl Element for Str {
     }
 }
 
+#[derive(Default, Debug, Clone, serde::Serialize)]
+pub struct Bool {
+    pub value: bool,
+    pub location: Location,
+}
+
+impl Element for Bool {
+    fn location(&self) -> &Location {
+        &self.location
+    }
+}
+
 /// Int is a integer value like `0`, `1`, `2`, etc.
 #[derive(Default, Debug, Clone, serde::Serialize)]
 pub struct Int {
@@ -267,6 +279,7 @@ pub enum Term {
     Print(Print),
     First(First),
     Second(Second),
+    Bool(Bool),
     Tuple(Tuple),
     Var(crate::parser::Var),
 }
@@ -286,6 +299,7 @@ impl Element for Term {
             Term::Second(arg0) => &arg0.location,
             Term::Let(arg0) => &arg0.location,
             Term::If(arg0) => &arg0.location,
+            Term::Bool(arg0) => &arg0.location,
             Term::Tuple(arg0) => arg0.location(),
         }
     }
