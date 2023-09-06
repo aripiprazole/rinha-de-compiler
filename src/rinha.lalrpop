@@ -47,6 +47,10 @@ Primary: crate::ast::Term = {
 };
 
 Call: crate::ast::Term = {
+  <s: @L> "print" "(" <value:Term> ")" <e: @R> => crate::ast::Term::Print(crate::ast::Print {
+    value: Box::new(value),
+    location: crate::ast::Location::new(s, e, filename),
+  }),
   <s: @L> <callee:Apply> "(" <arguments:Sep<",", Term>> ")" <e: @R> =>crate::ast::Term::Call(crate::ast::Call {
     callee: Box::new(callee),
     arguments,

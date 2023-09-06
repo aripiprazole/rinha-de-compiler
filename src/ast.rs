@@ -202,6 +202,18 @@ impl Element for Fun {
 }
 
 #[derive(Debug, Clone, serde::Serialize)]
+pub struct Print {
+    pub value: Box<Term>,
+    pub location: Location,
+}
+
+impl Element for Print {
+    fn location(&self) -> &Location {
+        &self.location
+    }
+}
+
+#[derive(Debug, Clone, serde::Serialize)]
 #[serde(tag = "kind")]
 pub enum Term {
     Error(Error),
@@ -212,6 +224,7 @@ pub enum Term {
     Fun(Fun),
     Let(Let),
     If(If),
+    Print(Print),
     Reference(crate::parser::Reference),
 }
 
@@ -225,6 +238,7 @@ impl Element for Term {
             Term::Call(arg0) => arg0.location(),
             Term::Reference(arg0) => arg0.location(),
             Term::Binary(arg0) => &arg0.location,
+            Term::Print(arg0) => &arg0.location,
             Term::Let(arg0) => &arg0.location,
             Term::If(arg0) => &arg0.location,
         }

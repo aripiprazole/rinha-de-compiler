@@ -1,4 +1,3 @@
-external function println(message);
 function fib(n) {
   if (n < 2) {
     n
@@ -9,10 +8,10 @@ function fib(n) {
 
 let x = 10;
 let n = f ++ f2;
-let _ = println(x);
-let _ = println(n);
-let _ = println("fib " ++ fib(100000));
-let _ = println(f());
-let _ = println(f2("pao"));
-let _ = println((10 * (14 + 3)));
-println("hello, world")
+print (x);
+print (n);
+print ("fib " ++ fib(100000));
+print (f());
+print (f2("pao"));
+print ((10 * (14 + 3)));
+print ("hello, world")
