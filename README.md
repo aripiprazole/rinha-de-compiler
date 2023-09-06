@@ -1,9 +1,11 @@
 # Rinha de Compilador
 
 O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x86, com
-2 núcleos e 2G de RAM usando uma arvore sintática abstrata em formato JSON que é gerada por nós usando a ferramenta disponibilizada nesse repositório.
+2 núcleos e 2G de RAM.
 
-A sua tarefa na rinha é receber um JSON com a árvore abstrata e interpretar ou compilar afim de retornar um resultado que está de acordo com o JSON que foi fornecido.
+O seu interpretador ou compilador deve trabalhar com algo chamado "árvore sintática abstrata" que está armazenada no formato JSON. Essa árvore sintática abstrata será gerada por nós usando uma ferramenta específica disponível neste repositório.
+
+Sua responsabilidade na tarefa é receber esse JSON que contém a árvore abstrata e, em seguida, interpretar ou compilar o programa de acordo com as informações fornecidas na árvore abstrata.
 
 ## Para executar
 
