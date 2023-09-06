@@ -159,9 +159,27 @@ impl Element for Int {
 }
 
 #[derive(Debug, Clone, serde::Serialize)]
+pub enum BinaryOp {
+    Concat, // Concatenate
+    Add,    // Add
+    Sub,    // Subtract
+    Mul,    // Multiply
+    Div,    // Divide
+    Mod,    // Mod
+    Eq,     // Equal
+    Neq,    // Not equal
+    Lt,     // Less than
+    Gt,     // Greater than
+    Lte,    // Less than or equal to
+    Gte,    // Greater than or equal to
+    And,    // And
+    Or,     // Or
+}
+
+#[derive(Debug, Clone, serde::Serialize)]
 pub struct Binary {
     pub lhs: Box<Term>,
-    pub op: String,
+    pub op: BinaryOp,
     pub rhs: Box<Term>,
     pub location: Location,
 }
@@ -189,8 +207,7 @@ impl Element for Call {
 pub struct Fun {
     pub name: crate::parser::Var,
     pub parameters: Vec<crate::parser::Var>,
-    pub is_external: bool,
-    pub value: Option<Box<Term>>,
+    pub value: Box<Term>,
     pub next: Box<Term>,
     pub location: Location,
 }
