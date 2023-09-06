@@ -1,4 +1,10 @@
-# Rinha de Compilador
+<div align="center">
+
+![banner]
+
+</div>
+
+# Introdução
 
 O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x86, com
 2 núcleos e 2G de RAM.
@@ -6,6 +12,12 @@ O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x
 O seu interpretador ou compilador deve trabalhar com algo chamado "árvore sintática abstrata" que está armazenada no formato JSON. Essa árvore sintática abstrata será gerada por nós usando uma ferramenta específica disponível neste repositório.
 
 Sua responsabilidade na tarefa é receber esse JSON que contém a árvore abstrata e, em seguida, interpretar ou compilar o programa de acordo com as informações fornecidas na árvore abstrata.
+
+Simplificando:
+
+1. Nós te damos um JSON com uma árvore dentro
+2. Voce roda o JSON
+3. Voce fica feliz que apareceu o resultado.
 
 ## Para executar
 
@@ -26,10 +38,10 @@ com uma nova linha e seu repositório. Talvez isso seja mudado depois (fique ate
 Seu repositório terá que ter uma imagem no root do repositório, e buildaremos a imagem
 no rankeamento.
 
-## Specs
+## Especificação
 
 A linguagem terá que rodar com base em algum arquivo, que é o JSON da AST da
-rinha, ou a própria linguagem.
+rinha especificado [aqui](https://github.com/aripiprazole/rinha-de-compiler/blob/main/SPECS.md).
 
 1. O arquivo terá que ser lido de `/var/rinha/source.rinha.json`
 2. Poderá também ser lido de `/var/rinha/source.rinha`, se você quiser ler a AST
@@ -74,3 +86,5 @@ Alguns recursos úteis para aprender como fazer seu próprio interpretador ou co
 - https://ruslanspivak.com/lsbasi-part1/
 
 Fique ligado que alguns vídeos e posts úteis chegarão em breve.
+
+[banner]: ./img/banner.png
