@@ -11,3 +11,4 @@
 - leonardohn - https://github.com/leonardohn/rinha-interpreter
 - lucasmontano - https://github.com/lucasmontano/rinha-de-compiler
 - D4yvid - https://github.com/D4yvid/compiler-rinha
+- DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
