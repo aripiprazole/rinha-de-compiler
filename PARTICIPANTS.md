@@ -15,4 +15,8 @@
 - DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
 - milyth - https://github.com/milyth/touka
 - andrecoelho - https://github.com/andrecoelhoa/rinha-interpreter-app
-
+- Emanuel Júnior - https://github.com/VetusScientia/rinha-de-compiler
+- Lamadelrae - https://github.com/Lamadelrae/compiler-battles-csharp
+- rwillians_ - https://github.com/rwillians/rinha-de-compiladores--gambi-elixir
+- wilgnne - https://github.com/wilgnne/rinha-de-compiler-ts
+- BRonen - https://github.com/BRonen/luajit-rinha-de-compiler
