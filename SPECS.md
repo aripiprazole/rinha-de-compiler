@@ -182,6 +182,8 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 
 `Print` é a chamada da função de printar para o standard output. Ela é definida por:
 
+Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(true)`, `print((1, 2))`
+
 | Nome        | Tipo     |
 | --------    | -------- |
 | kind        | String   |
