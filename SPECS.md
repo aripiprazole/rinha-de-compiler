@@ -87,7 +87,7 @@ if (true) { a } else { b }
 | Nome       | Tipo     |
 | --------   | -------- |
 | kind       | String   |
-| name       | Var      |
+| name       | Parameter      |
 | value      | Term     |
 | next       | Term     |
 | location   | Location |
@@ -174,7 +174,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | Nome        | Tipo     |
 | --------    | -------- |
 | kind        | String   |
-| parameters  | [Var]    |
+| parameters  | [Parameter]    |
 | value       | Term     |
 | location    | Location |
 
@@ -239,15 +239,24 @@ Ela tem os seguintes elementos:
 
 Quando o second for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
 
+### Parameter
+
+`Parameter` representa o nome de uma parâmetro. É definida por:
+
+| Nome        | Tipo     |
+| --------    | -------- |
+| text        | String   |
+| location    | Location |
+
 ### Var (Nome de uma variável)
 
 `Var` representa o nome de uma variável. É definida por:
 
-| Nome        | Tipo     | Descrição  |
-| --------    | -------- | ---------- |
-| kind        | String   | O var é presente caso ele esteja dentro de um Term | 
-| text        | String   | Texto do identificador |
-| location    | Location | Localização do identificador no código fonte |
+| Nome        | Tipo     |
+| --------    | -------- |
+| kind        | String   |
+| text        | String   |
+| location    | Location | 
 
 ### Term
 
