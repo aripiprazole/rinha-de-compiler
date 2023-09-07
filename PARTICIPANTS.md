@@ -14,3 +14,4 @@
 - Olordecoelho - https://github.com/olordecoelho/rinha-de-compiladores
 - DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
 - milyth - https://github.com/milyth/touka
+- Lamadelrae - https://github.com/Lamadelrae/compiler-battles-csharp
