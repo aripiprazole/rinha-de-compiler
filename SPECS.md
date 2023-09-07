@@ -82,7 +82,7 @@ if true { a } else { b }
 
 ### Let
 
-`Let` é uma estrutura que representa um `let in`, ou seja, além de ela conter um let, ela especifica a proxima estrutura
+`Let` é uma estrutura que representa um `let in`, ou seja, além de ela conter um let, ela especifica a proxima estrutura. Todo let pode fazer *shadowing*, ou seja, usar o mesmo nome de outra variável e "ocultar" o valor da variável antiga. 
 
 | Nome       | Tipo     |
 | --------   | -------- |
@@ -141,7 +141,6 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | Gte        | Maior ou igual   |
 | And        | Conjunção        |
 | Or         | Disjunção        |
-| Not        | Negação          |
 
 ### Binary (Operação Binária)
 
@@ -191,6 +190,10 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 
 `First` é uma chamada de função que pega o primeiro elemento de uma tupla. Ela é definida por:
 
+```
+first((1, 2))
+```
+
 | Nome        | Tipo     |
 | --------    | -------- |
 | kind        | String   |
@@ -201,6 +204,10 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 ### Second (Função de pegar o segundo elemento de uma tupla)
 
 `Second` é uma chamada de função que pega o segundo elemento de uma tupla. Ela é definida por:
+
+```
+second((1, 2))
+```
 
 | Nome        | Tipo     |
 | --------    | -------- |
@@ -252,3 +259,10 @@ Um termo pode ser qualquer uma das seguintes estruturas:
 - Bool
 - Tuple
 - Var
+
+# Gramática
+
+```
+ mas não é algo que será testado. mas não é algo que será testado.
+
+```
