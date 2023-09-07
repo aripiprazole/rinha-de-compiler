@@ -1,3 +1,5 @@
 eduhenke - https://github.com/eduhenke/rinha-de-compiler
 eduOliver - https://github.com/Edu0liver/Rinha-Compiler
 adilsxn   - https://github.com/adilsxn/rinha-de-compiler/
+losty17 - https://github.com/Losty17/rinha-de-compiler
+
