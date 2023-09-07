@@ -126,21 +126,21 @@ if true { a } else { b }
 
 Um `BinaryOp` é um enumerador que representa uma operação binária. Essas são as variantes disponiveis
 
-| Nome       | Descrição        |
-| --------   | ------------     |
-| Add        | Soma             |
-| Sub        | Subtração        |
-| Mul        | Multiplicação    |
-| Div        | Divisão          |
-| Rem        | Resto da divisão |
-| Eq         | Igualdade        |
-| Neq        | Diferente        |
-| Lt         | Menor            |
-| Gt         | Maior            |
-| Lte        | Menor ou igual   |
-| Gte        | Maior ou igual   |
-| And        | Conjunção        |
-| Or         | Disjunção        |
+| Nome       | Descrição        | Exemplos que devem ser válidos                    |
+| --------   | ------------     | ------------------------------------------------- |
+| Add        | Soma             | `3 + 5 = 8`, `"a" + 2 = "a2"`, `2 + "a" = "2a"`, `"a" + "b" = "ab"` |
+| Sub        | Subtração        | `0 - 1 = -1` |
+| Mul        | Multiplicação    | `2 * 2 = 4`  |
+| Div        | Divisão          | `3 / 2 = 1`  |
+| Rem        | Resto da divisão | `4 % 2 = 0`  |
+| Eq         | Igualdade        | `"a" == "a"`, `2 = 1 + 1`, `true = true` |
+| Neq        | Diferente        | `"a" != "b"` |
+| Lt         | Menor            | `1 < 2` |
+| Gt         | Maior            | `2 > 3` |
+| Lte        | Menor ou igual   | `1 <= 2` | 
+| Gte        | Maior ou igual   | `1 >= 2` |
+| And        | Conjunção        | `true && false` |
+| Or         | Disjunção        | `false \|\| true` |
 
 ### Binary (Operação Binária)
 
@@ -153,6 +153,8 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | op          | BinaryOp |
 | rhs         | Term     |
 | location    | Location |
+
+
 
 ### Call (Aplicação de função)
 
@@ -200,6 +202,7 @@ first((1, 2))
 | value       | Term     |
 | location    | Location |
 
+Quando o first for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
 
 ### Second (Função de pegar o segundo elemento de uma tupla)
 
@@ -232,6 +235,8 @@ Ela tem os seguintes elementos:
 | second      | Term     |
 | location    | Location |
 
+Quando o second for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
+
 ### Var (Nome de uma variável)
 
 `Var` representa o nome de uma variável. É definida por:
@@ -259,4 +264,3 @@ Um termo pode ser qualquer uma das seguintes estruturas:
 - Bool
 - Tuple
 - Var
-
