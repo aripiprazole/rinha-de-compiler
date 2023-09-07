@@ -192,6 +192,16 @@ Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(tr
 | value       | Term     |
 | location    | Location |
 
+Os valores devem ser printados como: 
+
+| Tipo    | Como deve ser printado |
+| -----   | ---------------------- |
+| String  | a string sem aspas duplas ex `a` |
+| Number  | o literal de número ex `0` |
+| Boolean | `true` ou `false` |
+| Closure | `<#closure>`    |
+| Tuple   | `(term, term)`  |
+
 ### First (Função de pegar o primeiro elemento de uma tupla)
 
 `First` é uma chamada de função que pega o primeiro elemento de uma tupla. Ela é definida por:
