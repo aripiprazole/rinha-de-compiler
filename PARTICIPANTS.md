@@ -9,3 +9,4 @@
 - ricardopieper - https://github.com/ricardopieper/rinha-compiler
 - adilsxn - https://github.com/adilsxn/rinha-de-compiler
 - leonardohn - https://github.com/leonardohn/rinha-interpreter
+- lucasmontano - https://github.com/lucasmontano/rinha-de-compiler
