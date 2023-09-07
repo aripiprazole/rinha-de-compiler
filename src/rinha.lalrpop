@@ -210,7 +210,7 @@ pub Term: crate::ast::Term = {
   },
 }
 
-Int: isize = <s:r"[0123456789]+"> => isize::from_str(s).unwrap();
+Int: i32 = <s:r"[0123456789]+"> => i32::from_str(s).unwrap();
 String: std::string::String = <text:r#""(\\\\|\\"|[^"\\])*""#> => (&text[1..text.len() - 1]).to_string();
 
 Text: std::string::String = {
