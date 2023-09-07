@@ -114,7 +114,7 @@ if true { a } else { b }
 
 ### Int (Inteiro)
 
-`Int` é uma estrutura que representa um literal de número inteiro signed que tem tamanho de 32 bits, ou seza um Int32. Ela é representada por:
+`Int` é uma estrutura que representa um literal de número inteiro signed que tem tamanho de 32 bits, ou seja um Int32. Ela é representada por:
 
 | Nome       | Tipo     |
 | --------   | -------- |
