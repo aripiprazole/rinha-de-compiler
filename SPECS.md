@@ -260,9 +260,3 @@ Um termo pode ser qualquer uma das seguintes estruturas:
 - Tuple
 - Var
 
-# Gramática
-
-```
- mas não é algo que será testado. mas não é algo que será testado.
-
-```
