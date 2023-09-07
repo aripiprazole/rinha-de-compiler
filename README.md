@@ -65,7 +65,7 @@ let fib = fn (n) => {
   }
 };
 
-print("fib: " + fib(100000))
+print("fib: " + fib(10))
 ```
 
 # Competição
