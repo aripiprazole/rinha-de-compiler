@@ -1,5 +1,3 @@
-#![feature(box_patterns)]
-#![feature(type_changing_struct_update)]
 #![recursion_limit = "256"]
 
 use clap::Parser;

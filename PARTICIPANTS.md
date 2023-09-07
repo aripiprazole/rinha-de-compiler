@@ -11,4 +11,6 @@
 - leonardohn - https://github.com/leonardohn/rinha-interpreter
 - lucasmontano - https://github.com/lucasmontano/rinha-de-compiler
 - D4yvid - https://github.com/D4yvid/compiler-rinha
-- Olordeceolho - https://github.com/olordecoelho/rinha-de-compiladores
+- Olordecoelho - https://github.com/olordecoelho/rinha-de-compiladores
+- DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
+- milyth - https://github.com/milyth/touka
