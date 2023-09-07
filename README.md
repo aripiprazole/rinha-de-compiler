@@ -32,7 +32,7 @@ Durante a rinha nós iremos adicionar outros testes :)
 
 ## Requisitos
 
-Você tem que fazer um PR, alterando o arquivo [participantes.txt](participantes.txt),
+Você tem que fazer um PR, alterando o arquivo [PARTICIPANTS.md](PARTICIPANTS.md),
 com uma nova linha e seu repositório. Talvez isso seja mudado depois (fique atento).
 
 Seu repositório terá que ter uma imagem no root do repositório, e buildaremos a imagem
