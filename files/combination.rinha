@@ -1,0 +1,13 @@
+let combination = fn (n, k) => {
+    let a = k == 0;
+    let b = k == n;
+    if (a || b)
+    {
+        1
+    }
+    else {
+        combination(n - 1, k - 1) + combination(n - 1, k)
+    }
+};
+
+print(combination(10, 2))
