@@ -229,11 +229,11 @@ Ela tem os seguintes elementos:
 
 `Var` representa o nome de uma variável. É definida por:
 
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| text        | String   |
-| location    | Location |
+| Nome        | Tipo     | Descrição  |
+| --------    | -------- | ---------- |
+| kind        | String   | O var é presente caso ele esteja dentro de um Term | 
+| text        | String   | Texto do identificador |
+| location    | Location | Localização do identificador no código fonte |
 
 ### Term
 
