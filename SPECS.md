@@ -180,6 +180,8 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | value       | Term     |
 | location    | Location |
 
+Toda função quando chamada deve dar erro caso o número de parâmetros seja diferente do número de argumentos.
+
 ### Print (Função de printar para o standard output)
 
 `Print` é a chamada da função de printar para o standard output. Ela é definida por:
