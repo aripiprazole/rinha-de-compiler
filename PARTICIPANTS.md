@@ -14,3 +14,5 @@
 - Olordecoelho - https://github.com/olordecoelho/rinha-de-compiladores
 - DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
 - milyth - https://github.com/milyth/touka
+- andrecoelho - https://github.com/andrecoelhoa/rinha-interpreter-app
+
