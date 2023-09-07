@@ -14,3 +14,4 @@
 - Olordecoelho - https://github.com/olordecoelho/rinha-de-compiladores
 - DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
 - milyth - https://github.com/milyth/touka
+- astahjmo e niumxp - https://github.com/astahjmo/rinha-de-compiler
