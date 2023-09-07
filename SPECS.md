@@ -135,8 +135,8 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | Mul        | Multiplicação    | `2 * 2 = 4`  |
 | Div        | Divisão          | `3 / 2 = 1`  |
 | Rem        | Resto da divisão | `4 % 2 = 0`  |
-| Eq         | Igualdade        | `"a" == "a"`, `2 = 1 + 1`, `true = true` |
-| Neq        | Diferente        | `"a" != "b"` |
+| Eq         | Igualdade        | `"a" == "a"`, `2 == 1 + 1`, `true == true` |
+| Neq        | Diferente        | `"a" != "b"`, `3 != 1 + 1`, `true != false` |
 | Lt         | Menor            | `1 < 2` |
 | Gt         | Maior            | `2 > 3` |
 | Lte        | Menor ou igual   | `1 <= 2` | 
@@ -191,6 +191,16 @@ Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(tr
 | kind        | String   |
 | value       | Term     |
 | location    | Location |
+
+Os valores devem ser printados como: 
+
+| Tipo    | Como deve ser printado |
+| -----   | ---------------------- |
+| String  | a string sem aspas duplas ex `a` |
+| Number  | o literal de número ex `0` |
+| Boolean | `true` ou `false` |
+| Closure | `<#closure>`    |
+| Tuple   | `(term, term)`  |
 
 ### First (Função de pegar o primeiro elemento de uma tupla)
 
