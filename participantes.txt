@@ -4,3 +4,4 @@ henri - https://github.com/hnrbs/rinha
 edusporto - https://github.com/edusporto/rinha-compilador
 losty17 - https://github.com/Losty17/rinha-de-compiler
 rodrigocam - https://github.com/rodrigocam/rinha
+ricardopieper - https://github.com/ricardopieper/rinha-compiler
