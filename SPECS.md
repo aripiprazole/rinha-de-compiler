@@ -13,7 +13,7 @@ Uma representação da árvore abstrata de `1 + 2` seria:
   ├── Literal
   │   └── 1
   └── Literal
-      └── 1
+      └── 2
 ```
 
 Ou em JSON da linguagem Rinha
