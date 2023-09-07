@@ -6,8 +6,7 @@
 
 # Introdução
 
-O ideal da rinha é fazer um interpretador ou compilador que rode em um Ubuntu x86, com
-2 núcleos e 2G de RAM.
+O ideal da rinha é fazer um interpretador ou compilador que rode em uma maquina com 2 núcleos e 2G de RAM.
 
 O seu interpretador ou compilador deve trabalhar com algo chamado "árvore sintática abstrata" que está armazenada no formato JSON. Essa árvore sintática abstrata será gerada por nós usando uma ferramenta específica disponível neste repositório.
 
