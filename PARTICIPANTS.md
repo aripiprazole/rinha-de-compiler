@@ -14,4 +14,4 @@
 - Olordecoelho - https://github.com/olordecoelho/rinha-de-compiladores
 - DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
 - milyth - https://github.com/milyth/touka
-- Emanuel Júnior - https://github.com/VetusScientia
+- Emanuel Júnior - https://github.com/VetusScientia/rinha-de-compiler
