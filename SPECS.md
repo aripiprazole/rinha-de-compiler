@@ -66,7 +66,7 @@ Onde `..` é um location node que foi ocultado por brevidade.
 
 ### If
 
-`If` é uma estrutura que representa um bloco if/else dentro da linguagem. Ele é usado para tomar decisões com base em uma condição. O formato da estrutura é semelhante ao seguinte exemplo:
+`If` é uma estrutura que representa um bloco if/else dentro da linguagem. Ele é usado para tomar decisões com base em uma condição e sempre retorna um valor, é como se fosse um ternário de JS. O formato da estrutura é semelhante ao seguinte exemplo:
 
 A condição do if deve ser sempre um boolean.
 
