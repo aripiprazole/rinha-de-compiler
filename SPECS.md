@@ -168,7 +168,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 
 ### Function (Função anônima)
 
-`Function` é a criação de uma função anônima, ela é representada por:
+`Function` é a criação de uma função anônima que pode capturar o ambiente, ela é representada por:
 
 | Nome        | Tipo     |
 | --------    | -------- |
