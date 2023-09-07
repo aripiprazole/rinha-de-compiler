@@ -14,5 +14,6 @@
 - Olordecoelho - https://github.com/olordecoelho/rinha-de-compiladores
 - DouglasGabr - https://github.com/DouglasGabr/rinha-de-compiler
 - milyth - https://github.com/milyth/touka
+- rwillians_ - https://github.com/rwillians/rinha-de-compiladores--gambi-elixir
 - wilgnne - https://github.com/wilgnne/rinha-de-compiler-ts
 - BRonen - https://github.com/BRonen/luajit-rinha-de-compiler
