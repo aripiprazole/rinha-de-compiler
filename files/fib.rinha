@@ -6,12 +6,4 @@ let fib = fn (n) => {
   }
 };
 
-let x = 10;
-let n = f + f2;
-let _ = print (x);
-let _ = print (n);
-let _ = print ("fib " + fib(100000));
-let _ = print (f());
-let _ = print (f2("pao"));
-let _ = print ((10 * (14 + 3)));
-print ("hello, world")
+print (fib(10))
