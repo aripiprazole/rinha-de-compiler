@@ -26,3 +26,11 @@
 - mr-soulfox - https://github.com/mr-soulfox/rinha-de-compiladores-cpp
 - Crazynds - https://github.com/crazynds/rinha-compiler
 - Yazalde Filimone - https://github.com/yazaldefilimonepinto/rinha-compiler
+- PedroFnseca - https://github.com/PedroFnseca/rinha-compiler-rust
+- guilhermedjr - https://github.com/guilhermedjr/rinha-compiler-csharp
+- dhrleandro - https://github.com/dhrleandro/rinha-de-compiler-php
+- brunokim - https://github.com/brunokim/rinha-de-compiler
+- matheusgb - https://github.com/matheusgb/marmota
+- lrlucena - https://github.com/lrlucena/rinha-de-compiler-scala
+- fernandozanutto - https://github.com/fernandozanutto/rinha-compiler
+- fenner - https://github.com/alexandrofenner/rinha-compiladores-2023
