@@ -1,7 +1,7 @@
 # Participantes
 
 | Participante | Repositório | Status do projeto | Redes sociais |
-|---|---|---|---|---|
+|---|---|---|---|
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | |
 | henri | [rinha](https://github.com/hnrbs/rinha) | | |
