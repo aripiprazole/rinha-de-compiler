@@ -25,3 +25,4 @@
 - netodotcom - https://github.com/netodotcom/rinha-de-compiler
 - mr-soulfox - https://github.com/mr-soulfox/rinha-de-compiladores-cpp
 - Crazynds - https://github.com/crazynds/rinha-compiler
+- PedroFnseca - https://github.com/PedroFnseca/rinha-compiler-rust
