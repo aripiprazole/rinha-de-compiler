@@ -23,4 +23,5 @@
 - wilgnne - https://github.com/wilgnne/rinha-de-compiler-ts
 - BRonen - https://github.com/BRonen/luajit-rinha-de-compiler
 - netodotcom - https://github.com/netodotcom/rinha-de-compiler
+- mr-soulfox - https://github.com/mr-soulfox/rinha-de-compiladores-cpp
 - Crazynds - https://github.com/crazynds/rinha-compiler
