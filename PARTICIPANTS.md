@@ -26,3 +26,4 @@
 - mr-soulfox - https://github.com/mr-soulfox/rinha-de-compiladores-cpp
 - Crazynds - https://github.com/crazynds/rinha-compiler
 - fernandozanutto - https://github.com/fernandozanutto/rinha-compiler
+- fenner - https://github.com/alexandrofenner/rinha-compiladores-2023
