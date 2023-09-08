@@ -25,6 +25,7 @@
 - netodotcom - https://github.com/netodotcom/rinha-de-compiler
 - mr-soulfox - https://github.com/mr-soulfox/rinha-de-compiladores-cpp
 - Crazynds - https://github.com/crazynds/rinha-compiler
+- dhrleandro - https://github.com/dhrleandro/rinha-de-compiler-php
 - brunokim - https://github.com/brunokim/rinha-de-compiler
 - matheusgb - https://github.com/matheusgb/marmota
 - lrlucena - https://github.com/lrlucena/rinha-de-compiler-scala
