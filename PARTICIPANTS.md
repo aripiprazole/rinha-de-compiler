@@ -37,3 +37,4 @@
 - fenner - https://github.com/alexandrofenner/rinha-compiladores-2023
 - dgomesma - https://github.com/dgomesma/vladpiler
 - Braayy - https://github.com/Braayy/binha
+- RRFreitas - https://github.com/RRFreitas/Rinha-Compiler
