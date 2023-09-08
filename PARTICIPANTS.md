@@ -35,3 +35,4 @@
 - lrlucena - https://github.com/lrlucena/rinha-de-compiler-scala
 - fernandozanutto - https://github.com/fernandozanutto/rinha-compiler
 - fenner - https://github.com/alexandrofenner/rinha-compiladores-2023
+- Braayy - https://github.com/Braayy/binha
