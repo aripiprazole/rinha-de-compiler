@@ -234,6 +234,8 @@ second((1, 2))
 | value       | Term     |
 | location    | Location |
 
+Quando o second for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
+
 ### Tuple (Criação de uma 2-Tuple)
 
 `Tuple` é um elemento que descreve a criação de uma tupla com a sintaxe:
@@ -250,8 +252,6 @@ Ela tem os seguintes elementos:
 | first       | Term     |
 | second      | Term     |
 | location    | Location |
-
-Quando o second for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
 
 ### Parameter
 
