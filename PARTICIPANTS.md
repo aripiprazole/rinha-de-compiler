@@ -39,3 +39,4 @@
 | fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | | |
 | dgomesma | [vladpiler](https://github.com/dgomesma/vladpiler) | | |
 | Braayy | [binha](https://github.com/Braayy/binha) | | |
+| guitcastro | https://github.com/guitcastro/rinha-de-compiler-ex | | |
