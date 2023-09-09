@@ -21,7 +21,7 @@
 | andrecoelho | [rinha-interpreter-app](https://github.com/andrecoelhoa/rinha-interpreter-app) | | |
 | Emanuel Júnior | [rinha-de-compiler](https://github.com/VetusScientia/rinha-de-compiler) | | |
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | |
-| rwillians_ | [rinha-de-compiladores--gambi-elixir](https://github.com/rwillians/rinha-de-compiladores--gambi-elixir) | | |
+| rwillians_ | [rinha-de-compilers--elixir-transpiler](https://github.com/rwillians/rinha-de-compilers--elixir-transpiler) | 🚧 wip | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | |
 | BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | |
