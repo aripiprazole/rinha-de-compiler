@@ -47,6 +47,8 @@
 | antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
 | samueldurantes | https://github.com/samueldurantes/rinha | | |
 | Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | | Fsharp | | [My Links](https://allmylinks.com/aleffmds)|
+| samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
+| leodhb | [rinha-twi-ruby](https://github.com/leodhb/rinha-twi-ruby) | Tentando fazer recursão funcionar 🙂 | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
