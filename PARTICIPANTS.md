@@ -45,3 +45,4 @@
 | dlopes7 | [dlopes7](https://github.com/dlopes7/rinha-compilers) | | |
 | renatoalencar | [rinha-de-compiladores-ocaml](https://github.com/renatoalencar/rinha-de-compiladores-ocaml) | | |
 | dhilst | https://github.com/dhilst/rinhacompiler | | |
+| antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
