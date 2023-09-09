@@ -1,4 +1,4 @@
-use std::{fmt::Debug, rc::Rc};
+use std::{fmt::Debug, rc::Rc, cell::Cell};
 
 /// File definition, it contains all the statements,
 /// the module name, and a base location for it as anchor
@@ -24,6 +24,7 @@ impl<T: Element> Element for Box<T> {
 
 #[derive(Default, Hash, PartialEq, Eq, Clone, serde::Serialize, serde::Deserialize)]
 pub struct Location {
+    pub id: usize,
     pub start: usize,
     pub end: usize,
     pub filename: String,
@@ -31,8 +32,12 @@ pub struct Location {
 
 impl Location {
     /// Creates a new instance of [`Location`].
-    pub fn new(start: usize, end: usize, filename: &str) -> Self {
+    pub fn new(start: usize, end: usize, filename: &str, unique: &Cell<usize>) -> Self {
+        let id = unique.get();
+        unique.set(id + 1);
+
         Self {
+            id,
             start,
             end,
             filename: filename.into(),

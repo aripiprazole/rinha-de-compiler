@@ -1,3 +1,5 @@
+use std::cell::Cell;
+
 use crate::ast::{Element, Location};
 
 use miette::{NamedSource, SourceSpan};
@@ -172,7 +174,8 @@ fn fmt_expected(expected: &[String]) -> String {
 /// lot of sub-errors.
 pub fn parse_or_report(filename: &str, text: &str) -> Result<crate::ast::File, ParseError> {
     let mut errors = vec![];
-    let ast = match crate::rinha::FileParser::new().parse(&mut errors, filename, text) {
+    let unique = Cell::new(0);
+    let ast = match crate::rinha::FileParser::new().parse(&mut errors, filename, &unique, text) {
         Ok(ast) => ast,
         Err(error) => {
             // Build up the list with at least one recovery error.
