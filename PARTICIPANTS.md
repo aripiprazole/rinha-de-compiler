@@ -44,7 +44,7 @@
 | renatoalencar | [rinha-de-compiladores-ocaml](https://github.com/renatoalencar/rinha-de-compiladores-ocaml) | | | | |
 | dhilst | [rinhacompiler](https://github.com/dhilst/rinhacompiler) | | | | |
 | DiegoTeles | [rinha-de-compiler-js](https://github.com/DiegoTeles/rinha-de-compiler-js) | | JavaScript | | [My Links](https://allmylinks.com/unicorncoder)|
-
+| antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
