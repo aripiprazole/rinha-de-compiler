@@ -41,3 +41,4 @@
 | Braayy | [binha](https://github.com/Braayy/binha) | | |
 | guitcastro | https://github.com/guitcastro/rinha-de-compiler-ex | | |
 | RRFreitas | https://github.com/RRFreitas/Rinha-Compiler | | |
+| dlopes7 | [dlopes7](https://github.com/dlopes7/rinha-compilers) | | |
