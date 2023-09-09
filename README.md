@@ -2,9 +2,7 @@
 
 ![banner]
 
-![https://discord.gg/e8EzgPscCw](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
-
-</div>
+[<img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/e8EzgPscCw)
 
 # Introdução
 
