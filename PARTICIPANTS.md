@@ -43,6 +43,7 @@
 | RRFreitas | [Rinha-Compiler](https://github.com/RRFreitas/Rinha-Compiler) | | | | |
 | renatoalencar | [rinha-de-compiladores-ocaml](https://github.com/renatoalencar/rinha-de-compiladores-ocaml) | | | | |
 | dhilst | [rinhacompiler](https://github.com/dhilst/rinhacompiler) | | | | |
+| pedro-git-projects |[rinha-de-compiladores-zig](https://github.com/pedro-git-projects/rinha-de-compiladores-zig) | | zig | | [linkedin](in/pedro-pereira-948224216)|
 
 
 **Tipos de projeto:**
