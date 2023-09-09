@@ -46,6 +46,7 @@
 | DiegoTeles | [rinha-de-compiler-js](https://github.com/DiegoTeles/rinha-de-compiler-js) | | JavaScript | | [My Links](https://allmylinks.com/unicorncoder)|
 | antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
 | samueldurantes | https://github.com/samueldurantes/rinha | | |
+| Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | | Fsharp | | [My Links](https://allmylinks.com/aleffmds)|
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
