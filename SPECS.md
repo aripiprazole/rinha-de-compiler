@@ -48,21 +48,126 @@ Onde `..` é um location node que foi ocultado por brevidade.
 
 `File` é uma estrutura que tem dados do arquivo inteiro e que contém os seguintes campos:
 
-| Nome       | Tipo    |
-| --------   | ------- |
-| name       | String  |
-| expression | Term    |
-| location   | Loc     |
+| Nome       | Tipo                  |
+| ---------- | --------------------- |
+| name       | String                |
+| expression | Term                  |
+| location   | [Location](#location) |
 
-### Loc
+### Location
 
-`Loc` é uma estrutura que contém campos para localização de um pedaço da árvore dentro do código fonte
+`Location` é uma estrutura que contém campos para localização de um pedaço da árvore dentro do código fonte
 
-| Nome       | Tipo    |
-| --------   | ------- |
-| start      | Int     |
-| end        | Int     |
-| filename   | String  |
+| Nome     | Tipo   |
+| -------- | ------ |
+| start    | Int    |
+| end      | Int    |
+| filename | String |
+
+### Parameter
+
+`Parameter` representa o nome de uma parâmetro. É definida por:
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| text     | String                |
+| location | [Location](#location) |
+
+### Var (Nome de uma variável)
+
+`Var` representa o nome de uma variável. É definida por:
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| text     | String                |
+| location | [Location](#location) |
+
+### Function (Função anônima)
+
+`Function` é a criação de uma função anônima que pode capturar o ambiente, ela é representada por:
+
+| Nome       | Tipo                      |
+| ---------- | ------------------------- |
+| kind       | String                    |
+| parameters | [[Parameter](#parameter)] |
+| value      | Term                      |
+| location   | [Location](#location)     |
+
+Toda função quando chamada deve dar erro caso o número de parâmetros seja diferente do número de argumentos.
+
+### Call (Aplicação de função)
+
+`Call` é uma aplicação de funçao entre um termo e varios outros termos chamados de argumentos. Essa estrutura é representada por:
+
+| Nome      | Tipo                  |
+| --------- | --------------------- |
+| kind      | String                |
+| callee    | Term                  |
+| arguments | [Term]                |
+| location  | [Location](#location) |
+
+### Let
+
+`Let` é uma estrutura que representa um `let in`, ou seja, além de ela conter um let, ela especifica a proxima estrutura. Todo let pode fazer _shadowing_, ou seja, usar o mesmo nome de outra variável e "ocultar" o valor da variável antiga.
+
+| Nome     | Tipo                    |
+| -------- | ----------------------- |
+| kind     | String                  |
+| name     | [Parameter](#parameter) |
+| value    | Term                    |
+| next     | Term                    |
+| location | [Location](#location)   |
+
+### Str (Texto)
+
+`Str` é uma estrutura que representa um literal de texto. Ela é representada por:
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| value    | String                |
+| location | [Location](#location) |
+
+### Int (Inteiro)
+
+`Int` é uma estrutura que representa um literal de número inteiro signed que tem tamanho de 32 bits, ou seja um Int32. Ela é representada por:
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| value    | Number                |
+| location | [Location](#location) |
+
+### BinaryOp (Operador Binário)
+
+Um `BinaryOp` é um enumerador que representa uma operação binária. Essas são as variantes disponiveis
+
+| Nome | Descrição        | Exemplos que devem ser válidos                                      |
+| ---- | ---------------- | ------------------------------------------------------------------- |
+| Add  | Soma             | `3 + 5 = 8`, `"a" + 2 = "a2"`, `2 + "a" = "2a"`, `"a" + "b" = "ab"` |
+| Sub  | Subtração        | `0 - 1 = -1`                                                        |
+| Mul  | Multiplicação    | `2 * 2 = 4`                                                         |
+| Div  | Divisão          | `3 / 2 = 1`                                                         |
+| Rem  | Resto da divisão | `4 % 2 = 0`                                                         |
+| Eq   | Igualdade        | `"a" == "a"`, `2 == 1 + 1`, `true == true`                          |
+| Neq  | Diferente        | `"a" != "b"`, `3 != 1 + 1`, `true != false`                         |
+| Lt   | Menor            | `1 < 2`                                                             |
+| Gt   | Maior            | `2 > 3`                                                             |
+| Lte  | Menor ou igual   | `1 <= 2`                                                            |
+| Gte  | Maior ou igual   | `1 >= 2`                                                            |
+| And  | Conjunção        | `true && false`                                                     |
+| Or   | Disjunção        | `false \|\| true`                                                   |
+
+### Bool (Booleano)
+
+`Bool` é uma estrutura que representa um literal de boolean. Ela é representada por:
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| value    | Bool                  |
+| location | [Location](#location) |
 
 ### If
 
@@ -71,170 +176,32 @@ Onde `..` é um location node que foi ocultado por brevidade.
 A condição do if deve ser sempre um boolean.
 
 ```javascript
-if (true) { a } else { b }
+if (true) {
+  a;
+} else {
+  b;
+}
 ```
 
-| Nome       | Tipo     |
-| --------   | -------- |
-| kind       | String   |
-| condition  | Term     |
-| then       | Term     |
-| otherwise  | Term     |
-| location   | Location |
-
-### Let
-
-`Let` é uma estrutura que representa um `let in`, ou seja, além de ela conter um let, ela especifica a proxima estrutura. Todo let pode fazer *shadowing*, ou seja, usar o mesmo nome de outra variável e "ocultar" o valor da variável antiga. 
-
-| Nome       | Tipo     |
-| --------   | -------- |
-| kind       | String   |
-| name       | Parameter      |
-| value      | Term     |
-| next       | Term     |
-| location   | Location |
-
-### Str (Texto)
-
-`Str` é uma estrutura que representa um literal de texto. Ela é representada por:
-
-| Nome       | Tipo     |
-| --------   | -------- |
-| kind       | String   |
-| value      | String   |
-| location   | Location |
-
-### Bool (Booleano)
-
-`Bool` é uma estrutura que representa um literal de boolean. Ela é representada por:
-
-| Nome       | Tipo     |
-| --------   | -------- |
-| kind       | String   |
-| value      | Bool     |
-| location   | Location |
-
-### Int (Inteiro)
-
-`Int` é uma estrutura que representa um literal de número inteiro signed que tem tamanho de 32 bits, ou seja um Int32. Ela é representada por:
-
-| Nome       | Tipo     |
-| --------   | -------- |
-| kind       | String   |
-| value      | Number   |
-| location   | Location |
-
-### BinaryOp (Operador Binário)
-
-Um `BinaryOp` é um enumerador que representa uma operação binária. Essas são as variantes disponiveis
-
-| Nome       | Descrição        | Exemplos que devem ser válidos                    |
-| --------   | ------------     | ------------------------------------------------- |
-| Add        | Soma             | `3 + 5 = 8`, `"a" + 2 = "a2"`, `2 + "a" = "2a"`, `"a" + "b" = "ab"` |
-| Sub        | Subtração        | `0 - 1 = -1` |
-| Mul        | Multiplicação    | `2 * 2 = 4`  |
-| Div        | Divisão          | `3 / 2 = 1`  |
-| Rem        | Resto da divisão | `4 % 2 = 0`  |
-| Eq         | Igualdade        | `"a" == "a"`, `2 == 1 + 1`, `true == true` |
-| Neq        | Diferente        | `"a" != "b"`, `3 != 1 + 1`, `true != false` |
-| Lt         | Menor            | `1 < 2` |
-| Gt         | Maior            | `2 > 3` |
-| Lte        | Menor ou igual   | `1 <= 2` | 
-| Gte        | Maior ou igual   | `1 >= 2` |
-| And        | Conjunção        | `true && false` |
-| Or         | Disjunção        | `false \|\| true` |
+| Nome      | Tipo                  |
+| --------- | --------------------- |
+| kind      | String                |
+| condition | Term                  |
+| then      | Term                  |
+| otherwise | Term                  |
+| location  | [Location](#location) |
 
 ### Binary (Operação Binária)
 
 `Binary` é uma operação binária entre dois termos sendo representada por:
 
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| lhs         | Term     |
-| op          | BinaryOp |
-| rhs         | Term     |
-| location    | Location |
-
-
-
-### Call (Aplicação de função)
-
-`Call` é uma aplicação de funçao entre um termo e varios outros termos chamados de argumentos. Essa estrutura é representada por:
-
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| callee      | Term     |
-| arguments   | [Term]   |
-| location    | Location |
-
-### Function (Função anônima)
-
-`Function` é a criação de uma função anônima que pode capturar o ambiente, ela é representada por:
-
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| parameters  | [Parameter]    |
-| value       | Term     |
-| location    | Location |
-
-Toda função quando chamada deve dar erro caso o número de parâmetros seja diferente do número de argumentos.
-
-### Print (Função de printar para o standard output)
-
-`Print` é a chamada da função de printar para o standard output. Ela é definida por:
-
-Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(true)`, `print((1, 2))`
-
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| value       | Term     |
-| location    | Location |
-
-Os valores devem ser printados como: 
-
-| Tipo    | Como deve ser printado |
-| -----   | ---------------------- |
-| String  | a string sem aspas duplas ex `a` |
-| Number  | o literal de número ex `0` |
-| Boolean | `true` ou `false` |
-| Closure | `<#closure>`    |
-| Tuple   | `(term, term)`  |
-
-### First (Função de pegar o primeiro elemento de uma tupla)
-
-`First` é uma chamada de função que pega o primeiro elemento de uma tupla. Ela é definida por:
-
-```
-first((1, 2))
-```
-
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| value       | Term     |
-| location    | Location |
-
-Quando o first for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
-
-### Second (Função de pegar o segundo elemento de uma tupla)
-
-`Second` é uma chamada de função que pega o segundo elemento de uma tupla. Ela é definida por:
-
-```
-second((1, 2))
-```
-
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| value       | Term     |
-| location    | Location |
-
-Quando o second for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
+| Nome     | Tipo                                   |
+| -------- | -------------------------------------- |
+| kind     | String                                 |
+| lhs      | Term                                   |
+| op       | [BinaryOp](#binaryop-operador-binário) |
+| rhs      | Term                                   |
+| location | [Location](#location)                  |
 
 ### Tuple (Criação de uma 2-Tuple)
 
@@ -246,31 +213,66 @@ Quando o second for chamado com algo que não é uma tupla ele deve dar um erro 
 
 Ela tem os seguintes elementos:
 
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| first       | Term     |
-| second      | Term     |
-| location    | Location |
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| first    | Term                  |
+| second   | Term                  |
+| location | [Location](#location) |
 
-### Parameter
+### First (Função de pegar o primeiro elemento de uma tupla)
 
-`Parameter` representa o nome de uma parâmetro. É definida por:
+`First` é uma chamada de função que pega o primeiro elemento de uma tupla. Ela é definida por:
 
-| Nome        | Tipo     |
-| --------    | -------- |
-| text        | String   |
-| location    | Location |
+```
+first((1, 2))
+```
 
-### Var (Nome de uma variável)
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| value    | Term                  |
+| location | [Location](#location) |
 
-`Var` representa o nome de uma variável. É definida por:
+Quando o first for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
 
-| Nome        | Tipo     |
-| --------    | -------- |
-| kind        | String   |
-| text        | String   |
-| location    | Location | 
+### Second (Função de pegar o segundo elemento de uma tupla)
+
+`Second` é uma chamada de função que pega o segundo elemento de uma tupla. Ela é definida por:
+
+```
+second((1, 2))
+```
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| value    | Term                  |
+| location | [Location](#location) |
+
+Quando o second for chamado com algo que não é uma tupla ele deve dar um erro de runtime.
+
+### Print (Função de printar para o standard output)
+
+`Print` é a chamada da função de printar para o standard output. Ela é definida por:
+
+Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(true)`, `print((1, 2))`
+
+| Nome     | Tipo                  |
+| -------- | --------------------- |
+| kind     | String                |
+| value    | Term                  |
+| location | [Location](#location) |
+
+Os valores devem ser printados como:
+
+| Tipo    | Como deve ser printado           |
+| ------- | -------------------------------- |
+| String  | a string sem aspas duplas ex `a` |
+| Number  | o literal de número ex `0`       |
+| Boolean | `true` ou `false`                |
+| Closure | `<#closure>`                     |
+| Tuple   | `(term, term)`                   |
 
 ### Term
 
