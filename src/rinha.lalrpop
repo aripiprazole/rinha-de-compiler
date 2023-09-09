@@ -2,11 +2,7 @@ use crate::ast::Element;
 use std::str::FromStr;
 use lalrpop_util::ErrorRecovery;
 
-grammar<'err, 'unique>(
-  errors: &'err mut Vec<ErrorRecovery<usize, Token<'input>, crate::parser::InnerError>>,
-  filename: &str,
-  unique: &'unique std::cell::Cell<usize>,
-);
+grammar<'err>(errors: &'err mut Vec<ErrorRecovery<usize, Token<'input>, crate::parser::InnerError>>, filename: &str);
 
 extern {
   type Location = usize;
@@ -25,7 +21,7 @@ pub File: crate::ast::File = {
   <s: @L> <expression:Term> <e: @R> => crate::ast::File {
     name: filename.to_string(),
     expression,
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   },
 };
 
@@ -42,42 +38,42 @@ Primary: crate::ast::Term = {
 
   <s: @L> "true" <e: @R> => crate::ast::Term::Bool(crate::ast::Bool {
     value: true,
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 
   <s: @L> "false" <e: @R> => crate::ast::Term::Bool(crate::ast::Bool {
     value: false,
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 
   <Reference> => crate::ast::Term::Var(<>),
   <s: @L> <value:String> <e: @R> => crate::ast::Term::Str(crate::ast::Str {
     value,
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
   <s: @L> <value:Int> <e: @R> => crate::ast::Term::Int(crate::ast::Int {
     value,
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 };
 
 Call: crate::ast::Term = {
   <s: @L> "print" "(" <value:Term> ")" <e: @R> => crate::ast::Term::Print(crate::ast::Print {
     value: Box::new(value),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
   <s: @L> "first" "(" <value:Term> ")" <e: @R> => crate::ast::Term::First(crate::ast::First {
     value: Box::new(value),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
   <s: @L> "second" "(" <value:Term> ")" <e: @R> => crate::ast::Term::Second(crate::ast::Second {
     value: Box::new(value),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
   <s: @L> <callee:Apply> "(" <arguments:Sep<",", Term>> ")" <e: @R> =>crate::ast::Term::Call(crate::ast::Call {
     callee: Box::new(callee),
     arguments,
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 };
 
@@ -103,11 +99,11 @@ Factor: crate::ast::Term = {
     crate::ast::Term::Error(crate::ast::Error {
       message: format!("unsupported record indexing `{}`", name.text),
       full_text: (&input[s..e]).to_string(),
-      location: crate::ast::Location::new(s, e, filename, &unique),
+      location: crate::ast::Location::new(s, e, filename),
     })
   },
   <s: @L> <a:Apply> <op:FactorOp> <b:Factor> <e: @R> => crate::ast::Term::Binary(crate::ast::Binary {
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
     op,
     lhs: a.into(),
     rhs: b.into(),
@@ -122,7 +118,7 @@ ArithmeticOp: crate::ast::BinaryOp = {
 Arithmetic: crate::ast::Term = {
   Factor,
   <s: @L> <a:Factor> <op:ArithmeticOp> <b:Arithmetic> <e: @R> => crate::ast::Term::Binary(crate::ast::Binary {
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
     op,
     lhs: a.into(),
     rhs: b.into(),
@@ -144,7 +140,7 @@ Logical: crate::ast::Term = {
   Arithmetic,
 
   <s: @L> <a:Arithmetic> <op:LogicalOp> <b:Logical> <e: @R> => crate::ast::Term::Binary(crate::ast::Binary {
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
     op,
     lhs: a.into(),
     rhs: b.into(),
@@ -162,7 +158,7 @@ pub Term: crate::ast::Term = {
   <s: @L> "(" <first: Term> "," <second: Term> ")" <e: @R> => crate::ast::Term::Tuple(crate::ast::Tuple {
     first: Box::new(first),
     second: Box::new(second),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 
   "{" <term: Term> "}" => term,
@@ -171,13 +167,13 @@ pub Term: crate::ast::Term = {
     name,
     value: value.into(),
     next: next.into(),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
   <s: @L> "if" "(" <condition:Term> ")" "{" <then:Term> "}" "else" "{" <otherwise:Term> "}" <e: @R> => crate::ast::Term::If(crate::ast::If {
     condition: condition.into(),
     then: then.into(),
     otherwise: otherwise.into(),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 
   <s: @L> "fn" "(" <parameters:Sep<",", Reference>> ")" "=>" <body:Term?> <e: @R> => crate::ast::Term::Function(crate::ast::Function {
@@ -190,15 +186,15 @@ pub Term: crate::ast::Term = {
             dropped_tokens: vec![],
             error: lalrpop_util::ParseError::User {
                 error: crate::parser::InnerError::FunctionBodyMissing {
-                    err_span: crate::ast::Location::new(s, e, filename, &unique).into(),
+                    err_span: crate::ast::Location::new(s, e, filename).into(),
                 }
             },
         });
 
-        crate::ast::Term::Int(crate::ast::Int { value: 0, location: crate::ast::Location::new(s, e, filename, &unique).into() }).into()
+        crate::ast::Term::Int(crate::ast::Int { value: 0, location: crate::ast::Location::new(s, e, filename).into() }).into()
       },
     },
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }),
 
   <s: @L> <error:!> <e: @R> => {
@@ -209,7 +205,7 @@ pub Term: crate::ast::Term = {
     crate::ast::Term::Error(crate::ast::Error {
       message,
       full_text: (&input[s..e]).to_string(),
-      location: crate::ast::Location::new(s, e, filename, &unique),
+      location: crate::ast::Location::new(s, e, filename),
     })
   },
 }
@@ -225,7 +221,7 @@ Text: std::string::String = {
 Reference: crate::parser::Var = {
   <s: @L> <text:Text> <e: @R> => crate::parser::Var {
     text: text.to_string(),
-    location: crate::ast::Location::new(s, e, filename, &unique),
+    location: crate::ast::Location::new(s, e, filename),
   }
 };
 
