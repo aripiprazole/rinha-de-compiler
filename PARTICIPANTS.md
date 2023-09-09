@@ -42,3 +42,5 @@
 | guitcastro | https://github.com/guitcastro/rinha-de-compiler-ex | | |
 | RRFreitas | https://github.com/RRFreitas/Rinha-Compiler | | |
 | samueldurantes | https://github.com/samueldurantes/rinha | | |
+| renatoalencar | [rinha-de-compiladores-ocaml](https://github.com/renatoalencar/rinha-de-compiladores-ocaml) | | |
+| dhilst | https://github.com/dhilst/rinhacompiler | | |
