@@ -43,6 +43,7 @@
 | RRFreitas | [Rinha-Compiler](https://github.com/RRFreitas/Rinha-Compiler) | | | | |
 | renatoalencar | [rinha-de-compiladores-ocaml](https://github.com/renatoalencar/rinha-de-compiladores-ocaml) | | | | |
 | dhilst | [rinhacompiler](https://github.com/dhilst/rinhacompiler) | | | | |
+| DiegoTeles | [rinha-de-compiler-js](https://github.com/DiegoTeles/rinha-de-compiler-js) | | JavaScript | | [My Links](https://allmylinks.com/unicorncoder)|
 
 
 **Tipos de projeto:**
