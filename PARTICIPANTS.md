@@ -12,7 +12,6 @@
 | adilsxn | [rinha-de-compiler](https://github.com/adilsxn/rinha-de-compiler) | | | | |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
 | lucasmontano | [rinha-de-compiler](https://github.com/lucasmontano/rinha-de-compiler) | | | | |
-| D4yvid | [RinhaOS](https://github.com/D4yvid/rinha-os) | | | | |
 | Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | | Python | | [Twitter](https://twitter.com/olordecoelho) [Instagram](https://instagram.com/olordecoelho)|
 | DouglasGabr | [rinha-de-compiler](https://github.com/DouglasGabr/rinha-de-compiler) | | | | |
 | milyth | [touka](https://github.com/milyth/touka) | | | | |
