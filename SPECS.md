@@ -291,3 +291,8 @@ Um termo pode ser qualquer uma das seguintes estruturas:
 - Bool
 - Tuple
 - Var
+
+# Observações
+- Não deve haver checagem de overflow.
+- Hoisting é permitido como uma forma de permitir funções recursivas no escopo global.
+- Não será testado shadowing.

@@ -13,7 +13,7 @@
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
 | lucasmontano | [rinha-de-compiler](https://github.com/lucasmontano/rinha-de-compiler) | | | | |
 | D4yvid | [compiler-rinha](https://github.com/D4yvid/compiler-rinha) | | | | |
-| Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | | | | |
+| Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | | Python | | [Twitter](https://twitter.com/olordecoelho) [Instagram](https://instagram.com/olordecoelho)|
 | DouglasGabr | [rinha-de-compiler](https://github.com/DouglasGabr/rinha-de-compiler) | | | | |
 | milyth | [touka](https://github.com/milyth/touka) | | | | |
 | italo | [rinha-compiler](https://github.com/ZyllDev/rinha-compiler) | | | | |
@@ -49,6 +49,8 @@
 | samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
 | leodhb | [rinha-twi-ruby](https://github.com/leodhb/rinha-twi-ruby) | Tentando fazer recursão funcionar 🙂 | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
 | Ytu | [rinha-de-compiladores](https://github.com/eletroswing/rinha-de-compiler) | Pensando no projeto | javascript | | |
+| FabioSeixas | [rinha-de-compilers](https://github.com/FabioSeixas/rinha-de-compiler) |  | Rust | | |
+| giancarlopro | [rinha-de-compiler](https://github.com/giancarlopro/rinha-de-compiler) | Funcionando! (eu acho) | C || [@giancarlo_py](https://twitter.com/giancarlo_py) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
