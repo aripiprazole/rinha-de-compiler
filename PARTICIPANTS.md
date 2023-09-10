@@ -1,7 +1,7 @@
 # Participantes
 
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
-|:-------------|:------------|:------:|:----------|:----------------|:--------------|
+|:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | | | |
 | henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
@@ -21,7 +21,7 @@
 | andrecoelho | [rinha-interpreter-app](https://github.com/andrecoelhoa/rinha-interpreter-app) | | | | |
 | Emanuel Júnior | [rinha-de-compiler](https://github.com/VetusScientia/rinha-de-compiler) | | | | |
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | | | |
-| rwillians_ | [rinha-de-compiladores--gambi-elixir](https://github.com/rwillians/rinha-de-compiladores--gambi-elixir) | | | | |
+| rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination | 🔮 Elixir | Source-to-Source Transcompiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | | | |
 | BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | | | |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | | | |
@@ -56,5 +56,6 @@
 | Nome                       | Descrição / Link para recursos explicando       |
 |:---------------------------|:------------------------------------------------|
 | Tree-walking Interpretador | `n/a`                                           |
+| Source-to-Source Transcompiler | [Link](https://en.wikipedia.org/wiki/Source-to-source_compiler) |
 
 _(Caso seu tipo de projeto não esteja nessa tabela, por favor adicione.)_
