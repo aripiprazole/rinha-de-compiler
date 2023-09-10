@@ -48,6 +48,7 @@
 | Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | | Fsharp | | [My Links](https://allmylinks.com/aleffmds)|
 | samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
 | leodhb | [rinha-twi-ruby](https://github.com/leodhb/rinha-twi-ruby) | Tentando fazer recursão funcionar 🙂 | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
+| giancarlopro | [rinha-de-compiler](https://github.com/giancarlopro/rinha-de-compiler) | Funcionando! (eu acho) | C || [@giancarlo_py](https://twitter.com/giancarlo_py) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
