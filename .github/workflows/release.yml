@@ -1,0 +1,118 @@
+name: Release
+on:
+  push:
+    tags:
+      - "v*"
+
+env:
+  RUST_BACKTRACE: full
+
+jobs:
+  release:
+    name: Create release
+    permissions: write-all
+    runs-on: ubuntu-latest
+    outputs:
+      release_upload_url: ${{ steps.create_release.outputs.upload_url }}
+      release_version: ${{ steps.get_version.outputs.version }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get release version
+        id: get_version
+        uses: battila7/get-version-action@v2
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.get_version.outputs.version }}
+          release_name: Release ${{ steps.get_version.outputs.version }}
+          draft: true
+          prerelease: false
+
+  build-unix:
+    name: Build ${{ matrix.job.os }} (${{ matrix.job.target }})
+    permissions: write-all
+    runs-on: ${{ matrix.job.os }}
+    needs: release
+    strategy:
+      fail-fast: false
+      matrix:
+        job:
+          - { os: ubuntu-latest, name: linux-i686, target: i686-unknown-linux-gnu, use-cross: true }
+          - { os: ubuntu-latest, name: linux-x86_64, target: x86_64-unknown-linux-gnu }
+          - { os: macos-latest, name: darwin-x86_64, target: x86_64-apple-darwin }
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+          target: ${{ matrix.job.target }}
+
+      - name: Build
+        uses: actions-rs/cargo@v1
+        with:
+          use-cross: ${{ matrix.job.use-cross }}
+          command: build
+          args: --release --locked --package rinha --target=${{ matrix.job.target }}
+
+      - name: Strip debug information
+        run: strip target/${{ matrix.job.target }}/release/rinha
+
+      - name: Archive
+        run: tar czf rinha-${{ needs.release.outputs.release_version }}-${{ matrix.job.name }}.tar.gz -C target/${{ matrix.job.target }}/release rinha
+
+      - name: Upload release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.release.outputs.release_upload_url }}
+          asset_path: rinha-${{ needs.release.outputs.release_version }}-${{ matrix.job.name }}.tar.gz
+          asset_name: rinha-${{ needs.release.outputs.release_version }}-${{ matrix.job.name }}.tar.gz
+          asset_content_type: application/octet-stream
+
+  build-win:
+    name: Build Windows (${{ matrix.job.target }})
+    permissions: write-all
+    runs-on: windows-latest
+    needs: release
+    strategy:
+      fail-fast: false
+      matrix:
+        job:
+          - { os: windows-latest, name: windows-i686, target: i686-pc-windows-msvc }
+          - { os: windows-latest, name: windows-x86_64, target: x86_64-pc-windows-msvc }
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+          target: ${{ matrix.job.target }}
+
+      - uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --release --locked --package rinha --target=${{ matrix.job.target }}
+
+      - name: Archive
+        run: 7z -y a rinha-${{ needs.release.outputs.release_version }}-${{ matrix.job.name }}.exe.zip target/${{ matrix.job.target }}/release/rinha.exe
+
+      - name: Upload release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.release.outputs.release_upload_url }}
+          asset_path: rinha-${{ needs.release.outputs.release_version }}-${{ matrix.job.name }}.exe.zip
+          asset_name: rinha-${{ needs.release.outputs.release_version }}-${{ matrix.job.name }}.exe.zip
+          asset_content_type: application/zip
