@@ -268,7 +268,7 @@ Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(tr
 | value    | Term                  |
 | location | [Location](#location) |
 
-Os valores devem ser printados como:
+Os valores devem ser impressos como:
 
 | Tipo    | Como deve ser printado           |
 | ------- | -------------------------------- |
