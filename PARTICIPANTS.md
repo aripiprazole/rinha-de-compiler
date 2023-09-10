@@ -50,6 +50,7 @@
 | Ytu | [rinha-de-compiladores](https://github.com/eletroswing/rinha-de-compiler) | Pensando no projeto | javascript | | |
 | FabioSeixas | [rinha-de-compilers](https://github.com/FabioSeixas/rinha-de-compiler) |  | Rust | | |
 | giancarlopro | [rinha-de-compiler](https://github.com/giancarlopro/rinha-de-compiler) | Funcionando! (eu acho) | C || [@giancarlo_py](https://twitter.com/giancarlo_py) |
+| lucaspacheco | [rinha-de-compiler-csharp](https://github.com/lucaspsilveira/rinha-de-compiler-csharp) | Em desenvolvimento | CSharp || [@lucaspsilveiras](https://twitter.com/lucaspsilveiras) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
