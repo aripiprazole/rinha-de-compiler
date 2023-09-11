@@ -50,6 +50,7 @@
 | Ytu | [rinha-de-compiladores](https://github.com/eletroswing/rinha-de-compiler) | Pensando no projeto | javascript | | |
 | FabioSeixas | [rinha-de-compilers](https://github.com/FabioSeixas/rinha-de-compiler) |  | Rust | | |
 | giancarlopro | [rinha-de-compiler](https://github.com/giancarlopro/rinha-de-compiler) | Funcionando! (eu acho) | C || [@giancarlo_py](https://twitter.com/giancarlo_py) |
+| lucaspacheco | [rinha-de-compiler-csharp](https://github.com/lucaspsilveira/rinha-de-compiler-csharp) | Em desenvolvimento | CSharp || [@lucaspsilveiras](https://twitter.com/lucaspsilveiras) |
 | GCdePaula | [rinha-luajit-rs](https://github.com/GCdePaula/rinha-luajit-rs) | Done! | Rust | Source-to-Source Compiler | [Twitter](https://twitter.com/GCdePaula_) [Webpage](https://www.gcdepaula.com) |
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
