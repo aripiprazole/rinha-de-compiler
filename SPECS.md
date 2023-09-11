@@ -161,7 +161,7 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | And  | Conjunção        | `true && false`                                                     |
 | Or   | Disjunção        | `false \|\| true`                                                   |
 
-Nenhuma operação deve ter checagem de overflow.
+Overflow não será testado.
 
 ### Bool (Booleano)
 
