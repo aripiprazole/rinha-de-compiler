@@ -30,7 +30,7 @@
 | Yazalde Filimone | [rinha-compiler](https://github.com/yazaldefilimonepinto/rinha-compiler) | | | | |
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | | | |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
-| dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | | | | |
+| dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
@@ -56,5 +56,6 @@
 |:---------------------------|:------------------------------------------------|
 | Tree-walking Interpretador | `n/a`                                           |
 | Source-to-Source Transcompiler | [Link](https://en.wikipedia.org/wiki/Source-to-source_compiler) |
+| Bytecode Interpreter       | [Link](https://rust-hosted-langs.github.io/book/chapter-interp-bytecode.html) |
 
 _(Caso seu tipo de projeto não esteja nessa tabela, por favor adicione.)_
