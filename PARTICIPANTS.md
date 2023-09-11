@@ -55,6 +55,7 @@
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
 | fagundesraphael | [rinha-de-compiladores](https://github.com/fagundesraphael/rinha-de-compiladores) | Em aprendizado | [@nuncaestou](https://twitter.com/nuncaestou) |
+| Ronaldo3030 | [rinha-de-compiladores-js](https://github.com/Ronaldo3030/rinha-de-compiler-js) | aprendendo mais sobre compilação | Javascript | | [@Juninhojucasido](https://twitter.com/Juninhojucasido) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
