@@ -55,6 +55,7 @@
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
 | fagundesraphael | [rinha-de-compiladores](https://github.com/fagundesraphael/rinha-de-compiladores) | Em aprendizado | [@nuncaestou](https://twitter.com/nuncaestou) |
+| celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | Em desenvolvimento | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
