@@ -34,7 +34,7 @@
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
-| fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) | | | | |
+| fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
 | fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | | | | |
 | dgomesma | [vladpiler](https://github.com/dgomesma/vladpiler) | | | | |
 | Braayy | [binha](https://github.com/Braayy/binha) | | | | |
