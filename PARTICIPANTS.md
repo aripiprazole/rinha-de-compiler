@@ -55,6 +55,7 @@
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
 | fagundesraphael | [rinha-de-compiladores](https://github.com/fagundesraphael/rinha-de-compiladores) | Em aprendizado | [@nuncaestou](https://twitter.com/nuncaestou) |
+| BertBR | [rinha-de-compiler](https://github.com/BertBR/rinha-de-compiler) | WIP | Golang | Source-to-Source | [Reach me!](https://github.com/BertBR)
 | autistadev | [rinha-de-compiler](https://github.com/autistadev/rinha-de-compiler) | | | | |
 | breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Só faz fibonacci e prints | Javascript | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
 | FlavioNevs | [rinha-de-compiler](https://github.com/FlavioNevs/rinha-de-compiler) | Uma hora vai... | Rust | | [@nevs.dev](https://www.instagram.com/nevs.dev/) |
