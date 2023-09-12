@@ -18,13 +18,13 @@
 | italo | [rinha-compiler](https://github.com/ZyllDev/rinha-compiler) | | | | |
 | astahjmo e niumxp | [rinha-de-compiler](https://github.com/astahjmo/rinha-de-compiler) | | | | |
 | andrecoelho | [rinha-interpreter-app](https://github.com/andrecoelhoa/rinha-interpreter-app) | | | | |
-| Emanuel Júnior | [rinha-interpreter-py](https://github.com/VetusScientia/rinha-interpreter-py) | Até o momento, está funcional | 🐍 Python | Tree-walking interpreter | [My Links](https://allmylinks.com/vetusscientia) |
+| Emanuel Júnior | [rinha-de-compiler](https://github.com/VetusScientia/rinha-de-compiler) | | | | |
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | | | |
 | rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination | 🔮 Elixir | Source-to-Source Compiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | | | |
 | BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | | | |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | | | |
-| mr-soulfox | [rinha-de-compiladores-cpp](https://github.com/mr-soulfox/rinha-de-compiladores-cpp) | | | | |
+| mr-soulfox | [rinha-de-compiladores-cpp](https://github.com/mr-soulfox/soulrinha) | Em planejamento | C++ | Tree-walking Interpreter | [My Links](https://bio.link/soulfox) | 
 | Crazynds | [rinha-compiler](https://github.com/crazynds/rinha-compiler) | | | | |
 | reonardoleis | [nargas](https://github.com/reonardoleis/nargas) | | | | |
 | Yazalde Filimone | [rinha-compiler](https://github.com/yazaldefilimonepinto/rinha-compiler) | | | | |
@@ -55,29 +55,11 @@
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
 | fagundesraphael | [rinha-de-compiladores](https://github.com/fagundesraphael/rinha-de-compiladores) | Em aprendizado | [@nuncaestou](https://twitter.com/nuncaestou) |
-| danielhoffmanno  | [rinha-de-compiler](https://github.com/danielhoffmanno/rinha-de-compiler) | Em desenvolvimento | CSharp || [@Linkedin](https://www.linkedin.com/in/daniel-hoffmann-bonicio/)|
-| matheusBBarni | [rinha-compiler](https://github.com/MatheusBBarni/rinha-compiler) | Começando/Aprendendo | Rescript | | [@matheusBBarni](https://twitter.com/matheusBBarni) |
-| luizzuchinali | [rinha-compiler](https://github.com/luizzuchinali/rinha-compiler) | | C# | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/l-zuchinali/) |
-| pandrre | [irinha-bun](https://github.com/pandrRe/irinha-bun) | Typescript | Very dumb | [@pandrre](https://twitter.com/pandrre) | |
-| iaZe | [rinha-compiladores](https://github.com/iaZe/rinha-compiladores) | Estudando | 🌑 Lua | | [Twitter](https://twitter.com/nieltvrs) [Instagram](https://www.instagram.com/nieltvrs/)
-| maxwellmonteiro | [rinha-compiladores](https://github.com/maxwellmonteiro/rinha-compiladores) | Em aprendizado | C | | |
-| daviprios | [rinha-de-compiler](https://github.com/daviprios/rinha-de-compiler) | ✅ | TS (bun) | Tree-walk Interpreter | |
-| lurodrigo | [rinha-comp](https://github.com/lurodrigo/rinha_comp) | Completo (rodando os três exemplos) | Elixir | Source-to-Source Compiler | [@metapraxe](https://twitter.com/metapraxe)
-| BertBR | [rinha-de-compiler](https://github.com/BertBR/rinha-de-compiler) | WIP | Golang | Source-to-Source | [Reach me!](https://github.com/BertBR)
-| autistadev | [rinha-de-compiler](https://github.com/autistadev/rinha-de-compiler) | | | | |
-| breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Só faz fibonacci e prints | Javascript | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
-| FlavioNevs | [rinha-de-compiler](https://github.com/FlavioNevs/rinha-de-compiler) | Uma hora vai... | Rust | | [@nevs.dev](https://www.instagram.com/nevs.dev/) |
-| FlorSousa | [powershell](https://github.com/FlorSousa/powershell) | | C |
-| fernando oliveira | [rinha-de-compiler](https://github.com/brouklins/rinha-de-compiler) | | Java | | |
-| Alessandro Lima | [rinha-de-compiladores](https://github.com/alexZ7000/rinha-de-compiladores) | Pelo conhecimento🧠 |Python🐍  |  | [@ale_lima_filho](https://www.instagram.com/ale_lima_filho/) |
-| Ronaldo3030 | [rinha-de-compiladores-js](https://github.com/Ronaldo3030/rinha-de-compiler-js) | aprendendo mais sobre compilação | Javascript | | [@Juninhojucasido](https://twitter.com/Juninhojucasido) |
-| celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | Em desenvolvimento | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
-| tiagosalem | [garbash](https://github.com/tiagosh/garbash) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Bash | Interpreter | 𝕏 [@tiagosh](https://twitter.com/tiagosh) ▶️[@tiagosalem](https://www.youtube.com/TiagoSalem) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
 |:---------------------------|:------------------------------------------------|
-| Tree-walking Interpretador | `n/a` |
+| Tree-walking Interpretador | [Link](https://craftinginterpreters.com/a-tree-walk-interpreter.html) |
 | Source-to-Source Compiler  | [Link](https://en.wikipedia.org/wiki/Source-to-source_compiler) |
 | Bytecode Interpreter       | [Link](https://rust-hosted-langs.github.io/book/chapter-interp-bytecode.html) |
 
