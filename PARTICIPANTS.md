@@ -3,7 +3,11 @@
 <!--
     FontAwesome logos
 
+    FontAwesome on GitHub flavored markdown: https://stackoverflow.com/a/62579225/946814
+    -- De acordo com essa resposta, não é possível adicionar style no Markdown do GitHub.
+    
     How to add FontAwesome icons in Github Markdown: https://stackoverflow.com/a/63914025/946814
+    -- Sugere usar os ícones do FontAwesome hosteados no próprio Github abaixo.
 
     GitHub: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-github.svg
     LinkedIn: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-linkedin.svg
@@ -45,7 +49,7 @@
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | | | |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
-| brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [![Mastodon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg)](https://mastodon.social/@bkim) [![Twitter](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg)](https://twitter.com/brunokim_mc) |
+| brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | <a href="https://mastodon.social/@bkim"><img alt="Mastodon" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="25" height="25"></a> <a href="https://twitter.com/brunokim_mc"><img alt="Twitter" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg" width="25" height="25"></a> |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
 | fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
