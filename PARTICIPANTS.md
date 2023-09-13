@@ -1,5 +1,19 @@
 # Participantes
 
+<!--
+    FontAwesome logos
+
+    How to add FontAwesome icons in Github Markdown: https://stackoverflow.com/a/63914025/946814
+
+    GitHub: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-github.svg
+    LinkedIn: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-linkedin.svg
+    Instagram: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-instagram.svg
+    Twitter: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg
+    X/Twitter: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-x-twitter.svg
+    Mastodon: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg
+    YouTube: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-youtube.svg
+-->
+
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
 |:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
@@ -31,7 +45,7 @@
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | | | |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
-| brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
+| brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [![Mastodon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg)](https://mastodon.social/@bkim) [![Twitter](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg)](https://twitter.com/brunokim_mc) |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
 | fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
