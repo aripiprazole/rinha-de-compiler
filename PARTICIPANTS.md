@@ -21,7 +21,7 @@
 | andrecoelho | [rinha-interpreter-app](https://github.com/andrecoelhoa/rinha-interpreter-app) | | | | |
 | Emanuel Júnior | [rinha-interpreter-py](https://github.com/VetusScientia/rinha-interpreter-py) | Até o momento, está funcional | 🐍 Python | Tree-walking interpreter | [My Links](https://allmylinks.com/vetusscientia) |
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | | | |
-| rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination | 🔮 Elixir | Source-to-Source Compiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
+| rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination <br/> ✅ sum | 🔮 Elixir | Source-to-Source Transcompiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | | | |
 | BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | | | |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | | | |
