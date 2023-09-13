@@ -75,6 +75,7 @@
 | Ronaldo3030 | [rinha-de-compiladores-js](https://github.com/Ronaldo3030/rinha-de-compiler-js) | aprendendo mais sobre compilação | Javascript | | [@Juninhojucasido](https://twitter.com/Juninhojucasido) |
 | celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | Em desenvolvimento | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
 | tiagosalem | [garbash](https://github.com/tiagosh/garbash) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Bash | Interpreter | 𝕏 [@tiagosh](https://twitter.com/tiagosh) ▶️[@tiagosalem](https://www.youtube.com/TiagoSalem) |
+| Danfs | [Betta](https://github.com/Danfs64/rinha_de_compilers) | fib(10) deu -80, logo: bugado | TypeScript | Tree-Walking Intepreter | Eca, redes sociais |
 | Pr3d4dor | [rinha-de-compiler-php](https://github.com/Pr3d4dor/rinha-de-compiler-php) | Finalizado | PHP | Tree-walk Interpreter | [@GianlucaBine](https://twitter.com/GianlucaBine) |
 | jhonnk | [rinha-compiler](https://github.com/JhonnK08/rinha-compiler) | Em desenvolvimento | Javascript | Tree-walking interpreter | [Instagram](https://www.instagram.com/jhonnkonopp/) [LinkedIn](https://www.linkedin.com/in/jhonatan-konopp) |
 | LucasVeloz | [transpiler-js](https://github.com/LucasVeloz/transpiler-js) | ✅ binary <br/> ✅ var <br/> ✅ let | JS | Tree-walking Interpretador |  [instagram](https://www.instagram.com/lucasveloz.dev/) <br/> [youtube](https://www.youtube.com/@LucasVelozDev) <br/> [x](https://twitter.com/lucasvelozdev) |
