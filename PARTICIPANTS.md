@@ -2,6 +2,7 @@
 
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
 |:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
+| erik guizao | [Rinha-de-Compiler](https://github.com/GuiHenriques/Rinha-de-Compiler) | Pensando... 🧠 | C++ | | |
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | | | |
 | henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
@@ -30,6 +31,7 @@
 | Yazalde Filimone | [rinha-compiler](https://github.com/yazaldefilimonepinto/rinha-compiler) | | | | |
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | | | |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
+| gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | Em desenvolvimento | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
@@ -44,7 +46,7 @@
 | dhilst | [rinhacompiler](https://github.com/dhilst/rinhacompiler) | | | | |
 | DiegoTeles | [rinha-de-compiler-js](https://github.com/DiegoTeles/rinha-de-compiler-js) | | JavaScript | | [My Links](https://allmylinks.com/unicorncoder)|
 | antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | C# | | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
-| Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | | Fsharp | | [My Links](https://allmylinks.com/aleffmds)|
+| Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | ✅ fib <br/> ✅ combination <br/> ✅ sum | F# | | [My Links](https://allmylinks.com/aleffmds)|
 | samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
 | leodhb | [rinha-twi-ruby](https://github.com/leodhb/rinha-twi-ruby) | Tentando fazer recursão funcionar 🙂 | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
 | Ytu | [rinha-de-compiladores](https://github.com/eletroswing/rinha-de-compiler) | Pensando no projeto | javascript | | |
@@ -74,6 +76,9 @@
 | celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | Em desenvolvimento | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
 | tiagosalem | [garbash](https://github.com/tiagosh/garbash) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Bash | Interpreter | 𝕏 [@tiagosh](https://twitter.com/tiagosh) ▶️[@tiagosalem](https://www.youtube.com/TiagoSalem) |
 | jhonnk | [rinha-compiler](https://github.com/JhonnK08/rinha-compiler) | Em desenvolvimento | Javascript | Tree-walking interpreter | [Instagram](https://www.instagram.com/jhonnkonopp/) [LinkedIn](https://www.linkedin.com/in/jhonatan-konopp) |
+| LucasVeloz | [transpiler-js](https://github.com/LucasVeloz/transpiler-js) | ✅ binary <br/> ✅ var <br/> ✅ let | JS | Tree-walking Interpretador |  [instagram](https://www.instagram.com/lucasveloz.dev/) <br/> [youtube](https://www.youtube.com/@LucasVelozDev) <br/> [x](https://twitter.com/lucasvelozdev) |
+| Guilherme Melo | [rinha-de-compiler-csharp](https://github.com/gldmelo/rinha-de-compiler-csharp) | just4fun | C# | Tree-walking Interpreter	| Twitter: [@gldmelo](https://twitter.com/gldmelo)  |
+| João Vitor | [rinha-de-compiler](https://github.com/Jottinha/rinha-de-compiler) | Estudando | Java | | |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
