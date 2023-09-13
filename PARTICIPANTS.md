@@ -67,7 +67,7 @@
 | lurodrigo | [rinha-comp](https://github.com/lurodrigo/rinha_comp) | Completo (rodando os três exemplos) | Elixir | Source-to-Source Compiler | [@metapraxe](https://twitter.com/metapraxe)
 | BertBR | [rinha-de-compiler](https://github.com/BertBR/rinha-de-compiler) | WIP | Golang | Source-to-Source | [Reach me!](https://github.com/BertBR)
 | autistadev | [rinha-de-compiler](https://github.com/autistadev/rinha-de-compiler) | | | | |
-| breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Só faz fibonacci e prints | Javascript | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
+| breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Passando em todos os testes | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
 | FlavioNevs | [rinha-de-compiler](https://github.com/FlavioNevs/rinha-de-compiler) | Uma hora vai... | Rust | | [@nevs.dev](https://www.instagram.com/nevs.dev/) |
 | FlorSousa | [powershell](https://github.com/FlorSousa/powershell) | | C |
 | fernando oliveira | [rinha-de-compiler](https://github.com/brouklins/rinha-de-compiler) | | Java | | |
