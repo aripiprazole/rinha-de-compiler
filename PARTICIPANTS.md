@@ -81,6 +81,7 @@
 | LucasVeloz | [transpiler-js](https://github.com/LucasVeloz/transpiler-js) | ✅ binary <br/> ✅ var <br/> ✅ let | JS | Tree-walking Interpretador |  [instagram](https://www.instagram.com/lucasveloz.dev/) <br/> [youtube](https://www.youtube.com/@LucasVelozDev) <br/> [x](https://twitter.com/lucasvelozdev) |
 | Guilherme Melo | [rinha-de-compiler-csharp](https://github.com/gldmelo/rinha-de-compiler-csharp) | just4fun | C# | Tree-walking Interpreter	| Twitter: [@gldmelo](https://twitter.com/gldmelo)  |
 | João Vitor | [rinha-de-compiler](https://github.com/Jottinha/rinha-de-compiler) | Estudando | Java | | |
+| datsfilipe | [rinha-de-compiler](https://github.com/datsfilipe/rinha-de-compiler) | Done! | TypeScript | Tree-Walking Intepreter | [links aqui](https://datsfilipe.dev) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
