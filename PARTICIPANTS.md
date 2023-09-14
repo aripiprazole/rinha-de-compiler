@@ -93,6 +93,7 @@
 | thebe111 | [interpreter](https://github.com/thebe111/interpreter) | unknown | Rust | Tree-walking Interpretador | [LinkedIn](https://www.linkedin.com/in/profile-gabriel-fonseca/) |
 | Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | Faltando Docker | C++ | Tree-Walking Interpreter | |
 | Kadu | [rinha-de-compiladores](https://github.com/Kadu-H/rinha-de-compiladores) | Estudando | JavaScript | Tree-Walking Interpreter | [`@kadux.07`](https://www.instagram.com/kadux.07/) |
+| Balmanth | [rinha-compiler](https://github.com/balmanth/rinha-compiler) | Desafiando [XCHEME](https://github.com/balmanth/xcheme) | AOT WASM | Tree-Walking Interpreter | [LinkedIn](https://www.linkedin.com/in/balmanth/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
