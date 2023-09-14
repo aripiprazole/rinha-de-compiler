@@ -278,6 +278,17 @@ Os valores devem ser impressos como:
 | Closure | `<#closure>`                     |
 | Tuple   | `(term, term)`                   |
 
+`Print` retorna o valor que foi passado. A saída adiciona ao final um caractere de nova linha (LF - 0x0A).
+
+Em termos compostos, chamadas a `Print` devem ocorrer na ordem em que aparecem na AST. Por exemplo:
+
+| Código | Como deve ser printado (`\n` é o caractere LF) |
+| ------ | -----------------------------------------------|
+| `let _ = print(1); print(2)` | `1\n2\n` |
+| `f(print(1), print(2), print(3))` | `1\n2\n3\n` |
+| `let tuple = (print(1), print(2)); print(tuple)` | `1\n2\n(1, 2)\n` |
+| `print(print(1) + print(2))` | `1\n2\n3\n` |
+
 ### Term
 
 Um termo pode ser qualquer uma das seguintes estruturas:
