@@ -69,7 +69,7 @@
 | breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Passando em todos os testes | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
 | FlavioNevs | [rinha-de-compiler](https://github.com/FlavioNevs/rinha-de-compiler) | Uma hora vai... | Rust | | [@nevs.dev](https://www.instagram.com/nevs.dev/) |
 | FlorSousa | [powershell](https://github.com/FlorSousa/powershell) | | C |
-| fernando oliveira | [rinha-de-compiler](https://github.com/brouklins/rinha-de-compiler) | | Java | | |
+| fernando oliveira | [rinha-de-compiler](https://github.com/brouklins/rinha-de-compiler) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Java | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/fernando-oliveira-a2abb3211/) |
 | Alessandro Lima | [rinha-de-compiladores](https://github.com/alexZ7000/rinha-de-compiladores) | Pelo conhecimento🧠 |Python🐍  |  | [@ale_lima_filho](https://www.instagram.com/ale_lima_filho/) |
 | Ronaldo3030 | [rinha-de-compiladores-js](https://github.com/Ronaldo3030/rinha-de-compiler-js) | aprendendo mais sobre compilação | Javascript | | [@Juninhojucasido](https://twitter.com/Juninhojucasido) |
 | celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | Em desenvolvimento | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
