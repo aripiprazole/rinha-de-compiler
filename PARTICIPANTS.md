@@ -88,6 +88,7 @@
 | Teles | [rinhac](https://github.com/sixels/rinhac) | Desenvolvimento inicial | Rust | Ahead-of-time Compiler | |
 | carlinhos | [bunito](https://github.com/kalogs-c/bunito) | | TypeScript (Bun) | | |
 | Valmor Flores | [intR64](https://github.com/valmorflores/intR64) | v1.0 | Flutter | | [Github](https://github.com/valmorflores/) |
+| Natã Estanislau | [intR64](https://github.com/nataneb32/rinha-de-compiler-bytecode) |  | C | Source -> Bytecode -> VM | [Github](https://github.com/nataneb32) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
