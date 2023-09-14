@@ -90,6 +90,7 @@
 | Valmor Flores | [intR64](https://github.com/valmorflores/intR64) | v1.0 | Flutter | | [Github](https://github.com/valmorflores/) |
 | Natã Estanislau | [rinha-de-compiler-bytecode](https://github.com/nataneb32/rinha-de-compiler-bytecode) |  | C | Source -> Bytecode -> VM | [Github](https://github.com/nataneb32) |
 | thebe111 | [interpreter](https://github.com/thebe111/interpreter) | unknown | Rust | Tree-walking Interpretador | [LinkedIn](https://www.linkedin.com/in/profile-gabriel-fonseca/) |
+| Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | Faltando Docker | C++ | Tree-Walking Interpreter | |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
