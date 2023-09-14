@@ -8,7 +8,7 @@
 | henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
 | edusporto | [rinha-compilador](https://github.com/edusporto/rinha-compilador) | | | | |
 | losty17 | [rinha-de-compiler](https://github.com/Losty17/rinha-de-compiler) | | | | |
-| rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | | | | |
+| rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
 | ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | | | | |
 | adilsxn | [rinha-de-compiler](https://github.com/adilsxn/rinha-de-compiler) | | | | |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
@@ -21,14 +21,13 @@
 | andrecoelho | [rinha-interpreter-app](https://github.com/andrecoelhoa/rinha-interpreter-app) | | | | |
 | Emanuel Júnior | [rinha-interpreter-py](https://github.com/VetusScientia/rinha-interpreter-py) | Até o momento, está funcional | 🐍 Python | Tree-walking interpreter | [My Links](https://allmylinks.com/vetusscientia) |
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | | | |
-| rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination | 🔮 Elixir | Source-to-Source Compiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
+| rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination <br/> ✅ sum | 🔮 Elixir | Source-to-Source Transcompiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | | | |
 | BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | | | |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | | | |
 | mr-soulfox | [rinha-de-compiladores-cpp](https://github.com/mr-soulfox/rinha-de-compiladores-cpp) | | | | |
 | Crazynds | [rinha-compiler](https://github.com/crazynds/rinha-compiler) | | | | |
 | reonardoleis | [nargas](https://github.com/reonardoleis/nargas) | | | | |
-| Yazalde Filimone | [rinha-compiler](https://github.com/yazaldefilimonepinto/rinha-compiler) | | | | |
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | Rust | Tree-walking interpreter | [IG](https://www.instagram.com/pedro_fnseca/) |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
 | gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | Em desenvolvimento | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
@@ -67,7 +66,7 @@
 | lurodrigo | [rinha-comp](https://github.com/lurodrigo/rinha_comp) | Completo (rodando os três exemplos) | Elixir | Source-to-Source Compiler | [@metapraxe](https://twitter.com/metapraxe)
 | BertBR | [rinha-de-compiler](https://github.com/BertBR/rinha-de-compiler) | WIP | Golang | Source-to-Source | [Reach me!](https://github.com/BertBR)
 | autistadev | [rinha-de-compiler](https://github.com/autistadev/rinha-de-compiler) | | | | |
-| breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Só faz fibonacci e prints | Javascript | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
+| breno5g | [rinha-de-compilers](https://github.com/breno5g/rinha-de-compilers) | Passando em todos os testes | Tree-walking Interpreter | [@breno5g](https://github.com/breno5g) |
 | FlavioNevs | [rinha-de-compiler](https://github.com/FlavioNevs/rinha-de-compiler) | Uma hora vai... | Rust | | [@nevs.dev](https://www.instagram.com/nevs.dev/) |
 | FlorSousa | [powershell](https://github.com/FlorSousa/powershell) | | C |
 | fernando oliveira | [rinha-de-compiler](https://github.com/brouklins/rinha-de-compiler) | | Java | | |
@@ -81,6 +80,13 @@
 | LucasVeloz | [transpiler-js](https://github.com/LucasVeloz/transpiler-js) | ✅ binary <br/> ✅ var <br/> ✅ let | JS | Tree-walking Interpretador |  [instagram](https://www.instagram.com/lucasveloz.dev/) <br/> [youtube](https://www.youtube.com/@LucasVelozDev) <br/> [x](https://twitter.com/lucasvelozdev) |
 | Guilherme Melo | [rinha-de-compiler-csharp](https://github.com/gldmelo/rinha-de-compiler-csharp) | just4fun | C# | Tree-walking Interpreter	| Twitter: [@gldmelo](https://twitter.com/gldmelo)  |
 | João Vitor | [rinha-de-compiler](https://github.com/Jottinha/rinha-de-compiler) | Estudando | Java | | |
+| joaomarcosbc | [rinha-compiler-go](https://github.com/joaomarcosbc/rinha-compiler-go) | Studying... | Golang | | |
+| Yago Crispim | [rinha-compiler](https://github.com/YagoCrispim/rinha-de-compiler-lua) | WIP | Lua | Tree-walking interpreter | [Twitter](https://twitter.com/yagocrs_) [LinkedIn](https://www.linkedin.com/in/yagocrispim/) |
+| fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Work in progress | C | Bytecode Interpreter | |
+| datsfilipe | [rinha-de-compiler](https://github.com/datsfilipe/rinha-de-compiler) | Done! | TypeScript | Tree-Walking Intepreter | [links aqui](https://datsfilipe.dev) |
+| Teles | [rinhac](https://github.com/sixels/rinhac) | Desenvolvimento inicial | Rust | Ahead-of-time Compiler | |
+| carlinhos | [bunito](https://github.com/kalogs-c/bunito) | | TypeScript (Bun) | | |
+| Valmor Flores | [intR64](https://github.com/valmorflores/intR64) | v1.0 | Flutter | | [Github](https://github.com/valmorflores/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
@@ -88,5 +94,6 @@
 | Tree-walking Interpretador | `n/a` |
 | Source-to-Source Compiler  | [Link](https://en.wikipedia.org/wiki/Source-to-source_compiler) |
 | Bytecode Interpreter       | [Link](https://rust-hosted-langs.github.io/book/chapter-interp-bytecode.html) |
+| Ahead-of-time Compiler     | [Link](https://en.wikipedia.org/wiki/Ahead-of-time_compilation) |
 
 _(Caso seu tipo de projeto não esteja nessa tabela, por favor adicione.)_
