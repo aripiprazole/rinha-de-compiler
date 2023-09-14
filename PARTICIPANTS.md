@@ -90,6 +90,7 @@
 | Valmor Flores | [intR64](https://github.com/valmorflores/intR64) | v1.0 | Flutter | | [Github](https://github.com/valmorflores/) |
 | Natã Estanislau | [rinha-de-compiler-bytecode](https://github.com/nataneb32/rinha-de-compiler-bytecode) |  | C | Source -> Bytecode -> VM | [Github](https://github.com/nataneb32) |
 | Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | Faltando Docker | C++ | Tree-Walking Interpreter | |
+| Kadu | [rinha-de-compiladores](https://github.com/Kadu-H/rinha-de-compiladores) | Estudando | JavaScript | Tree-Walking Interpreter | [`@kadux.07`](https://www.instagram.com/kadux.07/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
