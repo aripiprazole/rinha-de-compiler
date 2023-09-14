@@ -8,7 +8,7 @@
 | henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
 | edusporto | [rinha-compilador](https://github.com/edusporto/rinha-compilador) | | | | |
 | losty17 | [rinha-de-compiler](https://github.com/Losty17/rinha-de-compiler) | | | | |
-| rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | | | | |
+| rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
 | ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | | | | |
 | adilsxn | [rinha-de-compiler](https://github.com/adilsxn/rinha-de-compiler) | | | | |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
