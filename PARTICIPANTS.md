@@ -29,7 +29,7 @@
 | Crazynds | [rinha-compiler](https://github.com/crazynds/rinha-compiler) | | | | |
 | reonardoleis | [nargas](https://github.com/reonardoleis/nargas) | | | | |
 | Yazalde Filimone | [rinha-compiler](https://github.com/yazaldefilimonepinto/rinha-compiler) | | | | |
-| PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | | | |
+| PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | Rust | Tree-walking interpreter | [IG](https://www.instagram.com/pedro_fnseca/) |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
 | gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | Em desenvolvimento | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
