@@ -9,6 +9,7 @@
 | edusporto | [rinha-compilador](https://github.com/edusporto/rinha-compilador) | | | | |
 | losty17 | [rinha-de-compiler](https://github.com/Losty17/rinha-de-compiler) | | | | |
 | rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
+| lucasnlm | [rinha-compiler-kotlin](https://github.com/lucasnlm/rinha-compiler-kotlin) | ✅ Completo | Kotlin Native | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/lucasnlm/) |
 | ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | | | | |
 | adilsxn | [rinha-de-compiler](https://github.com/adilsxn/rinha-de-compiler) | | | | |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
