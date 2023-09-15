@@ -92,11 +92,14 @@
 | Natã Estanislau | [rinha-de-compiler-bytecode](https://github.com/nataneb32/rinha-de-compiler-bytecode) |  | C | Source -> Bytecode -> VM | [Github](https://github.com/nataneb32) |
 | Paulo Victor | [rinha-de-compiler](https://github.com/paulllo-victor/rinha-de-compiler) | Vai dá certo | GO |  | [Github](https://github.com/paulllo-victor) |
 | thebe111 | [interpreter](https://github.com/thebe111/interpreter) | unknown | Rust | Tree-walking Interpretador | [LinkedIn](https://www.linkedin.com/in/profile-gabriel-fonseca/) |
-| Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | Faltando Docker | C++ | Tree-Walking Interpreter | |
+| Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | ✅ Completo | C++ | Tree-Walking Interpreter | [Github](https://github.com/Erik-Morbach) |
 | Kadu | [rinha-de-compiladores](https://github.com/Kadu-H/rinha-de-compiladores) | Estudando | JavaScript | Tree-Walking Interpreter | [`@kadux.07`](https://www.instagram.com/kadux.07/) |
 | David Lins | [rinha-compiladores-javaparser](https://github.com/davidlins/rinha-compiladores-javaparser) | ✅ sum <br/> ✅ fib <br/> ✅ combination | Java | Source-to-Source Compiler | 𝕏 [@davidlins](https://twitter.com/davidlins) |
+| Balmanth | [rinha-compiler](https://github.com/balmanth/rinha-compiler) | Desafiando [XCHEME](https://github.com/balmanth/xcheme) | TypeScript | Ahead-of-time Compiler | [LinkedIn](https://www.linkedin.com/in/balmanth/) |
 | Edmar Sousa | [rinha-compilador](https://github.com/Edmar-Sousa/rinha-compilador) | Em desenvolvimento | C++ | Tree-Walking Interpreter | [Github](https://github.com/Edmar-Sousa)
 | ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | WIP | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
+| Ullas (Ulisses Rosa) | [Compilers-Rinha](https://github.com/RosaUlisses/Compilers-Rinha) | Em desenvolvimento | Rust | Tree-Walking Interpreter | [Github](https://github.com/RosaUlisses) |
+| MarcosCostaDev | [RinhaCompiler](https://github.com/MarcosCostaDev/RinhaCompiler) | Done | C# | Tree-Walking Interpreter | [Twitter](https://twitter.com/marcoscostadev) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
