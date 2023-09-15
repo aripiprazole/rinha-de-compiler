@@ -95,6 +95,7 @@
 | Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | Faltando Docker | C++ | Tree-Walking Interpreter | |
 | Kadu | [rinha-de-compiladores](https://github.com/Kadu-H/rinha-de-compiladores) | Estudando | JavaScript | Tree-Walking Interpreter | [`@kadux.07`](https://www.instagram.com/kadux.07/) |
 | ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | WIP | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
+| Ullas (Ulisses Rosa) | [Compilers-Rinha](https://github.com/RosaUlisses/Compilers-Rinha) | Em desenvolvimento | Rust | Tree-Walking Interpreter | [Github](https://github.com/RosaUlisses) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
