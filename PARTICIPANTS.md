@@ -94,6 +94,7 @@
 | thebe111 | [interpreter](https://github.com/thebe111/interpreter) | unknown | Rust | Tree-walking Interpretador | [LinkedIn](https://www.linkedin.com/in/profile-gabriel-fonseca/) |
 | Erik Morbach | [CompilerRinha](https://github.com/Erik-Morbach/CompilerRinha) | Faltando Docker | C++ | Tree-Walking Interpreter | |
 | Kadu | [rinha-de-compiladores](https://github.com/Kadu-H/rinha-de-compiladores) | Estudando | JavaScript | Tree-Walking Interpreter | [`@kadux.07`](https://www.instagram.com/kadux.07/) |
+| Edmar Sousa | [rinha-compilador](https://github.com/Edmar-Sousa/rinha-compilador) | Em desenvolvimento | C++ | Tree-Walking Interpreter | [Github](https://github.com/Edmar-Sousa)
 | ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | WIP | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
 
 **Tipos de projeto:**
