@@ -56,6 +56,7 @@
 | GCdePaula | [rinha-luajit-rs](https://github.com/GCdePaula/rinha-luajit-rs) | Done! | Rust | Source-to-Source Compiler | [Twitter](https://twitter.com/GCdePaula_) [Webpage](https://www.gcdepaula.com) |
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
+| cleissonbarbosa | [rinha-compiladores-julia](https://github.com/cleissonbarbosa/rinha-compiladores-julia) | Na minha maquina funciona! | Julia | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
 | fagundesraphael | [rinha-de-compiladores](https://github.com/fagundesraphael/rinha-de-compiladores) | Em aprendizado | [@nuncaestou](https://twitter.com/nuncaestou) |
 | danielhoffmanno  | [rinha-de-compiler](https://github.com/danielhoffmanno/rinha-de-compiler) | Em desenvolvimento | CSharp || [@Linkedin](https://www.linkedin.com/in/daniel-hoffmann-bonicio/)|
 | matheusBBarni | [rinha-compiler](https://github.com/MatheusBBarni/rinha-compiler) | Começando/Aprendendo | Rescript | | [@matheusBBarni](https://twitter.com/matheusBBarni) |
