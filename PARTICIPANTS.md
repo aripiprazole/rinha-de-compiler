@@ -2,6 +2,7 @@
 
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
 |:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
+| JrSchmidtt | [rinha-de-compiler-go](https://github.com/JrSchmidtt/rinha-compiler-go) | WIP | Golang 💙  | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/JrSchmidtt) |
 | erik guizao | [Rinha-de-Compiler](https://github.com/GuiHenriques/Rinha-de-Compiler) | Pensando... 🧠 | C++ | | |
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | | | |
