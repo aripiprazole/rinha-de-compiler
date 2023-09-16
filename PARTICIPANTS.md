@@ -56,6 +56,7 @@
 | GCdePaula | [rinha-luajit-rs](https://github.com/GCdePaula/rinha-luajit-rs) | Done! | Rust | Source-to-Source Compiler | [Twitter](https://twitter.com/GCdePaula_) [Webpage](https://www.gcdepaula.com) |
 | dlopes7 | [rinha-compiler](https://github.com/dlopes7/rinha-compilers) | Fuçando | Zig |||
 | cleissonbarbosa | [rinha-compiladores-rust](https://github.com/cleissonbarbosa/rinha-compiladores-rust) | Na minha maquina funciona! | Rust | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
+| cleissonbarbosa | [rinha-compiladores-julia](https://github.com/cleissonbarbosa/rinha-compiladores-julia) | Na minha maquina funciona! | Julia | Tree-walking Interpretador | [@cleissonbarbosa](https://www.instagram.com/cleissonbarbosa) |
 | fagundesraphael | [rinha-de-compiladores](https://github.com/fagundesraphael/rinha-de-compiladores) | Em aprendizado | [@nuncaestou](https://twitter.com/nuncaestou) |
 | danielhoffmanno  | [rinha-de-compiler](https://github.com/danielhoffmanno/rinha-de-compiler) | Em desenvolvimento | CSharp || [@Linkedin](https://www.linkedin.com/in/daniel-hoffmann-bonicio/)|
 | matheusBBarni | [rinha-compiler](https://github.com/MatheusBBarni/rinha-compiler) | Começando/Aprendendo | Rescript | | [@matheusBBarni](https://twitter.com/matheusBBarni) |
@@ -101,6 +102,9 @@
 | Ullas (Ulisses Rosa) | [Compilers-Rinha](https://github.com/RosaUlisses/Compilers-Rinha) | Em desenvolvimento | Rust | Tree-Walking Interpreter | [Github](https://github.com/RosaUlisses) |
 | MarcosCostaDev | [RinhaCompiler](https://github.com/MarcosCostaDev/RinhaCompiler) | Done | C# | Tree-Walking Interpreter | [Twitter](https://twitter.com/marcoscostadev) |
 | MarcosCostaDev | [rinha-de-interpreter-personal](https://github.com/orvituhgo/rinha-de-interpreter-personal) | WIP | Mojo | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/vitor-alves-a1ab37173/) |
+| ericklima-ca | [gorinha](https://github.com/ericklima-ca/gorinha) | :white_check_mark: Done | Go | Tree-Walking Interpreter | [github](https://github.com/ericklima-ca) |
+| rcovery (Ryan) | [rinha-de-compiler](https://github.com/rcovery/rinha-de-compiler) | Still Goin | Elixir | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/rcovery/) <br /> [Instagram](https://www.instagram.com/rcovery.js/) <br /> [Twitter](https://twitter.com/sadgamedev) |
+| ch1n3du | [pico_rinha](https://github.com/ch1n3du/pico_rinah) | WIP | (っ◔◡◔)っ ♥ 🦀Rust🦀 ♥ | Tree-Walking Interpreter and ByteCode Intepreter | [Github](https://github.com/ch1n3du) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
