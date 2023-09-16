@@ -100,6 +100,7 @@
 | ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | WIP | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
 | Ullas (Ulisses Rosa) | [Compilers-Rinha](https://github.com/RosaUlisses/Compilers-Rinha) | Em desenvolvimento | Rust | Tree-Walking Interpreter | [Github](https://github.com/RosaUlisses) |
 | MarcosCostaDev | [RinhaCompiler](https://github.com/MarcosCostaDev/RinhaCompiler) | Done | C# | Tree-Walking Interpreter | [Twitter](https://twitter.com/marcoscostadev) |
+| rcovery (Ryan) | [rinha-de-compiler](https://github.com/rcovery/rinha-de-compiler) | Still Goin | Elixir | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/rcovery/) <br /> [Instagram](https://www.instagram.com/rcovery.js/) <br /> [Twitter](https://twitter.com/sadgamedev) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
