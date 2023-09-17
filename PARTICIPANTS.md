@@ -105,6 +105,7 @@
 | ericklima-ca | [gorinha](https://github.com/ericklima-ca/gorinha) | :white_check_mark: Done | Go | Tree-Walking Interpreter | [github](https://github.com/ericklima-ca) |
 | rcovery (Ryan) | [rinha-de-compiler](https://github.com/rcovery/rinha-de-compiler) | Still Goin | Elixir | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/rcovery/) <br /> [Instagram](https://www.instagram.com/rcovery.js/) <br /> [Twitter](https://twitter.com/sadgamedev) |
 | ch1n3du | [pico_rinha](https://github.com/ch1n3du/pico_rinah) | WIP | (っ◔◡◔)っ ♥ 🦀Rust🦀 ♥ | Tree-Walking Interpreter and ByteCode Intepreter | [Github](https://github.com/ch1n3du) |
+| Lorenzobattistela | [rinha-de-compiler](https://github.com/Lorenzobattistela/rinha-de-compiler) | Funcionando | TypeScript | Tree-Walking Interpreter | [Github](https://github.com/Lorenzobattistela/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
