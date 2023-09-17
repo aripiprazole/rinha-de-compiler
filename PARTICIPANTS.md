@@ -107,6 +107,7 @@
 | rcovery (Ryan) | [rinha-de-compiler](https://github.com/rcovery/rinha-de-compiler) | Still Goin | Elixir | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/rcovery/) <br /> [Instagram](https://www.instagram.com/rcovery.js/) <br /> [Twitter](https://twitter.com/sadgamedev) |
 | ch1n3du | [pico_rinha](https://github.com/ch1n3du/pico_rinah) | WIP | (っ◔◡◔)っ ♥ 🦀Rust🦀 ♥ | Tree-Walking Interpreter and ByteCode Intepreter | [Github](https://github.com/ch1n3du) |
 | Vinícius | [rinha-de-compiler-solution](https://github.com/hvini/rinha-de-compiler-solution) | ✅ | Python🐍 | Compiler (llvm ir -> optimization -> target code) | [LinkedIn](https://www.linkedin.com/in/vinícius-h-p-cavalcanti-762436261) |
+| Samuel Haidu | [RinhaToPythonVM](https://github.com/SamuelHaidu/RinhaToPythonVM/tree/main) | ✅ Rodando todos os exemplos | Python🐍 | Bytecode Interpreter (Rinha -> Python VM Bytecode) | [LinkedIn](https://br.linkedin.com/in/samuel-haidu-a3926416a) |
 | Guilherme | [rinha-compiler](https://github.com/guilhermegoa/rinha-compiler) | WIP | Rust | Tree-Walking Interpreter | [Github](https://github.com/guilhermegoa) |
 
 **Tipos de projeto:**
@@ -116,6 +117,7 @@
 | Source-to-Source Compiler  | [Link](https://en.wikipedia.org/wiki/Source-to-source_compiler) |
 | Bytecode Interpreter       | [Link](https://rust-hosted-langs.github.io/book/chapter-interp-bytecode.html) |
 | Ahead-of-time Compiler     | [Link](https://en.wikipedia.org/wiki/Ahead-of-time_compilation) |
-| Compiler     | [Link](https://pt.wikipedia.org/wiki/Compilador) |
+| Compiler                   | [Link](https://pt.wikipedia.org/wiki/Compilador) |
+
 
 _(Caso seu tipo de projeto não esteja nessa tabela, por favor adicione.)_
