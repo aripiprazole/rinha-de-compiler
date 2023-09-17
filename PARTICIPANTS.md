@@ -106,7 +106,7 @@
 | rcovery (Ryan) | [rinha-de-compiler](https://github.com/rcovery/rinha-de-compiler) | Still Goin | Elixir | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/rcovery/) <br /> [Instagram](https://www.instagram.com/rcovery.js/) <br /> [Twitter](https://twitter.com/sadgamedev) |
 | ch1n3du | [pico_rinha](https://github.com/ch1n3du/pico_rinah) | WIP | (っ◔◡◔)っ ♥ 🦀Rust🦀 ♥ | Tree-Walking Interpreter and ByteCode Intepreter | [Github](https://github.com/ch1n3du) |
 | Vinícius | [rinha-de-compiler-solution](https://github.com/hvini/rinha-de-compiler-solution) | ✅ | Python🐍 | Compiler (llvm ir -> optimization -> target code) | [LinkedIn](https://www.linkedin.com/in/vinícius-h-p-cavalcanti-762436261) |
-| mateuxlucax | [rinha-de-compiler-dart](https://github.com/hvini/rinha-de-compiler-solution](https://github.com/MateuxLucax/rinha-de-compiler-dart)) | 👾 Em andamento... | Dart 🎯 | Dunno, just doin it | [LinkedIn](https://www.linkedin.com/in/vinícius-h-p-cavalcanti-762436261](https://www.linkedin.com/in/mateusbrandt/)) [Twitter](https://twitter.com/mateuxlucax) [Instagram](https://www.instagram.com/mateuxlucax/) |
+| mateuxlucax | [rinha-de-compiler-dart](https://github.com/MateuxLucax/rinha-de-compiler-dart) | 👾 Em andamento... | Dart 🎯 | Dunno, just doin it | [LinkedIn](https://www.linkedin.com/in/mateusbrandt/) [Twitter](https://twitter.com/mateuxlucax) [Instagram](https://www.instagram.com/mateuxlucax/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
