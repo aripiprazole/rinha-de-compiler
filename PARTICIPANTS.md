@@ -118,6 +118,7 @@
 | Guilherme | [rinha-compiler](https://github.com/guilhermegoa/rinha-compiler) | WIP | Rust | Tree-Walking Interpreter | [Github](https://github.com/guilhermegoa) |
 | Gustavo Mendonça | [rinha-compiler](https://github.com/swxtz/rinha-compiler) | ✅ Print <br> ✅ Add / Sub | Rust / LLVM | Tree-walking Interpretador / Compiler | [Minhas Redes](https://swxtz.netlify.app/) |
 | oMuriloDev | [rinha-compiler](https://github.com/omurilo/rinha-compiler) | ✅ Rodando todos os exemplos | Go <3 | Tree-Walking Interpreter | [Github](https://github.com/omurilo) |
+| fabriciorby & perrutbruno  | [lua-vai](https://github.com/perrutbruno/lua-vai) | ✅ Rodando todos os exemplos | Lua | Tree-Walking Interpreter | [Github](https://twitter.com/fabriciorby) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
