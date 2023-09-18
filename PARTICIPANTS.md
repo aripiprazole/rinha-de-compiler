@@ -99,7 +99,7 @@
 | David Lins | [rinha-compiladores-javaparser](https://github.com/davidlins/rinha-compiladores-javaparser) | ✅ sum <br/> ✅ fib <br/> ✅ combination | Java | Source-to-Source Compiler | 𝕏 [@davidlins](https://twitter.com/davidlins) |
 | Balmanth | [rinha-compiler](https://github.com/balmanth/rinha-compiler) | Desafiando [XCHEME](https://github.com/balmanth/xcheme) | TypeScript | Ahead-of-time Compiler | [LinkedIn](https://www.linkedin.com/in/balmanth/) |
 | Edmar Sousa | [rinha-compilador](https://github.com/Edmar-Sousa/rinha-compilador) | Em desenvolvimento | C++ | Tree-Walking Interpreter | [Github](https://github.com/Edmar-Sousa)
-| ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | WIP | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
+| ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | ✅ Done | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
 | Ullas (Ulisses Rosa) | [Compilers-Rinha](https://github.com/RosaUlisses/Compilers-Rinha) | Em desenvolvimento | Rust | Tree-Walking Interpreter | [Github](https://github.com/RosaUlisses) |
 | MarcosCostaDev | [RinhaCompiler](https://github.com/MarcosCostaDev/RinhaCompiler) | Done | C# | Tree-Walking Interpreter | [Twitter](https://twitter.com/marcoscostadev) |
 | MarcosCostaDev | [rinha-de-interpreter-personal](https://github.com/orvituhgo/rinha-de-interpreter-personal) | WIP | Mojo | Tree-Walking Interpreter | [Linkedin](https://www.linkedin.com/in/vitor-alves-a1ab37173/) |
@@ -109,6 +109,9 @@
 | Lorenzobattistela | [rinha-de-compiler](https://github.com/Lorenzobattistela/rinha-de-compiler) | Funcionando | TypeScript | Tree-Walking Interpreter | [Github](https://github.com/Lorenzobattistela/) |
 | Vinícius | [rinha-de-compiler-solution](https://github.com/hvini/rinha-de-compiler-solution) | ✅ | Python🐍 | Compiler (llvm ir -> optimization -> target code) | [LinkedIn](https://www.linkedin.com/in/vinícius-h-p-cavalcanti-762436261) |
 | Victor Hogemann | [rinha-de-compiler-fsharp](https://github.com/vhogemann/rinha-de-compiladores-fsharp) | ✅ | F# | Tree-walking Interpreter | [Links](https://victor.hogemann.com) |
+| Garicas | [ritalinha](https://github.com/0xdeadbad/ritalinha) | Cooking | C | Bytecode Interpreter -> ? | [LinkeIn](https://www.linkedin.com/in/matheus-g-94909911b/) |
+| Márcio Saraiva | [rinha-de-compiler-to-js](https://github.com/marciosaraiva7/rinha-de-compiler-to-js) | WIP | Javascript | Tree-Walking Interpreter | [LinkedIn](https://www.linkedin.com/in/m%C3%A1rciosaraiva/) |
+| Patrick | [rinha-compilers](https://github.com/PatrickGimenes/rinha-compilers) |  | JavaScript | Tree-walking Interpretador | [Linkedin](https://www.linkedin.com/in/patrick-gimenes-45988716a/) |
 | mateuxlucax | [rinha-de-compiler-dart](https://github.com/MateuxLucax/rinha-de-compiler-dart) | 👾 Em andamento... | Dart 🎯 | Dunno, just doin it | [LinkedIn](https://www.linkedin.com/in/mateusbrandt/) [Twitter](https://twitter.com/mateuxlucax) [Instagram](https://www.instagram.com/mateuxlucax/) |
 | Samuel Haidu | [RinhaToPythonVM](https://github.com/SamuelHaidu/RinhaToPythonVM/tree/main) | ✅ Rodando todos os exemplos | Python🐍 | Bytecode Interpreter (Rinha -> Python VM Bytecode) | [LinkedIn](https://br.linkedin.com/in/samuel-haidu-a3926416a) |
 | Guilherme | [rinha-compiler](https://github.com/guilhermegoa/rinha-compiler) | WIP | Rust | Tree-Walking Interpreter | [Github](https://github.com/guilhermegoa) |
