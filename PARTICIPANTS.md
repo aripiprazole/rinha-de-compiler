@@ -111,6 +111,7 @@
 | mateuxlucax | [rinha-de-compiler-dart](https://github.com/MateuxLucax/rinha-de-compiler-dart) | 👾 Em andamento... | Dart 🎯 | Dunno, just doin it | [LinkedIn](https://www.linkedin.com/in/mateusbrandt/) [Twitter](https://twitter.com/mateuxlucax) [Instagram](https://www.instagram.com/mateuxlucax/) |
 | Samuel Haidu | [RinhaToPythonVM](https://github.com/SamuelHaidu/RinhaToPythonVM/tree/main) | ✅ Rodando todos os exemplos | Python🐍 | Bytecode Interpreter (Rinha -> Python VM Bytecode) | [LinkedIn](https://br.linkedin.com/in/samuel-haidu-a3926416a) |
 | Guilherme | [rinha-compiler](https://github.com/guilhermegoa/rinha-compiler) | WIP | Rust | Tree-Walking Interpreter | [Github](https://github.com/guilhermegoa) |
+| Gustavo Mendonça | [rinha-compiler](https://github.com/swxtz/rinha-compiler) | ✅ Print <br> ✅ Add / Sub | Rust / LLVM | Tree-walking Interpretador / Compiler | [Minhas Redes](https://swxtz.netlify.app/) |
 | oMuriloDev | [rinha-compiler](https://github.com/omurilo/rinha-compiler) | ✅ Rodando todos os exemplos | Go <3 | Tree-Walking Interpreter | [Github](https://github.com/omurilo) |
 
 **Tipos de projeto:**
