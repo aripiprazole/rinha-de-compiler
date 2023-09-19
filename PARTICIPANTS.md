@@ -38,7 +38,7 @@
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
 | fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
-| fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | | | | |
+| fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | ✅ Completo | Pascal | | https://www.linkedin.com/in/alexandro-fenner-67842960/ |
 | dgomesma | [vladpiler](https://github.com/dgomesma/vladpiler) | | | | |
 | Braayy | [binha](https://github.com/Braayy/binha) | | | | |
 | guitcastro | [rinha-de-compiler-ex](https://github.com/guitcastro/rinha-de-compiler-ex) | | | | |
@@ -121,6 +121,9 @@
 | fabriciorby & perrutbruno  | [lua-vai](https://github.com/perrutbruno/lua-vai) | ✅ Rodando todos os exemplos | Lua | Tree-Walking Interpreter | [Github](https://twitter.com/fabriciorby) |
 | [Jeff Quesado](https://github.com/jeffque) | [rinha-compiler](https://github.com/jeffque/rinha-compiler) | Resolvendo questões no bytecode para permitir clausuras | Bash | Bytecode interpreter (BCB) | [Twitter](https://twitter.com/jeffquesado) |
 | [João Paulo](https://github.com/joaopaulosg21/) | [primeiro interpretador](https://github.com/joaopaulosg21/primeiro-interpretador) | ✅ Exemplos basicos funcionando | Java | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/Joao_Paulosg) |
+| fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
+| Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
+| Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
