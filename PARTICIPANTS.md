@@ -38,7 +38,7 @@
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
 | fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
-| fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | | | | |
+| fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | ✅ Completo | Pascal | | https://www.linkedin.com/in/alexandro-fenner-67842960/ |
 | dgomesma | [vladpiler](https://github.com/dgomesma/vladpiler) | | | | |
 | Braayy | [binha](https://github.com/Braayy/binha) | | | | |
 | guitcastro | [rinha-de-compiler-ex](https://github.com/guitcastro/rinha-de-compiler-ex) | | | | |
