@@ -98,7 +98,7 @@
 | Kadu | [rinha-de-compiladores](https://github.com/Kadu-H/rinha-de-compiladores) | Basico feito | JavaScript | Tree-Walking Interpreter | [`@kadux.07`](https://www.instagram.com/kadux.07/) |
 | David Lins | [rinha-compiladores-javaparser](https://github.com/davidlins/rinha-compiladores-javaparser) | ✅ sum <br/> ✅ fib <br/> ✅ combination | Java | Source-to-Source Compiler | 𝕏 [@davidlins](https://twitter.com/davidlins) |
 | ErnaneJ | [go-interpreter-rinha](https://github.com/ErnaneJ/go-interpreter-rinha) | ✅ v1.0 | GO | Tree-Walking Interpreter 🌴 | [@Ernanej](https://github.com/ernanej/) |
-| Balmanth | [rinha-compiler](https://github.com/balmanth/rinha-compiler) | Desafiando [XCHEME](https://github.com/balmanth/xcheme) | TypeScript | Ahead-of-time Compiler | [LinkedIn](https://www.linkedin.com/in/balmanth/) |
+| Balmanth | [rinha-compiler](https://github.com/balmanth/rinha-compiler) | Desafiando [XCHEME](https://github.com/balmanth/xcheme) | TypeScript | Tree-Walking Interpreter | [LinkedIn](https://www.linkedin.com/in/balmanth/) |
 | Edmar Sousa | [rinha-compilador](https://github.com/Edmar-Sousa/rinha-compilador) | Em desenvolvimento | C++ | Tree-Walking Interpreter | [Github](https://github.com/Edmar-Sousa)
 | ghhernandes | [rinha-compiler-go](https://github.com/ghhernandes/rinha-compiler-go) | ✅ Done | Golang | Tree-Walking Interpreter | [Twitter](https://twitter.com/ghhernandes) |
 | Ullas (Ulisses Rosa) | [Compilers-Rinha](https://github.com/RosaUlisses/Compilers-Rinha) | Em desenvolvimento | Rust | Tree-Walking Interpreter | [Github](https://github.com/RosaUlisses) |
