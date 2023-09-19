@@ -120,6 +120,7 @@
 | oMuriloDev | [rinha-compiler](https://github.com/omurilo/rinha-compiler) | ✅ Rodando todos os exemplos | Go <3 | Tree-Walking Interpreter | [Github](https://github.com/omurilo) |
 | fabriciorby & perrutbruno  | [lua-vai](https://github.com/perrutbruno/lua-vai) | ✅ Rodando todos os exemplos | Lua | Tree-Walking Interpreter | [Github](https://twitter.com/fabriciorby) |
 | [Jeff Quesado](https://github.com/jeffque) | [rinha-compiler](https://github.com/jeffque/rinha-compiler) | Resolvendo questões no bytecode para permitir clausuras | Bash | Bytecode interpreter (BCB) | [Twitter](https://twitter.com/jeffquesado) |
+| [João Paulo](https://github.com/joaopaulosg21/) | [primeiro interpretador](https://github.com/joaopaulosg21/primeiro-interpretador) | ✅ Exemplos basicos funcionando | Java | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/Joao_Paulosg) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
