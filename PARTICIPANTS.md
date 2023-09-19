@@ -121,6 +121,8 @@
 | fabriciorby & perrutbruno  | [lua-vai](https://github.com/perrutbruno/lua-vai) | ✅ Rodando todos os exemplos | Lua | Tree-Walking Interpreter | [Github](https://twitter.com/fabriciorby) |
 | [Jeff Quesado](https://github.com/jeffque) | [rinha-compiler](https://github.com/jeffque/rinha-compiler) | Resolvendo questões no bytecode para permitir clausuras | Bash | Bytecode interpreter (BCB) | [Twitter](https://twitter.com/jeffquesado) |
 | fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
+| Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
+| Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
