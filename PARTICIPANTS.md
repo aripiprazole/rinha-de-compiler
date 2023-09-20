@@ -1,4 +1,4 @@
-# Participantes
+![image](https://github.com/The-Order-of-The-Boar/rinha-de-compiler/assets/43409820/ebca2f2e-4e19-4092-8661-e1483d20dd95)# Participantes
 
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
 |:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
@@ -124,7 +124,7 @@
 | fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
-| Leonardo Di Credico | [KriegBoar](https://github.com/The-Order-of-The-Boar/KriegBoar) | Em Desenvolvimento | C++ 🐗  |  | [GitHub Boar](https://github.com/The-Order-of-The-Boar) [GitHub Leonardo](https://github.com/LeonardoCBoar) |
+| Leonardo Di Credico | [KriegBoar](https://github.com/The-Order-of-The-Boar/KriegBoar) 🐗| Em Desenvolvimento | C++ | [GitHub Boar](https://github.com/The-Order-of-The-Boar) [GitHub Leonardo](https://github.com/LeonardoCBoar) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
