@@ -1,4 +1,4 @@
-![image](https://github.com/The-Order-of-The-Boar/rinha-de-compiler/assets/43409820/ebca2f2e-4e19-4092-8661-e1483d20dd95)# Participantes
+# Participantes
 
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
 |:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
@@ -125,6 +125,7 @@
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
 | Leonardo Di Credico | [KriegBoar](https://github.com/The-Order-of-The-Boar/KriegBoar) 🐗| Em Desenvolvimento | C++ | [GitHub Boar](https://github.com/The-Order-of-The-Boar) [GitHub Leonardo](https://github.com/LeonardoCBoar) |
+| Luiz Antônio | [herbiec](https://github.com/takusuman/herbiec) 🐗 | ✅ Os exemplos já rodam tranquilamente, mas ainda faltam os tipos ``Bool``, ``Tuple`` e funções relacionadas | [KornShell/93](http://www.kornshell.com/doc/ksh93.html) | Interpretador tipo *Tree-Walking* 🌴 | [Microsoft GitHub](https://github.com/takusuman) [Blog](https://takusuman.github.io/blog/) [last.fm](https://www.last.fm/user/taxman_br) [YouTube](https://www.youtube.com/@talk_about_tudo) [The Order of The Boar](https://github.com/The-Order-of-The-Boar) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
