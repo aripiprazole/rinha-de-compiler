@@ -124,6 +124,8 @@
 | fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
+| lucaspsg | [rinha-de-compiladores](https://github.com/lucaspsg/rinha-de-compiladores) | FAZENDO | C++ | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/lusca_1) |
+
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
