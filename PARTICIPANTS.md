@@ -85,6 +85,8 @@
 | João Vitor (Jottinha) | [rinha-de-compiler](https://github.com/Jottinha/rinha-de-compiler) | ✅ fib <br/> ✅ print <br/> | Java | |Tree-walking |
 | Pedro Nogueira | [Binha-Interpreter](https://github.com/Pedromdsn/Binha-Interpreter) | ✅ (Basic) Done | TS | Tree-walking Interpretador | Github: [`@Pedromdsn`](https://github.com/Pedromdsn)<br/> Twitter/X: [`@PPedromdsn`](https://twitter.com/PPedromdsn) <br/> Website: [`pedromdsn.site`](https://pedromdsn.site) |
 | joaomarcosbc | [rinha-compiler-go](https://github.com/joaomarcosbc/rinha-compiler-go) | Studying... | Golang | | |
+| Yago Crispim | [rinha-compiler](https://github.com/YagoCrispim/rinha-de-compiler-lua) | ✅ print <br/> ✅ fib <br/> ✅ combination <br/> ✅ sum | Lua | Tree-walking interpreter | [Twitter](https://twitter.com/yagocrs_) [LinkedIn](https://www.linkedin.com/in/yagocrispim/) |
+| fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Work in progress | C | Bytecode Interpreter | |
 | Yago Crispim | [rinha-compiler](https://github.com/YagoCrispim/rinha-de-compiler-lua) | WIP | Lua | Tree-walking interpreter | [Twitter](https://twitter.com/yagocrs_) [LinkedIn](https://www.linkedin.com/in/yagocrispim/) |
 | fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Done! | C | Bytecode Interpreter | [Github](https://github.com/fabiosvm) |
 | datsfilipe | [rinha-de-compiler](https://github.com/datsfilipe/rinha-de-compiler) | Done! | TypeScript | Tree-Walking Intepreter | [links aqui](https://datsfilipe.dev) |
