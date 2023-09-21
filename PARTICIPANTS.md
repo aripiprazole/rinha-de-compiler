@@ -109,6 +109,7 @@
 | ch1n3du | [pico_rinha](https://github.com/ch1n3du/pico_rinah) | WIP | (っ◔◡◔)っ ♥ 🦀Rust🦀 ♥ | Tree-Walking Interpreter and ByteCode Intepreter | [Github](https://github.com/ch1n3du) |
 | Lorenzobattistela | [rinha-de-compiler](https://github.com/Lorenzobattistela/rinha-de-compiler) | Funcionando | TypeScript | Tree-Walking Interpreter | [Github](https://github.com/Lorenzobattistela/) |
 | Vinícius | [rinha-de-compiler-solution](https://github.com/hvini/rinha-de-compiler-solution) | ✅ | Python🐍 | Compiler (llvm ir -> optimization -> target code) | [LinkedIn](https://www.linkedin.com/in/vinícius-h-p-cavalcanti-762436261) |
+| davisuga | [compiler-rinha-solution](https://github.com/davisuga/compiler-rinha-solution) | WIP | Scala 3 | [Tree-walking Interpretador](https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/) | [LinkedIn](https://www.linkedin.com/in/davisuga),  [Twitter](https://twitter.com/davi_suga)
 | Victor Hogemann | [rinha-de-compiler-fsharp](https://github.com/vhogemann/rinha-de-compiladores-fsharp) | ✅ | F# | Tree-walking Interpreter | [Links](https://victor.hogemann.com) |
 | Garicas | [ritalinha](https://github.com/0xdeadbad/ritalinha) | Cooking | C | Bytecode Interpreter -> ? | [LinkeIn](https://www.linkedin.com/in/matheus-g-94909911b/) |
 | Márcio Saraiva | [rinha-de-compiler-to-js](https://github.com/marciosaraiva7/rinha-de-compiler-to-js) | WIP | Javascript | Tree-Walking Interpreter | [LinkedIn](https://www.linkedin.com/in/m%C3%A1rciosaraiva/) |
