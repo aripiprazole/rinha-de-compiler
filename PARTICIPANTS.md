@@ -124,6 +124,7 @@
 | fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
+| Gabriel Martins | [bun-rinha-compiler](https://github.com/gabrielmrts/bun-rinha-compiler) | ✅ Todos os exemplos funcionando | Typescript - Bun | Tree-Walking Interpreter | [LinkedIn](https://www.linkedin.com/in/sudogabriel/) - [Github](https://github.com/gabrielmrts)
 | DevDaaniel | [java-interpreter-rinha](https://github.com/DevDaaniel/java-interpreter-rinha) | Pensante/Fazendo | Java | Tree-Walking Interpreter 🌴 | |
 | Yuri Withowsky | [rinha-de-compiler-csharop](https://github.com/yuriwithowsky/rinda-de-compiler-csharp) | WIP | C#  | Tree-Walking Interpreter 🌴 | [LinkedIn](https://www.linkedin.com/in/yuriwithowsky) |
 | Ismael Velten | [haskell-rinha-compiler](https://github.com/ivelten/haskell-rinha-compiler) | Iniciando | Haskell  | Just-in-time Compiler | [GitHub](https://github.com/ivelten) |
