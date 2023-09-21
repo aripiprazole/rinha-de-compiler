@@ -86,7 +86,7 @@
 | Pedro Nogueira | [Binha-Interpreter](https://github.com/Pedromdsn/Binha-Interpreter) | ✅ (Basic) Done | TS | Tree-walking Interpretador | Github: [`@Pedromdsn`](https://github.com/Pedromdsn)<br/> Twitter/X: [`@PPedromdsn`](https://twitter.com/PPedromdsn) <br/> Website: [`pedromdsn.site`](https://pedromdsn.site) |
 | joaomarcosbc | [rinha-compiler-go](https://github.com/joaomarcosbc/rinha-compiler-go) | Studying... | Golang | | |
 | Yago Crispim | [rinha-compiler](https://github.com/YagoCrispim/rinha-de-compiler-lua) | WIP | Lua | Tree-walking interpreter | [Twitter](https://twitter.com/yagocrs_) [LinkedIn](https://www.linkedin.com/in/yagocrispim/) |
-| fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Work in progress | C | Bytecode Interpreter | |
+| fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Done! | C | Bytecode Interpreter | [Github](https://github.com/fabiosvm) |
 | datsfilipe | [rinha-de-compiler](https://github.com/datsfilipe/rinha-de-compiler) | Done! | TypeScript | Tree-Walking Intepreter | [links aqui](https://datsfilipe.dev) |
 | Teles | [rinhac](https://github.com/sixels/rinhac) | Desenvolvimento inicial | Rust | Ahead-of-time Compiler | |
 | carlinhos | [bunito](https://github.com/kalogs-c/bunito) | | TypeScript (Bun) | | |
