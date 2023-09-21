@@ -32,7 +32,7 @@
 | reonardoleis | [nargas](https://github.com/reonardoleis/nargas) | | | | |
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | Rust | Tree-walking interpreter | [IG](https://www.instagram.com/pedro_fnseca/) |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
-| gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | Em desenvolvimento | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
+| gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | ✅ Done | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
