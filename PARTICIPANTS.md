@@ -12,7 +12,6 @@
 | rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
 | lucasnlm | [rinha-compiler-kotlin](https://github.com/lucasnlm/rinha-compiler-kotlin) | ✅ Completo | Kotlin Native | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/lucasnlm/) |
 | ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | | | | |
-| adilsxn | [rinha-de-compiler](https://github.com/adilsxn/rinha-de-compiler) | | | | |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
 | lucasmontano | [rinha-de-compiler](https://github.com/lucasmontano/rinha-de-compiler) | | | | |
 | Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | | Python | | [Twitter](https://twitter.com/olordecoelho) [Instagram](https://instagram.com/olordecoelho)|
@@ -32,7 +31,7 @@
 | reonardoleis | [nargas](https://github.com/reonardoleis/nargas) | | | | |
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | Rust | Tree-walking interpreter | [IG](https://www.instagram.com/pedro_fnseca/) |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
-| gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | Em desenvolvimento | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
+| gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | ✅ Done | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
@@ -63,7 +62,7 @@
 | matheusBBarni | [rinha-compiler](https://github.com/MatheusBBarni/rinha-compiler) | Começando/Aprendendo | Rescript | | [@matheusBBarni](https://twitter.com/matheusBBarni) |
 | luizzuchinali | [rinha-compiler](https://github.com/luizzuchinali/rinha-compiler) | | C# | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/l-zuchinali/) |
 | pandrre | [irinha-bun](https://github.com/pandrRe/irinha-bun) | Typescript | Very dumb | [@pandrre](https://twitter.com/pandrre) | |
-| iaZe | [rinha-compiladores](https://github.com/iaZe/rinha-compiladores) | ✅ Fib <br/> ✅ Print  | 🌑 Lua | | [Twitter](https://twitter.com/nieltvrs) [Instagram](https://www.instagram.com/nieltvrs/)
+| iaZe | [rinha-compiladores](https://github.com/iaZe/rinha-compiladores) | ✅ Interpretador <br /> X Docker  | 🌑 Lua | | [Twitter](https://twitter.com/nieltvrs) [Instagram](https://www.instagram.com/nieltvrs/)
 | maxwellmonteiro | [rinha-compiladores](https://github.com/maxwellmonteiro/rinha-compiladores) | Em aprendizado | C | | |
 | daviprios | [rinha-de-compiler](https://github.com/daviprios/rinha-de-compiler) | ✅ | TS (bun) | Tree-walk Interpreter | |
 | lurodrigo | [rinha-comp](https://github.com/lurodrigo/rinha_comp) | Completo (rodando os três exemplos) | Elixir | Source-to-Source Compiler | [@metapraxe](https://twitter.com/metapraxe)
@@ -86,7 +85,7 @@
 | Pedro Nogueira | [Binha-Interpreter](https://github.com/Pedromdsn/Binha-Interpreter) | ✅ (Basic) Done | TS | Tree-walking Interpretador | Github: [`@Pedromdsn`](https://github.com/Pedromdsn)<br/> Twitter/X: [`@PPedromdsn`](https://twitter.com/PPedromdsn) <br/> Website: [`pedromdsn.site`](https://pedromdsn.site) |
 | joaomarcosbc | [rinha-compiler-go](https://github.com/joaomarcosbc/rinha-compiler-go) | Studying... | Golang | | |
 | Yago Crispim | [rinha-compiler](https://github.com/YagoCrispim/rinha-de-compiler-lua) | WIP | Lua | Tree-walking interpreter | [Twitter](https://twitter.com/yagocrs_) [LinkedIn](https://www.linkedin.com/in/yagocrispim/) |
-| fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Work in progress | C | Bytecode Interpreter | |
+| fabiosvm | [rinha-interpreter](https://github.com/fabiosvm/rinha-interpreter) | Done! | C | Bytecode Interpreter | [Github](https://github.com/fabiosvm) |
 | datsfilipe | [rinha-de-compiler](https://github.com/datsfilipe/rinha-de-compiler) | Done! | TypeScript | Tree-Walking Intepreter | [links aqui](https://datsfilipe.dev) |
 | Teles | [rinhac](https://github.com/sixels/rinhac) | Desenvolvimento inicial | Rust | Ahead-of-time Compiler | |
 | carlinhos | [bunito](https://github.com/kalogs-c/bunito) | | TypeScript (Bun) | | |
@@ -125,6 +124,7 @@
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
 | Ítalo Paulino (irbp) | [darinha](https://github.com/irbp/darinha) | ✅ Completo | Dart 🎯 | Tree-Walking Interpreter | [Github](https://github.com/irbp) |
+| MartinGHaas | [interpretador-rinha](https://github.com/MartinGHaas/interpretador-rinha) | em desenvolvimento | JavaScript | Tree-Walking Interpreter | [GitHub](https://github.com/MartinGHaas/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
