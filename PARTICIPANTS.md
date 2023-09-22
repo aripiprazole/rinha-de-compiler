@@ -126,6 +126,7 @@
 | [João Paulo](https://github.com/joaopaulosg21/) | [primeiro interpretador](https://github.com/joaopaulosg21/primeiro-interpretador) | ✅ Exemplos basicos funcionando | Java | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/Joao_Paulosg) |
 | fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
+| Gabriel Santos | [rinha-de-compiler](https://github.com/ogabrielsantos/rinha-de-compiler) | ✅ Done | Python | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/ogabrielsantos) |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
 | lucaspsg | [rinha-de-compiladores](https://github.com/lucaspsg/rinha-de-compiladores) | FAZENDO | C++ | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/lusca_1) |
 | joselsneto | [rinha-de-compiler-vlang](https://github.com/Joselsneto/rinha-compiler-vlang) | WIP | Vlang  | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/Joselsneto) [Instagram](https://www.instagram.com/joseluiz98)|
