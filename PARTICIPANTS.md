@@ -146,6 +146,7 @@
 | André Pereira | [rinha-golang](https://github.com/andrepreira/rinha-golang) | WIP | Golang | .Pensando.. 🧠 | [LinkedIn](https://https://www.linkedin.com/in/andrepreira/), [Twitter](https://twitter.com/PereiraALS7) |
 | Enzo Massaki | [clownhead](https://github.com/Massakera/clownhead) | ✅ Rodando todos os exemplos | Python | Ahead-of-time Compiler | [Twitter](https://twitter.com/Massakito) | 
 | Victor Taelin | [rinhavm](https://github.com/victortaelin/rinhavm-wip) | WIP | Rust | Bytecode Interpreter | [Github](https://github.com/VictorTaelin) |
+| imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
