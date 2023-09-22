@@ -146,6 +146,8 @@
 | André Pereira | [rinha-golang](https://github.com/andrepreira/rinha-golang) | WIP | Golang | .Pensando.. 🧠 | [LinkedIn](https://https://www.linkedin.com/in/andrepreira/), [Twitter](https://twitter.com/PereiraALS7) |
 | Enzo Massaki | [clownhead](https://github.com/Massakera/clownhead) | ✅ Rodando todos os exemplos | Python | Ahead-of-time Compiler | [Twitter](https://twitter.com/Massakito) | 
 | Victor Taelin | [rinhavm](https://github.com/victortaelin/rinhavm-wip) | WIP | Rust | Bytecode Interpreter | [Github](https://github.com/VictorTaelin) |
+| Mateus Ryan | [rinha-compiler-dotnet](https://github.com/Mth-Ryan/rinha-compiler-dotnet) | Etapa final | C# | Ahead-of-time Compiler (.Net IL) | [LinkedIn](https://www.linkedin.com/in/mateus-ryan-aa63b3210/), [Github](https://github.com/Mth-Ryan) |
+
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
