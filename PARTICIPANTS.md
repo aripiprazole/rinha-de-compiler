@@ -137,6 +137,7 @@
 | Vinicius Ferraz | [rinha](https://github.com/viniciusfcf/rinha-de-compiler) | ✅ Todos os exemplos funcionando | Java ☕ | Source-to-Source | [@viniciusfcf](https://twitter.com/viniciusfcf) |
 | Ítalo Paulino (irbp) | [darinha](https://github.com/irbp/darinha) | ✅ Completo | Dart 🎯 | Tree-Walking Interpreter | [Github](https://github.com/irbp) |
 | MartinGHaas | [interpretador-rinha](https://github.com/MartinGHaas/interpretador-rinha) | em desenvolvimento | JavaScript | Tree-Walking Interpreter | [GitHub](https://github.com/MartinGHaas/) |
+| Gabriel Capanema | [rast2js](https://github.com/gabrieldeandrade/rast2js) | ✅ Rodando todos os exemplos | Typescript | AST to AST Transformer | [LinkedIn](https://https://www.linkedin.com/in/gabriel-de-andrade-de-almeida-capanema-3217412a/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
@@ -147,6 +148,7 @@
 | Ahead-of-time Compiler     | [Link](https://en.wikipedia.org/wiki/Ahead-of-time_compilation) |
 | Compiler                   | [Link](https://pt.wikipedia.org/wiki/Compilador) |
 | Just-in-time Compiler      | [Link](https://en.wikipedia.org/wiki/Just-in-time_compilation) |
+| AST to AST Transformer     | [Link](https://stackoverflow.com/questions/6235085/what-is-an-ast-transformation) |
 
 
 _(Caso seu tipo de projeto não esteja nessa tabela, por favor adicione.)_
