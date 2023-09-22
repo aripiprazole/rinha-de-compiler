@@ -65,7 +65,7 @@
 | luizzuchinali | [rinha-compiler](https://github.com/luizzuchinali/rinha-compiler) | | C# | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/l-zuchinali/) |
 | pandrre | [irinha-bun](https://github.com/pandrRe/irinha-bun) | Typescript | Very dumb | [@pandrre](https://twitter.com/pandrre) | |
 | iaZe | [rinha-compiladores](https://github.com/iaZe/rinha-compiladores) | ✅ Interpretador <br /> X Docker  | 🌑 Lua | | [Twitter](https://twitter.com/nieltvrs) [Instagram](https://www.instagram.com/nieltvrs/)
-| maxwellmonteiro | [rinha-compiladores](https://github.com/maxwellmonteiro/rinha-compiladores) | Em aprendizado | C | | |
+| maxwellmonteiro | [rinha-compiladores](https://github.com/maxwellmonteiro/rinha-compiladores) | ✅ Todos os exemplos <br/> ✅ Todos os termos e operadores <br/> ✅ Tipagem dinâmica | C | Source-to-Source Compiler | |
 | daviprios | [rinha-de-compiler](https://github.com/daviprios/rinha-de-compiler) | ✅ | TS (bun) | Tree-walk Interpreter | |
 | lurodrigo | [rinha-comp](https://github.com/lurodrigo/rinha_comp) | Completo (rodando os três exemplos) | Elixir | Source-to-Source Compiler | [@metapraxe](https://twitter.com/metapraxe)
 | BertBR | [rinha-de-compiler](https://github.com/BertBR/rinha-de-compiler) | WIP | Golang | Source-to-Source | [Reach me!](https://github.com/BertBR)
