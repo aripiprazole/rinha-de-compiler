@@ -140,6 +140,7 @@
 | Vinicius Ferraz | [rinha](https://github.com/viniciusfcf/rinha-de-compiler) | ✅ Todos os exemplos funcionando | Java ☕ | Source-to-Source | [@viniciusfcf](https://twitter.com/viniciusfcf) |
 | Ítalo Paulino (irbp) | [darinha](https://github.com/irbp/darinha) | ✅ Completo | Dart 🎯 | Tree-Walking Interpreter | [Github](https://github.com/irbp) |
 | MartinGHaas | [interpretador-rinha](https://github.com/MartinGHaas/interpretador-rinha) | em desenvolvimento | JavaScript | Tree-Walking Interpreter | [GitHub](https://github.com/MartinGHaas/) |
+| mtrecouso | [rinha-compiler-nodejs](https://github.com/MTRecouso/rinha-compiler-nodejs) | ✅ Rodando todos os exemplos | JavaScript | Source-to-Source | [GitHub](https://github.com/MTRecouso/)  <br /> [Twitter](https://twitter.com/mtrecouso)|
 | Adriano dos Santos Fernandes | [rinha-de-compiler](https://github.com/asfernandes/rinha-de-compiler) | ✅ Completo | C++ | Tree-Walking Interpreter | [GitHub](https://github.com/asfernandes/) |
 | Rafa Dutra | [rinha-ruby](https://github.com/RafaDRF/rinha-ruby-transpiler) | ✅ Completo | Ruby | Tree-Walking Interpreter | [GitHub](https://github.com/RafaDRF) |
 | ferreirawalter | [rinha-de-compiler](https://github.com/FerreiraWalter/rinha-de-compiler) | Tentando... | Haskell | Tree-Walking Interpreter | |
