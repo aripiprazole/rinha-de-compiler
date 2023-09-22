@@ -49,7 +49,7 @@
 | antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | C# | | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
 | Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | ✅ fib <br/> ✅ combination <br/> ✅ sum | F# | | [My Links](https://allmylinks.com/aleffmds)|
 | samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
-| leodhb | [rinha-twi-ruby](https://github.com/leodhb/rinha-twi-ruby) | Tentando fazer recursão funcionar 🙂 | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
+| leodhb | [rinha-twi-ruby](https://github.com/leodhb/rinha-twi-ruby) | ✅ done | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
 | Ytu | [rinha-de-compiladores](https://github.com/eletroswing/rinha-de-compiler) | Pensando no projeto | javascript | | |
 | FabioSeixas | [rinha-de-compilers](https://github.com/FabioSeixas/rinha-de-compiler) |  | Rust | | |
 | giancarlopro | [rinha-de-compiler](https://github.com/giancarlopro/rinha-de-compiler) | Funcionando! (eu acho) | C || [@giancarlo_py](https://twitter.com/giancarlo_py) |
