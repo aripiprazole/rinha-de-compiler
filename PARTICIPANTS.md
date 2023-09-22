@@ -3,7 +3,7 @@
 | Participante | Repositório | Status | Linguagem | Tipo do projeto | Redes sociais |
 |:-------------|:------------|:-------|:----------|:---------------:|:-------------:|
 | JrSchmidtt | [rinha-de-compiler-go](https://github.com/JrSchmidtt/rinha-compiler-go) | WIP | Golang 💙  | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/JrSchmidtt) |
-| erik guizao | [Rinha-de-Compiler](https://github.com/GuiHenriques/Rinha-de-Compiler) | Pensando... 🧠 | C++ | | |
+| erik guizao | [Rinha-de-Compiler](https://github.com/GuiHenriques/Rinha-de-Compiler) | .Pensando.. 🧠 | C++ | | |
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | | | |
 | henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
@@ -141,6 +141,7 @@
 | lbguilherme | [rinha-typescript](https://github.com/lbguilherme/rinha-typescript) | ✅ Completo | TypeScript (Apenas com tipos! Zero código)  | Tree-Walking Interpreter | [GitHub](https://github.com/lbguilherme/) |
 | Guilherme Meira | [rinha-compilador-2023](https://github.com/guimeira/rinha-compilador-2023) | ✅ Completo | Java ☕ | Compiler (JVM bytecode) | [GitHub](https://github.com/guimeira), [Twitter](https://twitter.com/gtmeira) |
 | Gabriel Capanema | [rast2js](https://github.com/gabrieldeandrade/rast2js) | ✅ Rodando todos os exemplos | Typescript | AST to AST Transformer | [LinkedIn](https://https://www.linkedin.com/in/gabriel-de-andrade-de-almeida-capanema-3217412a/) |
+| André Pereira | [rinha-golang](https://github.com/andrepreira/rinha-golang) | WIP | Golang | .Pensando.. 🧠 | [LinkedIn](https://https://www.linkedin.com/in/andrepreira/), [Twitter](https://twitter.com/PereiraALS7) |
 | Enzo Massaki | [clownhead](https://github.com/Massakera/clownhead) | ✅ Rodando todos os exemplos | Python | Ahead-of-time Compiler | [Twitter](https://twitter.com/Massakito) | 
 | Victor Taelin | [rinhavm](https://github.com/victortaelin/rinhavm-wip) | WIP | Rust | Bytecode Interpreter | [Github](https://github.com/VictorTaelin) |
 
