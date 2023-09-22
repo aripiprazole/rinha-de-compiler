@@ -12,7 +12,7 @@
 | rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
 | lucasnlm | [rinha-compiler-kotlin](https://github.com/lucasnlm/rinha-compiler-kotlin) | ✅ Completo | Kotlin | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/lucasnlm/) |
 | ThiagoTatico | [rinha-Interpreter](https://github.com/ThiagoTatico/rinha-Interpreter) | 🛠️ Just Starting |  | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/ThiagoTatico0) |
-| ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | | | | |
+| ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | ✅ (eu acho kkk) | Rust| HOAS | https://github.com/ricardopieper |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
 | lucasmontano | [rinha-de-compiler](https://github.com/lucasmontano/rinha-de-compiler) | | | | |
 | Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | | Python | | [Twitter](https://twitter.com/olordecoelho) [Instagram](https://instagram.com/olordecoelho)|
