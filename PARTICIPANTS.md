@@ -134,6 +134,7 @@
 | Vinicius Ferraz | [rinha](https://github.com/viniciusfcf/rinha-de-compiler) | ✅ Todos os exemplos funcionando | Java ☕ | Source-to-Source | [@viniciusfcf](https://twitter.com/viniciusfcf) |
 | Ítalo Paulino (irbp) | [darinha](https://github.com/irbp/darinha) | ✅ Completo | Dart 🎯 | Tree-Walking Interpreter | [Github](https://github.com/irbp) |
 | MartinGHaas | [interpretador-rinha](https://github.com/MartinGHaas/interpretador-rinha) | em desenvolvimento | JavaScript | Tree-Walking Interpreter | [GitHub](https://github.com/MartinGHaas/) |
+| lbguilherme | [rinha-typescript](https://github.com/lbguilherme/rinha-typescript) | ✅ Completo | TypeScript (Apenas com tipos! Zero código)  | Tree-Walking Interpreter | [GitHub](https://github.com/lbguilherme/) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
