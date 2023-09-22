@@ -34,7 +34,7 @@
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
 | gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | ✅ Done | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
-| brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | | | Tree-walking interpreter | [Mastodon](https://mastodon.social/@bkim) |
+| brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | ✅ tree-walking <br/> ✅ bytecode <br/> 💭 implementação sem recursão | 🐍 Python | Interpretador | <a href="https://mastodon.social/@bkim"><img alt="Mastodon" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="25" height="25"></a> <a href="https://twitter.com/brunokim_mc"><img alt="Twitter" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg" width="25" height="25"></a> |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
 | fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
@@ -126,7 +126,9 @@
 | [João Paulo](https://github.com/joaopaulosg21/) | [primeiro interpretador](https://github.com/joaopaulosg21/primeiro-interpretador) | ✅ Exemplos basicos funcionando | Java | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/Joao_Paulosg) |
 | fabriciorby  | [rinha-de-compiler-clj](https://github.com/fabriciorby/rinha-de-compiler-clj) | ✅ Rodando todos os exemplos | Clojure | Tree-Walking Interpreter | [Twitter](https://twitter.com/fabriciorby) |
 | Josuel | [la-rinha-compiler](https://github.com/josuelteles/la-rinha-compiler) | Almost done | C | Tree-walking | -- |
+| Gabriel Santos | [rinha-de-compiler](https://github.com/ogabrielsantos/rinha-de-compiler) | ✅ Done | Python | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/ogabrielsantos) |
 | Jackson Samuel | [rinha-de-compiler-ts](https://github.com/jacksonSamuel42/rinha-compiler) | FAZENDO | Typescript  | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/jacksonSamuel42) |
+| lucaspsg | [rinha-de-compiladores](https://github.com/lucaspsg/rinha-de-compiladores) | FAZENDO | C++ | Tree-Walking Interpreter 🌴 | [Twitter](https://twitter.com/lusca_1) |
 | joselsneto | [rinha-de-compiler-vlang](https://github.com/Joselsneto/rinha-compiler-vlang) | WIP | Vlang  | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/Joselsneto) [Instagram](https://www.instagram.com/joseluiz98)|
 | Salomemes | [rinha-transpiler-js](https://github.com/1Basco/transpiler-js-bun/) | ✅ Rodando todos os exemplos | TypeScript | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/1Basco) [Twitter](https://twitter.com/1Bascow) [LinkedIn](https://www.linkedin.com/in/lsos13/) |
 | Leonardo Di Credico e Gabriel Lima | [KriegBoar](https://github.com/The-Order-of-The-Boar/KriegBoar) 🐗| Em Desenvolvimento | C++ | Bytecode Interpreter | [GitHub Boar](https://github.com/The-Order-of-The-Boar) [GitHub Leonardo](https://github.com/LeonardoCBoar) |
@@ -138,6 +140,8 @@
 | Vinicius Ferraz | [rinha](https://github.com/viniciusfcf/rinha-de-compiler) | ✅ Todos os exemplos funcionando | Java ☕ | Source-to-Source | [@viniciusfcf](https://twitter.com/viniciusfcf) |
 | Ítalo Paulino (irbp) | [darinha](https://github.com/irbp/darinha) | ✅ Completo | Dart 🎯 | Tree-Walking Interpreter | [Github](https://github.com/irbp) |
 | MartinGHaas | [interpretador-rinha](https://github.com/MartinGHaas/interpretador-rinha) | em desenvolvimento | JavaScript | Tree-Walking Interpreter | [GitHub](https://github.com/MartinGHaas/) |
+| Rafa Dutra | [rinha-ruby](https://github.com/RafaDRF/rinha-ruby-transpiler) | ✅ Completo | Ruby | Tree-Walking Interpreter | [GitHub](https://github.com/RafaDRF) |
+| ferreirawalter | [rinha-de-compiler](https://github.com/FerreiraWalter/rinha-de-compiler) | Tentando... | Haskell | Tree-Walking Interpreter | |
 | Felipe (Frai) | [rinha-de-compiler-ocaml](https://github.com/fraidev/rinha-compiler) | ✅ Rodando todos os exemplos | OCaml 🐪 | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/fraidev) |
 | lbguilherme | [rinha-typescript](https://github.com/lbguilherme/rinha-typescript) | ✅ Completo | TypeScript (Apenas com tipos! Zero código)  | Tree-Walking Interpreter | [GitHub](https://github.com/lbguilherme/) |
 | Guilherme Meira | [rinha-compilador-2023](https://github.com/guimeira/rinha-compilador-2023) | ✅ Completo | Java ☕ | Compiler (JVM bytecode) | [GitHub](https://github.com/guimeira), [Twitter](https://twitter.com/gtmeira) |
@@ -147,6 +151,8 @@
 | Enzo Massaki | [clownhead](https://github.com/Massakera/clownhead) | ✅ Rodando todos os exemplos | Python | Ahead-of-time Compiler | [Twitter](https://twitter.com/Massakito) | 
 | Victor Taelin | [rinhavm](https://github.com/victortaelin/rinhavm-wip) | WIP | Rust | Bytecode Interpreter | [Github](https://github.com/VictorTaelin) |
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
+| imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
+| Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
@@ -158,6 +164,5 @@
 | Compiler                   | [Link](https://pt.wikipedia.org/wiki/Compilador) |
 | Just-in-time Compiler      | [Link](https://en.wikipedia.org/wiki/Just-in-time_compilation) |
 | AST to AST Transformer     | [Link](https://stackoverflow.com/questions/6235085/what-is-an-ast-transformation) |
-
 
 _(Caso seu tipo de projeto não esteja nessa tabela, por favor adicione.)_
