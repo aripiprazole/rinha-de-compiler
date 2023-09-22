@@ -7,7 +7,7 @@
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | | | |
 | henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
-| edusporto | [rinha-compilador](https://github.com/edusporto/rinha-compilador) | | | | |
+| edusporto | [rinha-compilador](https://github.com/edusporto/rinha-compilador) | ✅ Completo | Haskell | Tree-Walking Interpreter | [sandalo.dev](https://sandalo.dev), [Twitter](https://twitter.com/eduardosandalia) |
 | losty17 | [rinha-de-compiler](https://github.com/Losty17/rinha-de-compiler) | | | | |
 | rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
 | lucasnlm | [rinha-compiler-kotlin](https://github.com/lucasnlm/rinha-compiler-kotlin) | ✅ Completo | Kotlin | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/lucasnlm/) |
