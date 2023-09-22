@@ -6,7 +6,7 @@
 | erik guizao | [Rinha-de-Compiler](https://github.com/GuiHenriques/Rinha-de-Compiler) | .Pensando.. 🧠 | C++ | | |
 | eduhenke | [rinha-de-compiler](https://github.com/eduhenke/rinha-de-compiler) | | | | |
 | eduOliver | [Rinha-Compiler](https://github.com/Edu0liver/Rinha-Compiler) | | | | |
-| henri | [rinha](https://github.com/hnrbs/rinha) | | | | |
+| henri | [rinha](https://github.com/hnrbs/rinha) | ✅ Done | 🦀 Rust | 🌴 Tree-Walking Interpreter | [@hnrbs_](https://x.com/hnrbs_) |
 | edusporto | [rinha-compilador](https://github.com/edusporto/rinha-compilador) | ✅ Completo | Haskell | Tree-Walking Interpreter | [sandalo.dev](https://sandalo.dev), [Twitter](https://twitter.com/eduardosandalia) |
 | losty17 | [rinha-de-compiler](https://github.com/Losty17/rinha-de-compiler) | | | | |
 | rodrigocam | [rinha](https://github.com/rodrigocam/rinha) | ✅ Todos os exemplos funcionando | Rust 🦀 | Tree-Walking Interpreter 🌴 | [@rodrigopulu](https://twitter.com/rodrigopulu) |
