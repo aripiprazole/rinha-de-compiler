@@ -150,6 +150,7 @@
 | Tacio | [Tree Walker em Go](https://github.com/taciossbr/rinha-compiladores) | ✅ Rodando todos os exemplos | Golang | Tree-Walking Interpre| André Pereira | [rinha-golang](https://github.com/andrepreira/rinha-golang) | WIP | Golang | .Pensando.. 🧠 | [LinkedIn](https://https://www.linkedin.com/in/andrepreira/), [Twitter](https://twitter.com/PereiraALS7) |
 | Enzo Massaki | [clownhead](https://github.com/Massakera/clownhead) | ✅ Rodando todos os exemplos | Python | Ahead-of-time Compiler | [Twitter](https://twitter.com/Massakito) | 
 | Victor Taelin | [rinhavm](https://github.com/victortaelin/rinhavm-wip) | WIP | Rust | Bytecode Interpreter | [Github](https://github.com/VictorTaelin) |
+| imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
 
 **Tipos de projeto:**
