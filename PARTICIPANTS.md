@@ -140,6 +140,7 @@
 | Felipe (Frai) | [rinha-de-compiler-ocaml](https://github.com/fraidev/rinha-compiler) | ✅ Rodando todos os exemplos | OCaml 🐪 | Tree-Walking Interpreter 🌴 | [GitHub](https://twitter.com/fraidev) |
 | lbguilherme | [rinha-typescript](https://github.com/lbguilherme/rinha-typescript) | ✅ Completo | TypeScript (Apenas com tipos! Zero código)  | Tree-Walking Interpreter | [GitHub](https://github.com/lbguilherme/) |
 | Guilherme Meira | [rinha-compilador-2023](https://github.com/guimeira/rinha-compilador-2023) | ✅ Completo | Java ☕ | Compiler (JVM bytecode) | [GitHub](https://github.com/guimeira), [Twitter](https://twitter.com/gtmeira) |
+| Maurício Mussatto Scopel | [rinha-compilers](https://github.com/mauricio-ms/rinha-compilers) | ✅ Completo | Java ☕ | Tree-walking interpreter | [GitHub](https://github.com/mauricio-ms), [LinkedIn](https://www.linkedin.com/in/mauriciolk/) |
 | Gabriel Capanema | [rast2js](https://github.com/gabrieldeandrade/rast2js) | ✅ Rodando todos os exemplos | Typescript | AST to AST Transformer | [LinkedIn](https://https://www.linkedin.com/in/gabriel-de-andrade-de-almeida-capanema-3217412a/) |
 | André Pereira | [rinha-golang](https://github.com/andrepreira/rinha-golang) | WIP | Golang | .Pensando.. 🧠 | [LinkedIn](https://https://www.linkedin.com/in/andrepreira/), [Twitter](https://twitter.com/PereiraALS7) |
 | Enzo Massaki | [clownhead](https://github.com/Massakera/clownhead) | ✅ Rodando todos os exemplos | Python | Ahead-of-time Compiler | [Twitter](https://twitter.com/Massakito) | 
