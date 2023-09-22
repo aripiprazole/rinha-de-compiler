@@ -76,7 +76,7 @@
 | fernando oliveira | [rinha-de-compiler](https://github.com/brouklins/rinha-de-compiler) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Java | Tree-walking Interpreter | [LinkedIn](https://www.linkedin.com/in/fernando-oliveira-a2abb3211/) |
 | Alessandro Lima | [rinha-de-compiladores](https://github.com/alexZ7000/rinha-de-compiladores) | Pelo conhecimento🧠 |Python🐍  |  | [@ale_lima_filho](https://www.instagram.com/ale_lima_filho/) |
 | Ronaldo3030 | [rinha-de-compiladores-js](https://github.com/Ronaldo3030/rinha-de-compiler-js) | aprendendo mais sobre compilação | Javascript | | [@Juninhojucasido](https://twitter.com/Juninhojucasido) |
-| celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | Em desenvolvimento | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
+| celsobonutti | [rinha](https://github.com/celsobonutti/rinha) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Lean 4 | Source-to-Source Compiler (target: Racket) | [@celsobonutti](twitter.com/celsobonutti)
 | tiagosalem | [garbash](https://github.com/tiagosh/garbash) | ✅ fib <br/> ✅ combination <br/> ✅ sum | Bash | Interpreter | 𝕏 [@tiagosh](https://twitter.com/tiagosh) ▶️[@tiagosalem](https://www.youtube.com/TiagoSalem) |
 | Danfs | [Betta](https://github.com/Danfs64/rinha_de_compilers) | fib(10) deu -80, logo: bugado | TypeScript | Tree-Walking Intepreter | Eca, redes sociais |
 | Pr3d4dor | [rinha-de-compiler-php](https://github.com/Pr3d4dor/rinha-de-compiler-php) | Finalizado | PHP | Tree-walk Interpreter | [@GianlucaBine](https://twitter.com/GianlucaBine) |
