@@ -159,6 +159,7 @@
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
+| Raphael M. R. Victal | [AltairSpanKBs](https://github.com/rapha2dev/AltairSpanKBs) | | Golang | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/rapha2dev), [Twitter](https://twitter.com/Rapha2Dev) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
