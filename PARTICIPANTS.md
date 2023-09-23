@@ -159,6 +159,7 @@
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
+| Leonardo Monteiro (quatroka) | [rinha-de-compiler-solution-py](https://github.com/quatroka/rinha-de-compiler-solution-py) | ✅ Completo | 🐍 Python | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/quatroka) \| [Xuitter](https://twitter.com/quatroka) \| [Linkedin](https://www.linkedin.com/in/quatroka/) |
 | migfernandes01 | [rinha-go-interpreter](https://github.com/migfernandes01/interpreter) | ✅ Todos os exemplos funcionando | Go | Tree-Walking Interprer | [GitHub](https://github.com/migfernandes01) |
 | Heraldo Lucena | [coral](https://github.com/HMaker/coral) | WIP | 🐍 Python | AOT compiler | [GitHub](https://github.com/HMaker) |
 | Wanderson Ralph | [rinha-de-compiler](https://github.com/RalphVita/rinha-de-compiler) |  | C++ | Tree-Walking Interprer | [GitHub](https://github.com/RalphVita) |
