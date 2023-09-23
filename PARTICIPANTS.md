@@ -51,7 +51,7 @@
 | samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
 | leodhb | [pico](https://github.com/leodhb/pico) | ✅ done | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
 | Ytu | [rinha-de-compiladores](https://github.com/eletroswing/rinha-de-compiler) | Pensando no projeto | javascript | | |
-| FabioSeixas | [rinha-de-compilers](https://github.com/FabioSeixas/rinha-de-compiler) |  | Rust | | |
+| FabioSeixas | [rinha-de-compilers](https://github.com/FabioSeixas/rinha-de-compiler) |  ✅ done | 🦀 | | |
 | giancarlopro | [rinha-de-compiler](https://github.com/giancarlopro/rinha-de-compiler) | Funcionando! (eu acho) | C || [@giancarlo_py](https://twitter.com/giancarlo_py) |
 | lucaspacheco | [rinha-de-compiler-csharp](https://github.com/lucaspsilveira/rinha-de-compiler-csharp) | Em desenvolvimento | CSharp || [@lucaspsilveiras](https://twitter.com/lucaspsilveiras) |
 | GCdePaula | [rinha-luajit-rs](https://github.com/GCdePaula/rinha-luajit-rs) | Done! | Rust | Source-to-Source Compiler | [Twitter](https://twitter.com/GCdePaula_) [Webpage](https://www.gcdepaula.com) |
