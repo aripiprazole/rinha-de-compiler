@@ -306,3 +306,7 @@ Um termo pode ser qualquer uma das seguintes estruturas:
 - Bool
 - Tuple
 - Var
+
+### Observações
+
+Todo comportamento que não foi detalhado nesse arquivo deve dar um erro. Isso irá ocorrer principalmente com If e Binary.
