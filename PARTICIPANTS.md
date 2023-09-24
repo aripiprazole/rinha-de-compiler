@@ -159,6 +159,7 @@
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
+| Raphael M. R. Victal | [AltairSpanKBs](https://github.com/rapha2dev/AltairSpanKBs) | | Golang | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/rapha2dev), [Twitter](https://twitter.com/Rapha2Dev) |
 | Fabricio Juliatto | [rvm](https://github.com/VFabricio/rinha-de-compiladores/) | ✅ Rodando os exemplos - otimizando | Rust | Bytecode Interpreter | [Twitter](https://twitter.com/VFabricio) |
 | Douglas S. Elias | [Repositório](https://github.com/douglasselias/rinha-de-compiler) | ✅ Rodando todos os exemplos | [Odin](https://odin-lang.org/) | Source-to-Source | [Github](https://github.com/douglasselias) / [Linkedin](https://www.linkedin.com/in/douglasselias/) |
 | Leonardo Monteiro (quatroka) | [rinha-de-compiler-solution-py](https://github.com/quatroka/rinha-de-compiler-solution-py) | ✅ Completo | 🐍 Python | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/quatroka) \| [Xuitter](https://twitter.com/quatroka) \| [Linkedin](https://www.linkedin.com/in/quatroka/) |
