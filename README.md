@@ -22,7 +22,7 @@ Simplificando:
 
 ## Para executar
 
-Depois será adicionado como executar
+Cada projeto deve ter seu próprio `Dockerfile` para que consigamos rodar
 
 ## Como testar
 

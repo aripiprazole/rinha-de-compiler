@@ -109,7 +109,7 @@ Toda função quando chamada deve dar erro caso o número de parâmetros seja di
 
 ### Let
 
-`Let` é uma estrutura que representa um `let in`, ou seja, além de ela conter um let, ela especifica a proxima estrutura. Todo let pode fazer _shadowing_, ou seja, usar o mesmo nome de outra variável e "ocultar" o valor da variável antiga.
+`Let` é uma estrutura que representa um `let in`, ou seja, além de ela conter um let, ela especifica a proxima estrutura. Todo let pode fazer _shadowing_, ou seja, usar o mesmo nome de outra variável e "ocultar" o valor da variável antiga, porém, isso não será testado. 
 
 | Nome     | Tipo                    |
 | -------- | ----------------------- |
@@ -118,6 +118,8 @@ Toda função quando chamada deve dar erro caso o número de parâmetros seja di
 | value    | Term                    |
 | next     | Term                    |
 | location | [Location](#location)   |
+
+É permitido usar hoisting como forma de possibilitar a criação de funções recursivas.
 
 ### Str (Texto)
 
@@ -141,7 +143,7 @@ Toda função quando chamada deve dar erro caso o número de parâmetros seja di
 
 ### BinaryOp (Operador Binário)
 
-Um `BinaryOp` é um enumerador que representa uma operação binária. Essas são as variantes disponiveis
+Um `BinaryOp` é um enumerador que representa uma operação binária. Essas são as variantes disponiveis:
 
 | Nome | Descrição        | Exemplos que devem ser válidos                                      |
 | ---- | ---------------- | ------------------------------------------------------------------- |
@@ -158,6 +160,8 @@ Um `BinaryOp` é um enumerador que representa uma operação binária. Essas sã
 | Gte  | Maior ou igual   | `1 >= 2`                                                            |
 | And  | Conjunção        | `true && false`                                                     |
 | Or   | Disjunção        | `false \|\| true`                                                   |
+
+Overflow não será testado.
 
 ### Bool (Booleano)
 
@@ -264,7 +268,7 @@ Exemplos que devem ser válidos: `print(a)`, `print("a")`, `print(2)`, `print(tr
 | value    | Term                  |
 | location | [Location](#location) |
 
-Os valores devem ser printados como:
+Os valores devem ser impressos como:
 
 | Tipo    | Como deve ser printado           |
 | ------- | -------------------------------- |
@@ -273,6 +277,17 @@ Os valores devem ser printados como:
 | Boolean | `true` ou `false`                |
 | Closure | `<#closure>`                     |
 | Tuple   | `(term, term)`                   |
+
+`Print` retorna o valor que foi passado. A saída adiciona ao final um caractere de nova linha (LF - 0x0A).
+
+Em termos compostos, chamadas a `Print` devem ocorrer na ordem em que aparecem na AST. Por exemplo:
+
+| Código | Como deve ser printado (`\n` é o caractere LF) |
+| ------ | -----------------------------------------------|
+| `let _ = print(1); print(2)` | `1\n2\n` |
+| `f(print(1), print(2), print(3))` | `1\n2\n3\n` |
+| `let tuple = (print(1), print(2)); print(tuple)` | `1\n2\n(1, 2)\n` |
+| `print(print(1) + print(2))` | `1\n2\n3\n` |
 
 ### Term
 
@@ -291,3 +306,7 @@ Um termo pode ser qualquer uma das seguintes estruturas:
 - Bool
 - Tuple
 - Var
+
+### Observações
+
+Todo comportamento que não foi detalhado nesse arquivo deve dar um erro. Isso irá ocorrer principalmente com If e Binary.
