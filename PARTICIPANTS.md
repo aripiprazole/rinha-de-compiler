@@ -192,6 +192,7 @@
 | Matheus Lenke | [rinha-de-compiler-dart](https://github.com/matheuslenke/rinha-de-compiler-dart) | WIP | Dart | Tree-Walking Interprer 🌴 | [GitHub](https://github.com/matheuslenke), [Twitter](https://twitter.com/LenkeDev) |
 | matgomes | [compiler_brawl](https://github.com/matgomes/compiler_brawl) | WIP | Erlang | Tree-Walking Interprer | [Linkedin](https://www.linkedin.com/in/matgomes) |
 | Rodrigo Meray | [penumbra](https://github.com/RDGMR/penumbra) | ✅ Completo | Lua | Tree-Walking Interprer | [GitHub](https://github.com/RDGMR) |
+| Felipe Cardoso | [node-interpreter](https://github.com/agnostk/node-interpreter) | ✅ Rodando todos os exemplos | JavaScript (Node) | Tree-Walking Interprer | [GitHub](https://github.com/agnostk), [LinkedIn](https://www.linkedin.com/in/fehacdev/), [Youtube](https://www.youtube.com/@agnostk) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
