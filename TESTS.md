@@ -25,3 +25,10 @@
 | losty17 | ❌ | Não tem dockerfile | 
 | fabiosvm | ✅ | Rodoooooooooooooooou |
 | reonardoleis | ❌ | Não tem dockerfile | 
+| BertBR | ❌ | Nao tem dockerfile |
+| Edmar Sousa | ❌ | Está rodando /app/examples/hello.json ao invés de /var/rinha/source.rinha.json |
+| guilhermedjr | ❌ | Não tem dockerfile |
+| PedroFnseca | ❌ | Não tem dockerfile |
+| mr-soulfox | ❌ | Timeout após 7 minutos de docker build e 3 minutos de runtime |
+| FlorSouza | ❌ | Não tem dockerfile | 
+| iaZe | ❌ | Outro caso de rodar hello world ao invés do /var/rinha/source.rinha.json |
