@@ -159,6 +159,7 @@
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
+| Marcelo Fernandes | [rinha-de-compiler-clojure](https://github.com/marceloschreiber/rinha-de-compiler-clojure) | ✅ Rodando exemplos | Clojure | Tree-Warlking Interpreter | [Twitter](https://twitter.com/dev_mfernandes)
 | Rodrigo Navarro | [rinha-compiladores](https://github.com/reu/rinha-compiladores) | ✅ | Rust | Tree-walking Interpreter | [Twitter](https://twitter.com/rdrnavarro) |
 | italotabatinga | [crinha](https://github.com/italotabatinga/crinha) | wip | C | Bytecode Interpreter | [GitHub](https://github.com/italotabatinga) |
 | Nicolas Van Klaveren | [rinha-compiler](https://github.com/nklaveren/rinha-compilers) | ✅ Exemplos rodando | dotnet  | Tree-Walking Interpreter | [Github](https://github.com/nklaveren) [LinkedIn](https://www.linkedin.com/in/nklaveren) |
