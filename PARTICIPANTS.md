@@ -181,6 +181,7 @@
 | Heraldo Lucena | [coral](https://github.com/HMaker/coral) | WIP | 🐍 Python | AOT compiler | [GitHub](https://github.com/HMaker) |
 | Wanderson Ralph | [rinha-de-compiler](https://github.com/RalphVita/rinha-de-compiler) |  | C++ | Tree-Walking Interprer | [GitHub](https://github.com/RalphVita) |
 | Alex Silva | [OutroInterpretadorCSharp](https://github.com/AlexJBSilva/oicsrc) | Atrasado... | C# | Tree-walking Interpretador | [GitHub](https://github.com/AlexJBSilva) |
+| Isaac Nascimento | [Rinha](https://github.com/IsaacDouglas/rinha-de-compiladores) | | JavaScript | | |
 | Maxsuel Maccari | [rinha_compiler_ex](https://github.com/maxmaccari/rinha_compiler_ex) | WIP | Elixir | AST to AST Transformer | [GitHub](https://github.com/maxmaccari) |
 | Gabriel Tavares (Modog)  | [rinha-interpreter](https://github.com/GabrielModog/rinha-interpreter) | WIP | JS | Tree-walking Interpretador | [GitHub](https://github.com/GabrielModog) |
 | coproduto | [rinha-zig](https://github.com/coproduto/rinha-zig) | WIP | ⚡Zig | Tree-Walking Interpreter | [GitHub](https://github.com/coproduto), [Twitter](https://twitter.com/coproduto), [LinkedIn](https://www.linkedin.com/in/pcstl) |
