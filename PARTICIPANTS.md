@@ -25,7 +25,7 @@
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | | | |
 | rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination <br/> ✅ sum | 🔮 Elixir | Source-to-Source Transcompiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | | | |
-| BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | | | |
+| BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | ✅ Done | 🌚 Luajit | Source-to-Source | [@brennokkkk](https://x.com/brennokkkk) |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | | | |
 | mr-soulfox | [rinha-de-compiladores-cpp](https://github.com/mr-soulfox/rinha-de-compiladores-cpp) | | | | |
 | Crazynds | [rinha-compiler](https://github.com/crazynds/rinha-compiler) | | | | |
@@ -46,7 +46,7 @@
 | renatoalencar | [rinha-de-compiladores-ocaml](https://github.com/renatoalencar/rinha-de-compiladores-ocaml) | | | | |
 | dhilst | [rinhacompiler](https://github.com/dhilst/rinhacompiler) | | | | |
 | DiegoTeles | [rinha-de-compiler-js](https://github.com/DiegoTeles/rinha-de-compiler-js) | | JavaScript | | [My Links](https://allmylinks.com/unicorncoder)|
-| antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | Studying about :zany_face: | C# | | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
+| antoniogomes94 | [rinha-de-compiler-csharp](https://github.com/antoniogomes94/rinha-de-compiler-csharp) | ✅ print <br/> ✅ fib <br/> ✅ combination <br/> ✅ sum| C# | | 𝕏 [@antoniogomes_io](https://twitter.com/antoniogomes_io) |
 | Aleff Moura | [rinha-interpreter-with-fsharp](https://github.com/aleffmoura/rinha-interpreter-with-fsharp) | ✅ fib <br/> ✅ combination <br/> ✅ sum | F# | | [My Links](https://allmylinks.com/aleffmds)|
 | samueldurantes | [rinha](https://github.com/samueldurantes/rinha) | | |
 | leodhb | [pico](https://github.com/leodhb/pico) | ✅ done | Ruby | Tree-walking Interpreter | [Twitter](https://twitter.com/leodsu) |
@@ -160,6 +160,14 @@
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
 | Leandro Proença | [patropi](https://github.com/leandronsp/patropi) | Sum, Fib, Combination, Tuples | Ruby | Tree-walking interpreter | [Blog](https://dev.to/leandronsp), [Twitter](https://twitter.com/leandronsp) |
+| Raphael M. R. Victal | [AltairSpanKBs](https://github.com/rapha2dev/AltairSpanKBs) | | Golang | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/rapha2dev), [Twitter](https://twitter.com/Rapha2Dev) |
+| Fabricio Juliatto | [rvm](https://github.com/VFabricio/rinha-de-compiladores/) | ✅ Rodando os exemplos - otimizando | Rust | Bytecode Interpreter | [Twitter](https://twitter.com/VFabricio) |
+| Douglas S. Elias | [Repositório](https://github.com/douglasselias/rinha-de-compiler) | ✅ Rodando todos os exemplos | [Odin](https://odin-lang.org/) | Source-to-Source | [Github](https://github.com/douglasselias) / [Linkedin](https://www.linkedin.com/in/douglasselias/) |
+| Leonardo Monteiro (quatroka) | [rinha-de-compiler-solution-py](https://github.com/quatroka/rinha-de-compiler-solution-py) | ✅ Completo | 🐍 Python | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/quatroka) \| [Xuitter](https://twitter.com/quatroka) \| [Linkedin](https://www.linkedin.com/in/quatroka/) |
+| migfernandes01 | [rinha-go-interpreter](https://github.com/migfernandes01/interpreter) | ✅ Todos os exemplos funcionando | Go | Tree-Walking Interprer | [GitHub](https://github.com/migfernandes01) |
+| Heraldo Lucena | [coral](https://github.com/HMaker/coral) | WIP | 🐍 Python | AOT compiler | [GitHub](https://github.com/HMaker) |
+| Wanderson Ralph | [rinha-de-compiler](https://github.com/RalphVita/rinha-de-compiler) |  | C++ | Tree-Walking Interprer | [GitHub](https://github.com/RalphVita) |
+| Alex Silva | [OutroInterpretadorCSharp](https://github.com/AlexJBSilva/oicsrc) | Atrasado... | C# | Tree-walking Interpretador | [GitHub](https://github.com/AlexJBSilva) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
