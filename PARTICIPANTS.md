@@ -193,6 +193,7 @@
 | matgomes | [compiler_brawl](https://github.com/matgomes/compiler_brawl) | WIP | Erlang | Tree-Walking Interprer | [Linkedin](https://www.linkedin.com/in/matgomes) |
 | Rodrigo Meray | [penumbra](https://github.com/RDGMR/penumbra) | ✅ Completo | Lua | Tree-Walking Interprer | [GitHub](https://github.com/RDGMR) |
 | Felipe Cardoso | [node-interpreter](https://github.com/agnostk/node-interpreter) | ✅ Rodando todos os exemplos | JavaScript (Node) | Tree-Walking Interprer | [GitHub](https://github.com/agnostk), [LinkedIn](https://www.linkedin.com/in/fehacdev/), [Youtube](https://www.youtube.com/@agnostk) |
+| kurioh | [rinha](https://github.com/kkuriboh/rinha) | WIP | Rust | Compila pra HVM | [GitHub](https://github.com/kkuriboh) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
