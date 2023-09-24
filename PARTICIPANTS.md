@@ -164,6 +164,7 @@
 | Heraldo Lucena | [coral](https://github.com/HMaker/coral) | WIP | 🐍 Python | AOT compiler | [GitHub](https://github.com/HMaker) |
 | Wanderson Ralph | [rinha-de-compiler](https://github.com/RalphVita/rinha-de-compiler) |  | C++ | Tree-Walking Interprer | [GitHub](https://github.com/RalphVita) |
 | Alex Silva | [OutroInterpretadorCSharp](https://github.com/AlexJBSilva/oicsrc) | Atrasado... | C# | Tree-walking Interpretador | [GitHub](https://github.com/AlexJBSilva) |
+| Isaac Nascimento | [Rinha](https://github.com/IsaacDouglas/rinha-de-compiladores) | | JavaScript | | |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
