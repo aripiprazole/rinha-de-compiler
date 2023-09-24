@@ -42,6 +42,28 @@ Ou em JSON da linguagem Rinha
 
 Onde `..` é um location node que foi ocultado por brevidade.
 
+Índice alfabético:
+
+- [Binary](#binary-operação-binária)
+- [BinaryOp](#binaryop-operador-binário)
+- [Bool](#bool-booleano)
+- [Call](#call-aplicação-de-função)
+- [Int](#int-inteiro)
+- [File](#file)
+- [First](#first-função-de-pegar-o-primeiro-elemento-de-uma-tupla)
+- [Function](#function-função-anônima)
+- [If](#if)
+- [Let](#let)
+- [Location](#location)
+- [Parameter](#parameter)
+- [Print](#print-função-de-printar-para-o-standard-output)
+- [Second](#second-função-de-pegar-o-segundo-elemento-de-uma-tupla)
+- [Str](#str-texto)
+- [Term](#term)
+- [Tuple](#tuple-criação-de-uma-2-tuple)
+- [Var](#var-nome-de-uma-variável)
+
+
 ## Nodes
 
 ### File
