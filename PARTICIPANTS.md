@@ -83,7 +83,7 @@
 | Pr3d4dor | [rinha-de-compiler-php](https://github.com/Pr3d4dor/rinha-de-compiler-php) | Finalizado | PHP | Tree-walk Interpreter | [@GianlucaBine](https://twitter.com/GianlucaBine) |
 | jhonnk | [rinha-compiler](https://github.com/JhonnK08/rinha-compiler) | Em desenvolvimento | Javascript | Tree-walking interpreter | [Instagram](https://www.instagram.com/jhonnkonopp/) [LinkedIn](https://www.linkedin.com/in/jhonatan-konopp) |
 | LucasVeloz | [transpiler-js](https://github.com/LucasVeloz/transpiler-js) | ✅ binary <br/> ✅ var <br/> ✅ let | JS | Tree-walking Interpretador |  [instagram](https://www.instagram.com/lucasveloz.dev/) <br/> [youtube](https://www.youtube.com/@LucasVelozDev) <br/> [x](https://twitter.com/lucasvelozdev) |
-| Guilherme Melo | [rinha-de-compiler-csharp](https://github.com/gldmelo/rinha-de-compiler-csharp) | just4fun | C# | Tree-walking Interpreter	| Twitter: [@gldmelo](https://twitter.com/gldmelo)  |
+| Guilherme Melo | [rinha-de-compiler-csharp](https://github.com/gldmelo/rinha-de-compiler-csharp) | ✅ Rodando para os exemplos fornecidos o/ | C# | Tree-walking Interpreter	| Twitter: [@gldmelo](https://twitter.com/gldmelo)  |
 | João Vitor (Jottinha) | [rinha-de-compiler](https://github.com/Jottinha/rinha-de-compiler) | ✅ fib <br/> ✅ print <br/> | Java | |Tree-walking |
 | Pedro Nogueira | [Binha-Interpreter](https://github.com/Pedromdsn/Binha-Interpreter) | ✅ (Basic) Done | TS | Tree-walking Interpretador | Github: [`@Pedromdsn`](https://github.com/Pedromdsn)<br/> Twitter/X: [`@PPedromdsn`](https://twitter.com/PPedromdsn) <br/> Website: [`pedromdsn.site`](https://pedromdsn.site) |
 | joaomarcosbc | [rinha-compiler-go](https://github.com/joaomarcosbc/rinha-compiler-go) | Studying... | Golang | | |
