@@ -159,6 +159,7 @@
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
+| Nicolas Van Klaveren | [rinha-compiler](https://github.com/nklaveren/rinha-compilers) | ✅ Exemplos rodando | dotnet  | Tree-Walking Interpreter | [Github](https://github.com/nklaveren) [LinkedIn](https://www.linkedin.com/in/nklaveren) |
 | Leandro Proença | [patropi](https://github.com/leandronsp/patropi) | Sum, Fib, Combination, Tuples | Ruby | Tree-walking interpreter | [Blog](https://dev.to/leandronsp), [Twitter](https://twitter.com/leandronsp) |
 | Raphael M. R. Victal | [AltairSpanKBs](https://github.com/rapha2dev/AltairSpanKBs) | | Golang | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/rapha2dev), [Twitter](https://twitter.com/Rapha2Dev) |
 | Fabricio Juliatto | [rvm](https://github.com/VFabricio/rinha-de-compiladores/) | ✅ Rodando os exemplos - otimizando | Rust | Bytecode Interpreter | [Twitter](https://twitter.com/VFabricio) |
