@@ -15,7 +15,8 @@
 | ricardopieper | [rinha-compiler](https://github.com/ricardopieper/rinha-compiler) | ✅ (eu acho kkk) | Rust| HOAS | https://github.com/ricardopieper |
 | leonardohn | [rinha-interpreter](https://github.com/leonardohn/rinha-interpreter) | | | | |
 | lucasmontano | [rinha-de-compiler](https://github.com/lucasmontano/rinha-de-compiler) | | | | |
-| Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | | Python | | [Twitter](https://twitter.com/olordecoelho) [Instagram](https://instagram.com/olordecoelho)|
+| D4yvid | [compiler-rinha](https://github.com/D4yvid/compiler-rinha) | | | | |
+| Olordecoelho | [rinha-de-compiladores](https://github.com/olordecoelho/rinha-de-compiladores) | Funciona, mas muito lento 🐌 | Python | | [Twitter](https://twitter.com/olordecoelho) [Instagram](https://instagram.com/olordecoelho)|
 | DouglasGabr | [rinha-de-compiler](https://github.com/DouglasGabr/rinha-de-compiler) | | | | |
 | milyth | [touka](https://github.com/milyth/touka) | | | | |
 | italo | [rinha-compiler](https://github.com/ZyllDev/rinha-compiler) | | | | |
