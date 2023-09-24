@@ -37,7 +37,8 @@
 | dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | ✅ tree-walking <br/> ✅ bytecode <br/> 💭 implementação sem recursão | 🐍 Python | Interpretador | <a href="https://mastodon.social/@bkim"><img alt="Mastodon" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="25" height="25"></a> <a href="https://twitter.com/brunokim_mc"><img alt="Twitter" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg" width="25" height="25"></a> |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
-| lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | | | |
+| lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | Scala | | [@lrlucena](https://twitter.com/lrlucena) |
+| lrlucena | [rinha-de-compiler](https://github.com/lrlucena/rinha-de-compiler) | | ? | | [@lrlucena](https://twitter.com/lrlucena) |
 | fernandozanutto | [rinha-compiler](https://github.com/fernandozanutto/rinha-compiler) |  | 🐍 Python | Tree-walking Interpreter | [Twitter](https://twitter.com/_zanutto) |
 | fenner | [rinha-compiladores-2023](https://github.com/alexandrofenner/rinha-compiladores-2023) | ✅ Completo | Pascal | | https://www.linkedin.com/in/alexandro-fenner-67842960/ |
 | dgomesma | [vladpiler](https://github.com/dgomesma/vladpiler) | | | | |
