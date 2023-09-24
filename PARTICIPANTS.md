@@ -188,6 +188,7 @@
 | Diego Ramos | [rinha](https://github.com/diegor2/rinha) | ⚒️ WIP | ☯️🐍 rPython | 🌴 Tree-Walking Interpreter | [GitHub](https://github.com/diegor2) |
 | Mikhail R. Gadelha | https://github.com/mikhailramalho/jsc-rinher | WIP | C++ | Interpreter + JIT | https://mikhailramalho.github.io/ |
 | danielHc91 | [rinha-compiladores](https://github.com/danielnetcvb/rinha-compiladores) | Vou fazer | C# | Tree-Walking Interprer | [GitHub](https://github.com/danielnetcvb) |
+| matgomes | [compiler_brawl](https://github.com/matgomes/compiler_brawl) | WIP | Erlang | Tree-Walking Interprer | [Linkedin](https://www.linkedin.com/in/matgomes) |
 
 **Tipos de projeto:**
 | Nome                       | Descrição / Link para recursos explicando       |
