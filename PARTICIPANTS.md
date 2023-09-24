@@ -25,7 +25,7 @@
 | Lamadelrae | [compiler-battles-csharp](https://github.com/Lamadelrae/compiler-battles-csharp) | | | | |
 | rwillians | [elixir-transcompiler](https://github.com/rwillians/rinha-de-compilers--elixir-transcompiler) | ✅ fib <br/> ✅ combination <br/> ✅ sum | 🔮 Elixir | Source-to-Source Transcompiler | 𝕏 [@rwillians_](https://twitter.com/rwillians_) |
 | wilgnne | [rinha-de-compiler-ts](https://github.com/wilgnne/rinha-de-compiler-ts) | | | | |
-| BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | | | | |
+| BRonen | [luajit-rinha-de-compiler](https://github.com/BRonen/luajit-rinha-de-compiler) | ✅ Done | 🌚 Luajit | Source-to-Source | [@brennokkkk](https://x.com/brennokkkk) |
 | netodotcom | [rinha-de-compiler](https://github.com/netodotcom/rinha-de-compiler) | | | | |
 | mr-soulfox | [rinha-de-compiladores-cpp](https://github.com/mr-soulfox/rinha-de-compiladores-cpp) | | | | |
 | Crazynds | [rinha-compiler](https://github.com/crazynds/rinha-compiler) | | | | |
