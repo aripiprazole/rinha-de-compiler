@@ -160,6 +160,7 @@
 | nobytes | [hina](https://github.com/nobytesguy/hina) | funcionando | Go | Tree-walking Interpreter | |
 | imaqtkatt | [rinha-ocaml](https://github.com/imaqtkatt/rinha-ocaml) | funciona | OCaml | Tree-walking Interpretador | [Twitter](https://twitter.com/imaqtkatt) |
 | Daniel Wojcickoski | [rinha-interpreter.py](https://github.com/denieu/rinha-interpreter.py) | ✅ Exemplos funcionais | 🐍 Python | Tree-Walking Interprer | [GitHub](https://github.com/denieu) |
+| Victor Augusto | [rinha-de-compiler-bun](https://github.com/Auguxto/rinha-de-compiler-bun) | ✅ Done | TypeScript  | Tree-Walking Interpreter 🌴 | [GitHub](https://github.com/Auguxto) [Linkedin](https://www.linkedin.com/in/victoraugustoferreira/) |
 | João Pedro F. Barbosa | [rinha-interpreter](https://github.com/ojpbarbosa/rinha-interpreter) | WIP | Go | Tree-Walking Interprer | [LinkedIn](https://www.linkedin.com/in/barbosa-jp/), [GitHub](https://github.com/ojpbarbosa) |
 | Marcelo Magalhães | [rinha-compiler](https://github.com/magalhaesm/rinha-compiler.git) | ✅ Completo | C++ | Tree-Walking Interpreter | [GitHub](https://github.com/magalhaesm) |
 | Paulo Paes | [rinha-js](https://github.com/paulo-paes/rinha-js) | WIP | JavaScript | Tree-Walking Interprer ||
