@@ -75,7 +75,7 @@ print("fib: " + fib(10))
 O prazo para mandar os PRs, é até o dia 23/09, depois disso serão negados o
 projeto.
 
-Será liberado para ajustes até o dia 25/09, você poderá arrumar sua implementação,
+Será liberado para ajustes até o dia 27/09, você poderá arrumar sua implementação,
 depois da publicação dos testes.
 
 ## Recursos
