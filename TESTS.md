@@ -105,7 +105,7 @@
 | daviprios | ✅ |  | 
 | netodotcom | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | antoniogomes94 | ❌ | Unhandled exception. System.IO.FileNotFoundException: Erro ao encontrar o arquivo da ast!    at Program.<Main>$(String[] args) in /src/RinhaInterpreter/RinhaInterpreter/Program.cs:line 6 ... | 
-| davisuga | ❌ | Exception in thread "main" java.lang.IllegalAccessError: superclass access check failed: class graalinterpreter.truffled.TermNode (in unnamed module @0x2a65fe7c) cannot access class com.oracle.truffle... | 
+| davisuga | ✅ |  | 
 | Balmanth | ❌ | ERRORS: 	[source.rinha]: Unexpected token `"` at line 11, column 33.  | 
 | dgomesma | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | DouglasGabr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
