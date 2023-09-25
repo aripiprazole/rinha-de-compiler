@@ -5,7 +5,7 @@
 | iaZe | ✅ |  | 
 | joselsneto | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Emanuel Júnior | ❌ | Traceback (most recent call last):   File "/app/main.py", line 2, in <module>     from interpreter import *   File "/app/interpreter.py", line 1, in <module>     import numpy as np ModuleNotFoundError... | 
-| rwillians | ❌ |  | 
+| rwillians | ❌ | ** (CompileError) /var/rinha/source.rinha:1:   [0m[2m    ╭─     ┆ [0m         1:  let _ = print("@!compile::"); [0m[31m               ^ expected end of string  [0m[2m    ┆   2:       ┆     ╰─ ... | 
 | eduhenke | ✅ |  | 
 | Marcelo Fernandes | ✅ |  | 
 | Joshua Passos | ❌ | rinha-exe: Not implemented binary Add CallStack (from HasCallStack):   error, called at src/Interpreter.hs:130:21 in rinha-0.1.0.0-DNuajLgIYcs4NP7YguWmKr:Interpreter ... | 
@@ -165,7 +165,7 @@
 | Enzo Massaki | ❌ | Traceback (most recent call last):   File "/app/main.py", line 114, in main     mod = generate_code(ast)   File "/app/codegen.py", line 358, in generate_code     codegen(ast.expression, module, curren... | 
 | losty17 | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Natã Estanislau | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
-| Gabriel Mello de Oliveira | ❌ | Hello World  | 
+| Gabriel Mello de Oliveira | 🟧 | panic: interface conversion: interface {} is nil, not map[string]interface {}  goroutine 1 [running]: github.com/gabrielmellooliveira/rinha-de-compiler/src/models.GetField(...) 	/app/src/models/ast.go... | 
 | lurodrigo | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Josuel | ✅ |  | 
 | dhrleandro | ❌ | Rinha de Compiler PHP  Compiling fib.json   END Bytecode Compiler  - - - - - - - - - - - - - - - -  Tree-Walk Interpreter fib.json  Resultado: 55 FIM  - - - - - - - - - - - - - - - -  Bytecode Interpr... | 
