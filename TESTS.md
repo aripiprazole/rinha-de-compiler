@@ -1,8 +1,8 @@
-| name | status | log | 
-| :-: | :-:| :- | 
+| name | status | log |
+| :-: | :-:| :- |
 | guilhermedjr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | brunokim | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
-| iaZe | ❌ | hello, world  | 
+| iaZe | ❌ | Arquivo não encontrado  | 
 | joselsneto | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Emanuel Júnior | ❌ | Traceback (most recent call last):   File "/app/main.py", line 2, in <module>     from interpreter import *   File "/app/interpreter.py", line 1, in <module>     import numpy as np ModuleNotFoundError... | 
 | rwillians | ❌ |  | 
@@ -35,7 +35,7 @@
 | PedroFnseca | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | cleissonbarbosa | ✅ |  55.542484 seconds (478.80 M allocations: 31.649 GiB, 4.22% gc time, 2.43% compilation time)  | 
 | Aleff Moura | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
-| mr-soulfox | timeout |  | 
+| mr-soulfox | ❌ 🕑 |  | 
 | danielHc91 | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | lucaspsg | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | dhilst | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
@@ -61,7 +61,7 @@
 | rodrigocam | ❌ | thread 'main' panicked at 'index out of bounds: the len is 1 but the index is 1', src/main.rs:11:35 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace ... | 
 | Samuel Haidu | ❌ | cannot clone repository | 
 | datsfilipe | ✅ | 8568806075  | 
-| fernandozanutto | timeout |  | 
+| fernandozanutto | ❌ 🕑 |  | 
 | Mikhail R. Gadelha | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Rafa Dutra | ✅ |  | 
 | Felipe Cardoso | ✅ |  | 
@@ -91,7 +91,7 @@
 | Salomemes | ❌ | $ bun run index.ts && prettier ./output/index.js --write /bin/bash: line 1: prettier: command not found error: script "start" exited with code 127 ... | 
 | MarcosCostaDev | ❌ | cannot clone repository | 
 | Raphael M. R. Victal | ✅ |  | 
-| tiagosalem | timeout |  | 
+| tiagosalem | 🟧 🕑 |  | 
 | LucasVeloz | ✅ | transpiler worker ->: 10.049ms  | 
 | Valmor Flores | ❌ | COPY failed: no source files were specified | 
 | Paulo Victor | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
@@ -105,7 +105,7 @@
 | daviprios | ✅ |  | 
 | netodotcom | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | antoniogomes94 | ❌ | Unhandled exception. System.IO.FileNotFoundException: Erro ao encontrar o arquivo da ast!    at Program.<Main>$(String[] args) in /src/RinhaInterpreter/RinhaInterpreter/Program.cs:line 6 ... | 
-| davisuga | 🟧 | Exception in thread "main" java.lang.Error: Invalid binary operation: IntV(610) Add StringV() 	at graalinterpreter.SimpleEval$package$.evalBinary$$anonfun$1(SimpleEval.scala:54) 	at graalinterpreter.S... | 
+| davisuga | ❌ | Exception in thread "main" java.lang.IllegalAccessError: superclass access check failed: class graalinterpreter.truffled.TermNode (in unnamed module @0x2a65fe7c) cannot access class com.oracle.truffle... | 
 | Balmanth | ❌ | ERRORS: 	[source.rinha]: Unexpected token `"` at line 11, column 33.  | 
 | dgomesma | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | DouglasGabr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
@@ -143,7 +143,7 @@
 | Vinícius | ❌ | Traceback (most recent call last):   File "/app/main.py", line 14, in <module>     ir.generate(ast_data['expression'])   File "/app/rinha.py", line 44, in generate     self.generate(self.__next_expr.p... | 
 | Guilherme Meira | ✅ |  | 
 | Vinicius Ferraz | ❌ | Exception in thread "main" java.nio.file.NoSuchFileException: examples/print.rinha 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) 	at java.base/sun.nio.fs.UnixExc... | 
-| leonardohn | timeout |  | 
+| leonardohn | 🟧 🕑 |  | 
 | breno5g | ❌ | fib: 259740693472217241661550340212759154148804853865176965847247707039525345435112736862655567728367167447546375872230744321116383994738750910309656973821883044930522876385313349213530267927895670105... | 
 | Erik Morbach | ✅ |  | 
 | fernando oliveira | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
