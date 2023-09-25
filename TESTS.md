@@ -7,7 +7,7 @@
 | Emanuel Júnior | ❌ | Traceback (most recent call last):   File "/app/main.py", line 2, in <module>     from interpreter import *   File "/app/interpreter.py", line 1, in <module>     import numpy as np ModuleNotFoundError... | 
 | rwillians | ❌ |  | 
 | eduhenke | ✅ |  | 
-| Marcelo Fernandes | ❌ | cannot clone repository | 
+| Marcelo Fernandes | ✅ |  | 
 | Joshua Passos | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | ThiagoTatico | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | JrSchmidtt | ❌ | cannot clone repository | 
@@ -27,7 +27,7 @@
 | BertBR | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Pedro Nogueira | ✅ | $ bun run --target="bun" dist/index.js  | 
 | Daniel Wojcickoski | ❌ |  Exit status 2 JSON_FILE_NOT_FOUND  | 
-| mtrecouso | ❌ | COPY failed: file not found in build context or excluded by .dockerignore: stat package.json: file does not exist... | 
+| mtrecouso | ✅ |  | 
 | migfernandes01 | ❌ | panic: runtime error: index out of range [1] with length 1  goroutine 1 [running]: main.main() 	/main.go:23 +0x1fc ... | 
 | FlorSousa | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Yuri Withowsky | ❌ | Unhandled exception. System.IO.FileNotFoundException: Could not find file '/rinha-compiler/var/rinha/source.rinha.json'. File name: '/rinha-compiler/var/rinha/source.rinha.json'    at Interop.ThrowExc... | 
@@ -150,7 +150,7 @@
 | Braayy | ✅ | $ bun src/index.ts /var/rinha/source.rinha.json  | 
 | Nicolas Van Klaveren | ❌ | cannot clone repository 'remote authentication required but no callback set' | 
 | Kadu | ❌ | fib: 55 Tempo de execução: 0.00479  | 
-| FabioSeixas | ❌ | error: the following required arguments were not provided:   <MAIN>  Usage: interpreter <MAIN>  For more information, try '--help'. ... | 
+| FabioSeixas | ✅ |  | 
 | Fabricio Juliatto | ✅ |  | 
 | ricardopieper | ✅ |  | 
 | fabriciorby & perrutbruno | ❌ | 45  | 
