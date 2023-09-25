@@ -2,19 +2,19 @@
 | :-: | :-:| :- |
 | guilhermedjr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | brunokim | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
-| iaZe | ❌ | Arquivo não encontrado  | 
+| iaZe | ✅ |  | 
 | joselsneto | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Emanuel Júnior | ❌ | Traceback (most recent call last):   File "/app/main.py", line 2, in <module>     from interpreter import *   File "/app/interpreter.py", line 1, in <module>     import numpy as np ModuleNotFoundError... | 
 | rwillians | ❌ |  | 
 | eduhenke | ✅ |  | 
 | Marcelo Fernandes | ✅ |  | 
-| Joshua Passos | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
+| Joshua Passos | ❌ | rinha-exe: Not implemented binary Add CallStack (from HasCallStack):   error, called at src/Interpreter.hs:130:21 in rinha-0.1.0.0-DNuajLgIYcs4NP7YguWmKr:Interpreter ... | 
 | ThiagoTatico | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | JrSchmidtt | ❌ | cannot clone repository | 
 | jhonnk | ❌ | Hello world  | 
 | ErnaneJ | ❌ | ( 5 ,  8 )  | 
 | Rodrigo Meray | 🟧 | lua: main.lua:57: attempt to add a 'number' with a 'string' stack traceback: 	[C]: in metamethod 'add' 	main.lua:57: in function 'interpret' 	main.lua:52: in function 'interpret' 	main.lua:12: in func... | 
-| lucasmontano | ❌ | COPY failed: no source files were specified | 
+| lucasmontano | ✅ |  | 
 | joaomarcosbc | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | [João Paulo](https://github.com/joaopaulosg21/) | ✅ |  | 
 | Diego Ramos | ❌ | RPython traceback:   File "implement.c", line 174, in main   File "rinha_interpreter.c", line 231, in interpret   File "rply_parser.c", line 904, in LRParser_parse Fatal RPython error: ParsingError ... | 
@@ -30,7 +30,7 @@
 | mtrecouso | ✅ |  | 
 | migfernandes01 | ❌ | panic: runtime error: index out of range [1] with length 1  goroutine 1 [running]: main.main() 	/main.go:23 +0x1fc ... | 
 | FlorSousa | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
-| Yuri Withowsky | ❌ | Unhandled exception. System.IO.FileNotFoundException: Could not find file '/rinha-compiler/var/rinha/source.rinha.json'. File name: '/rinha-compiler/var/rinha/source.rinha.json'    at Interop.ThrowExc... | 
+| Yuri Withowsky | ✅ |  | 
 | Patrick | ❌ | 55 time: 4.381ms  | 
 | PedroFnseca | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | cleissonbarbosa | ✅ |  55.542484 seconds (478.80 M allocations: 31.649 GiB, 4.22% gc time, 2.43% compilation time)  | 
@@ -142,7 +142,7 @@
 | DevDaaniel | ❌ | error 500 Internal Server Error - unexpected error reading Dockerfile: read /var/lib/docker/tmp/docker-builder2637997725/Dockerfile: is a directory... | 
 | Vinícius | ❌ | Traceback (most recent call last):   File "/app/main.py", line 14, in <module>     ir.generate(ast_data['expression'])   File "/app/rinha.py", line 44, in generate     self.generate(self.__next_expr.p... | 
 | Guilherme Meira | ✅ |  | 
-| Vinicius Ferraz | ❌ | Exception in thread "main" java.nio.file.NoSuchFileException: examples/print.rinha 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) 	at java.base/sun.nio.fs.UnixExc... | 
+| Vinicius Ferraz | ❌ | line 1:0 mismatched input '{' expecting {'print', 'if', 'let', ID, NUMBER} line 1:7 token recognition error at: ':' line 1:8 token recognition error at: '"source.' line 1:21 token recognition error at... | 
 | leonardohn | 🟧 🕑 |  | 
 | breno5g | ❌ | fib: 259740693472217241661550340212759154148804853865176965847247707039525345435112736862655567728367167447546375872230744321116383994738750910309656973821883044930522876385313349213530267927895670105... | 
 | Erik Morbach | ✅ |  | 
@@ -155,7 +155,7 @@
 | ricardopieper | ✅ |  | 
 | fabriciorby & perrutbruno | ❌ | 45  | 
 | italotabatinga | ✅ |  | 
-| Gabriel Capanema | ❌ | Error: ENOENT: no such file or directory, open './output/out.js'     at Object.openSync (node:fs:603:3)     at writeFileSync (node:fs:2324:35)     at saveOutput (/rast2js/index.ts:59:18)     at init (... | 
+| Gabriel Capanema | ✅ |  | 
 | andrecoelho | 🟧 | Unhandled exception. System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Int32'.    at Interpreter.InterpretBinary(Binary binary) in /src/Interpreter.cs:line 41 ... | 
 | MartinGHaas | ❌ | /bin/sh: 1: cannot create ./var/rinha/source.rinha.json: Directory nonexistent   | 
 | reonardoleis | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
