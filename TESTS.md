@@ -1,5 +1,5 @@
 | name | status | log | 
-| :-: | :-:| :-: | 
+| :-: | :-:| :- | 
 | guilhermedjr | ❌ |error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | brunokim | ❌ |error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | iaZe | ✅ |hello, world  | 
