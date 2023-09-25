@@ -1,3 +1,12 @@
+Legende dos status:
+
+| Status | Significado |
+| :-: | :- |
+| ✅ | Rodou tudo certinho |
+| 🟧 | Rodou parcialmente |
+| ❌ | Não rodou |
+| 🕐 | Timeout |
+
 | name | status | log |
 | :-: | :-:| :- |
 | guilhermedjr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
