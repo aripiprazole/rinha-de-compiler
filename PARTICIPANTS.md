@@ -34,7 +34,7 @@
 | PedroFnseca | [rinha-compiler-rust](https://github.com/PedroFnseca/rinha-compiler-rust) | | Rust | Tree-walking interpreter | [IG](https://www.instagram.com/pedro_fnseca/) |
 | guilhermedjr | [rinha-compiler-csharp](https://github.com/guilhermedjr/rinha-compiler-csharp) | | | | |
 | gabrielogregorio | [rinha-compiler](https://github.com/gabrielogregorio/rinha-de-compiler) | ✅ Done | Typescript | Tree-walking interpreter | [linkedin](https://www.linkedin.com/in/gabrielogregorio/) |
-| dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | Em planejamento | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
+| dhrleandro | [rinha-de-compiler-php](https://github.com/dhrleandro/rinha-de-compiler-php) | ✅ combination <br/> ✅ fib <br/> ✅ sum <br/> ✅ print | 🐘 PHP | Bytecode Interpreter | [leandrodaher.com](https://leandrodaher.com) |
 | brunokim | [rinha-de-compiler](https://github.com/brunokim/rinha-de-compiler) | ✅ tree-walking <br/> ✅ bytecode <br/> 💭 implementação sem recursão | 🐍 Python | Interpretador | <a href="https://mastodon.social/@bkim"><img alt="Mastodon" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="25" height="25"></a> <a href="https://twitter.com/brunokim_mc"><img alt="Twitter" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/square-twitter.svg" width="25" height="25"></a> |
 | matheusgb | [marmota](https://github.com/matheusgb/marmota) | | | | |
 | lrlucena | [rinha-de-compiler-scala](https://github.com/lrlucena/rinha-de-compiler-scala) | | Scala | | [@lrlucena](https://twitter.com/lrlucena) |
