@@ -7,7 +7,7 @@ Legende dos status:
 | ❌ | Não rodou |
 | 🕐 | Timeout |
 
-**Data dos testes:** Sep 24 / 10:07
+**Data dos testes:** Sep 26 / 10:50
 
 | name | status | log |
 | :-: | :-:| :- |
@@ -16,7 +16,7 @@ Legende dos status:
 | iaZe | ✅ |  | 
 | joselsneto | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | Emanuel Júnior | ❌ | Traceback (most recent call last):   File "/app/main.py", line 2, in <module>     from interpreter import *   File "/app/interpreter.py", line 1, in <module>     import numpy as np ModuleNotFoundError... | 
-| rwillians | ❌ | (CompileError) /var/rinha/source.rinha:1:   [0m[2m    ╭─     ┆ [0m         1:  let _ = print("@!compile::"); [0m[31m               ^ expected end of string  [0m[2m    ┆   2:       ┆     ╰─ ... | 
+| rwillians | ❌ | ** (CompileError) /var/rinha/source.rinha:1:   [0m[2m    ╭─     ┆ [0m         1:  let _ = print("@!compile::"); [0m[31m               ^ expected end of string  [0m[2m    ┆   2:       ┆     ╰─ ... | 
 | eduhenke | ✅ |  | 
 | Marcelo Fernandes | ✅ |  | 
 | Joshua Passos | ❌ | rinha-exe: Not implemented binary Add CallStack (from HasCallStack):   error, called at src/Interpreter.hs:130:21 in rinha-0.1.0.0-DNuajLgIYcs4NP7YguWmKr:Interpreter ... | 
