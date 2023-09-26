@@ -7,7 +7,7 @@ Legende dos status:
 | ❌ | Não rodou |
 | 🕐 | Timeout |
 
-**Data dos testes:** Sep 26 / 10:07
+**Data dos testes:** Sep 24 / 10:07
 
 | name | status | log |
 | :-: | :-:| :- |
