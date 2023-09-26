@@ -7,6 +7,8 @@ Legende dos status:
 | ❌ | Não rodou |
 | 🕐 | Timeout |
 
+**Data dos testes:** Sep 26 / 10:07
+
 | name | status | log |
 | :-: | :-:| :- |
 | guilhermedjr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
