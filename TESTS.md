@@ -166,7 +166,7 @@ Legende dos status:
 | ricardopieper | ✅ |  | 
 | fabriciorby & perrutbruno | ❌ | 45  | 
 | italotabatinga | ✅ |  | 
-| Gabriel Capanema | ❌ 🕑 |  | 
+| Gabriel Capanema | ✅ |  | 
 | andrecoelho | 🟧 | Unhandled exception. System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Int32'.    at Interpreter.InterpretBinary(Binary binary) in /src/Interpreter.cs:line 41 ... | 
 | MartinGHaas | ❌ | /bin/sh: 1: cannot create ./var/rinha/source.rinha.json: Directory nonexistent   | 
 | reonardoleis | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
