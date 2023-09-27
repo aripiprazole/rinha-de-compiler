@@ -166,7 +166,7 @@
 | João Pedro F. Barbosa | [rinha-interpreter](https://github.com/ojpbarbosa/rinha-interpreter) | Correndo 🏃 | Rust | Tree-Walking Interprer | [LinkedIn](https://www.linkedin.com/in/barbosa-jp/), [GitHub](https://github.com/ojpbarbosa) |
 | Marcelo Magalhães | [rinha-compiler](https://github.com/magalhaesm/rinha-compiler.git) | ✅ Completo | C++ | Tree-Walking Interpreter | [GitHub](https://github.com/magalhaesm) |
 | Paulo Paes | [rinha-js](https://github.com/paulo-paes/rinha-js) | ✅ Exemplos | JavaScript | Tree-Walking Interprer ||
-| [priv](https://github.com/scriptprivate) | [rinha-interpreter](https://github.com/scriptprivate/rinha-interpreter) | WIP | Perl | Tree-Walking Interprer | [Twitter](https://twitter.com/privatescript) |
+| [priv](https://github.com/scriptprivate) | [rinha-interpreter](https://github.com/scriptprivate/rinha-interpreter) | ✅ | Perl | Tree-Walking Interprer | [Twitter](https://twitter.com/privatescript) |
 | Breno Carvalho | [rinha](https://github.com/MasterTuto/rinha) | Funcionando (eu acho) | 🦉 Prolog | Tree-Walking-Interpretador | [🐦](https://twitter.com/bremocs), [🌐](https://mastertuto.github.io/) |
 | aug | [rinha-interpreter.rs](https://github.com/iGutobreks/rinha-de-compiler) | Working | Rust (i love this) | Tree-Walking Interpreter | [GitHub](https://github.com/iGutobreks) |
 | Marcelo Fernandes | [rinha-de-compiler-clojure](https://github.com/marceloschreiber/rinha-de-compiler-clojure) | ✅ Rodando exemplos | Clojure | Tree-Warlking Interpreter | [Twitter](https://twitter.com/dev_mfernandes)
