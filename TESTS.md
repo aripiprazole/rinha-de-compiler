@@ -8,7 +8,6 @@ Legende dos status:
 | 🕐 | Timeout |
 
 **Data dos testes:** Sep 27 / 19:36
-
 | name | status | log |
 | :-: | :-:| :- |
 | guilhermedjr | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
@@ -58,7 +57,7 @@ Legende dos status:
 | David Lins | ✅ |  | 
 | eduOliver | ❌ |  > rinha-compiler@1.0.0 start > ts-node src/main.ts  /usr/src/app/files/combination.json /usr/src/app/files/combination.rinha /usr/src/app/files/fib.json /usr/src/app/files/fib.rinha /usr/src/app/file... | 
 | Leonardo Di Credico e Gabriel Lima | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
-| Luiz Antônio | ❌ | /usr/local/bin/herbiec.ksh[428]: main[43]: interpreter[58]: json2compound[352]: eval: syntax error at line 1: `((' unexpected ... | 
+| Luiz Antônio | ✅ |  | 
 | luizzuchinali | ❌ | error 500 Internal Server Error - Cannot locate specified Dockerfile: Dockerfile | 
 | italo | ❌ | cannot clone repository 'remote authentication required but no callback set' | 
 | Breno Carvalho | ✅ |  | 
