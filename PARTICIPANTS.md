@@ -185,7 +185,7 @@
 | Isaac Nascimento | [Rinha](https://github.com/IsaacDouglas/rinha-de-compiladores) | | JavaScript | | |
 | Maxsuel Maccari | [rinha_compiler_ex](https://github.com/maxmaccari/rinha_compiler_ex) | WIP | Elixir | AST to AST Transformer | [GitHub](https://github.com/maxmaccari) |
 | Gabriel Tavares (Modog)  | [rinha-interpreter](https://github.com/GabrielModog/rinha-interpreter) | WIP | JS | Tree-walking Interpretador | [GitHub](https://github.com/GabrielModog) |
-| coproduto | [rinha-zig](https://github.com/coproduto/rinha-zig) | WIP | ⚡Zig | Tree-Walking Interpreter | [GitHub](https://github.com/coproduto), [Twitter](https://twitter.com/coproduto), [LinkedIn](https://www.linkedin.com/in/pcstl) |
+| coproduto | [rinha-zig](https://github.com/coproduto/rinha-zig) | ✅ | ⚡Zig | Tree-Walking Interpreter | [GitHub](https://github.com/coproduto), [Twitter](https://twitter.com/coproduto), [LinkedIn](https://www.linkedin.com/in/pcstl) |
 | Diego Ramos | [rinha](https://github.com/diegor2/rinha) | ⚒️ WIP | ☯️🐍 rPython | 🌴 Tree-Walking Interpreter | [GitHub](https://github.com/diegor2) |
 | Mikhail R. Gadelha | https://github.com/mikhailramalho/jsc-rinher | WIP | C++ | Interpreter + JIT | https://mikhailramalho.github.io/ |
 | danielHc91 | [rinha-compiladores](https://github.com/danielnetcvb/rinha-compiladores) | Vou fazer | C# | Tree-Walking Interprer | [GitHub](https://github.com/danielnetcvb) |
