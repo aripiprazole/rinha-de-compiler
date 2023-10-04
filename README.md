@@ -78,6 +78,21 @@ projeto.
 Será liberado para ajustes até o dia 27/09, você poderá arrumar sua implementação,
 depois da publicação dos testes.
 
+## Resultados
+
+| Rank | Name | Language | TYpe | Points |
+| :--: | :--: | :--: | :--: | :--: |
+| 1 | Raphael M. R. Victal | Golang | Tree-Walker | 72786 |
+| 2 | Tacio | Golang | Tree-Walker | 72582 |
+| 3 | cleissonbarbosa | Haskell | Tree-Walker | 72458 |
+| 4 | Danfs | TypeScript | Tree-Walker | 70096 |
+| 5 | Valmor Flores | Flutter |  | 69584 |
+| 6 | Victor Augusto | TypeScript | Tree-Walker | 69273 |
+| 7 | fabiosvm | C | Bytecode Interpreter | 68737 |
+| 8 | coproduto | ⚡Zig | Tree-Walker | 68647 |
+| 9 | Adriano dos Santos Fernandes | C++ | Tree-Walker | 68309 |
+| 10 | Ítalo Paulino (irbp) | Dart 🎯 | Tree-Walker | 67919 |
+
 ## Recursos
 
 Alguns recursos úteis para aprender como fazer seu próprio interpretador ou compilador são:
