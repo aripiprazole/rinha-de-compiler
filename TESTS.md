@@ -6,8 +6,8 @@
 | 4 | Danfs | TypeScript | Tree-Walker | 70096 |
 | 5 | Valmor Flores | Flutter |  | 69584 |
 | 6 | Victor Augusto | TypeScript | Tree-Walker | 69273 |
-| 8 | fabiosvm | C | Bytecode Interpreter | 68737 |
-| 7 | coproduto | ⚡Zig | Tree-Walker | 68647 |
+| 7 | fabiosvm | C | Bytecode Interpreter | 68737 |
+| 8 | coproduto | ⚡Zig | Tree-Walker | 68647 |
 | 9 | Adriano dos Santos Fernandes | C++ | Tree-Walker | 68309 |
 | 10 | Ítalo Paulino (irbp) | Dart 🎯 | Tree-Walker | 67919 |
 | 11 | lurodrigo | Elixir | Source-to-Source Compiler | 67583 |
